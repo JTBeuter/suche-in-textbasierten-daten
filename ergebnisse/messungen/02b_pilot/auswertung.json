@@ -1,0 +1,59 @@
+{
+  "run_id": "02b_pilot",
+  "run_kind": "pilot",
+  "definition": "(median_a - median_b) / median_a per dataset; a=public build, b=copy without token check",
+  "results": [
+    {
+      "dataset_id": "v100",
+      "vocabulary_size": 102,
+      "posting_count": 10101,
+      "token_count": 100000,
+      "sample_count": 3,
+      "median_a_ms": 11.687426,
+      "q1_a_ms": 11.556497499999999,
+      "q3_a_ms": 12.5361345,
+      "iqr_a_ms": 0.9796370000000003,
+      "median_b_ms": 9.357862,
+      "q1_b_ms": 9.350025,
+      "q3_b_ms": 9.524134,
+      "iqr_b_ms": 0.17410899999999963,
+      "difference_ms": 2.3295639999999995,
+      "share": 0.1993222459761456
+    },
+    {
+      "dataset_id": "n100000",
+      "vocabulary_size": 1002,
+      "posting_count": 62925,
+      "token_count": 100000,
+      "sample_count": 3,
+      "median_a_ms": 21.826043,
+      "q1_a_ms": 21.548991,
+      "q3_a_ms": 23.951033,
+      "iqr_a_ms": 2.402041999999998,
+      "median_b_ms": 27.648739,
+      "q1_b_ms": 25.089087,
+      "q3_b_ms": 31.8526675,
+      "iqr_b_ms": 6.7635805,
+      "difference_ms": -5.8226960000000005,
+      "share": -0.2667774456414294
+    },
+    {
+      "dataset_id": "v10000",
+      "vocabulary_size": 10002,
+      "posting_count": 94535,
+      "token_count": 100000,
+      "sample_count": 3,
+      "median_a_ms": 76.302056,
+      "q1_a_ms": 75.0763485,
+      "q3_a_ms": 78.3953865,
+      "iqr_a_ms": 3.319038000000006,
+      "median_b_ms": 34.517625,
+      "q1_b_ms": 33.022000000000006,
+      "q3_b_ms": 36.7532085,
+      "iqr_b_ms": 3.731208499999994,
+      "difference_ms": 41.78443099999999,
+      "share": 0.5476186775360286
+    }
+  ],
+  "limits": "ratio of medians from separate blocks; no confidence interval; pilot values are not results"
+}

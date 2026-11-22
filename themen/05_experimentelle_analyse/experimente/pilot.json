@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "mode": "pilot",
+  "seed": 20261006,
+  "warmups": 1,
+  "repeats": 3,
+  "block_size": 5,
+  "memory_repeats": 3,
+  "total_repeats": 3,
+  "sequence_block_size": 50,
+  "datasets": [
+    {
+      "id": "synthetic_10000",
+      "kind": "synthetic",
+      "documents": 20,
+      "length": 500,
+      "vocabulary": 64,
+      "seed": 20261006
+    },
+    {
+      "id": "kafka",
+      "kind": "real",
+      "path": "daten/real/kafka_verwandlung"
+    }
+  ],
+  "q_values": [
+    0,
+    1,
+    2,
+    5,
+    10,
+    20,
+    50,
+    100,
+    200,
+    500,
+    1000
+  ]
+}

@@ -1,0 +1,2 @@
+Bestellung eines neuen Betreuers
+Mit der Entlassung des Betreuers oder nach dessen Tod ist ein neuer Betreuer zu bestellen.

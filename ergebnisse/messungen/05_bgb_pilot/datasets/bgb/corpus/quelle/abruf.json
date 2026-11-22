@@ -1,0 +1,21 @@
+{
+  "url": "https://www.gesetze-im-internet.de/bgb/xml.zip",
+  "retrieved_at": "2026-10-14T15:56:45+02:00",
+  "user_agent": "dhbw-textsuche-korpus/1 (Python-urllib; einmaliger Abruf)",
+  "http_status": 200,
+  "http_headers": {
+    "date": "Wed, 14 Oct 2026 13:56:45 GMT",
+    "server": "Apache",
+    "last-modified": "Sat, 26 Sep 2026 19:55:12 GMT",
+    "etag": "\"72156-65c6835fce6bb\"",
+    "accept-ranges": "bytes",
+    "content-length": "467286",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "sameorigin",
+    "x-xss-protection": "1; mode=block",
+    "content-type": "application/zip",
+    "connection": "close"
+  },
+  "bytes": 467286,
+  "sha256": "a4f41098aad1932df88ba2743de4a650b931a23cf71958bf5fad1c0e3785284a"
+}

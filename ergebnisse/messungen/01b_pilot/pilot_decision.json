@@ -1,0 +1,62 @@
+{
+  "pilot_correct": true,
+  "decision": "alle Größen und Trefferprüfungen ausführbar; vorab geplante Parameter unverändert für final gesperrt",
+  "locked_parameters": {
+    "total_tokens": [
+      10000,
+      100000,
+      1000000
+    ],
+    "document_count": 20,
+    "seed": 20261006,
+    "vocabulary": "wort0000..wort0999",
+    "frequent": "Fehler at position 0 and each position divisible by 100 in every document",
+    "rare": "Verbindung at the last position of doc00.txt only",
+    "missing": "Unauffindbar never planted or sampled",
+    "measurement_plan": {
+      "warmups": 5,
+      "repeats": 20,
+      "query_block_size": 10,
+      "seed": 20261006
+    },
+    "real": {
+      "dataset_id": "real_bgb",
+      "dataset": "bgb-gesetze-im-internet-v1",
+      "corpus_root": "daten/real/bgb/dokumente",
+      "manifest": "daten/real/bgb/manifest.json",
+      "proposals": "daten/real/bgb/anfragevorschlaege.json",
+      "corpus_sha256": "dc1641fd49dfa45270a1865f454abd64cf7cf94d79b37af9657ff97d7602eadf",
+      "document_count": 2486,
+      "token_count": 213718,
+      "queries": {
+        "early": "Beginn",
+        "frequent": "der",
+        "rare": "Erbschaftskauf",
+        "missing": "Server"
+      }
+    }
+  },
+  "method_code_sha256": {
+    "gemeinsam/__init__.py": "0292f8e7c801f5d7ed8740100fa187db428828d51c4fd33451f725f68c245cc1",
+    "gemeinsam/src/gemeinsam/__init__.py": "7ade195f2e6dfbdb43bc1554d1040385631926ad8b2067828697464d173395af",
+    "gemeinsam/src/gemeinsam/corpus.py": "e0ca8de1c116329058d5ae580a28efbd7a6605c0b09e7272959bec3a5caa9731",
+    "gemeinsam/src/gemeinsam/datengenerator.py": "9b3e3d2c46a05694849bc3eac0bef4ec1ac7cab716ab30f8721d4acbe13f8d7b",
+    "gemeinsam/src/gemeinsam/messung.py": "ef4ce81f389196a55ceb2a8ca45e65b199e0966c6ddf4c07b840d59a5b739331",
+    "gemeinsam/src/gemeinsam/models.py": "edf5011d790ebdc3a99fb21bad33e6b1c26fc8c118ec936265a8381883635b92",
+    "gemeinsam/src/gemeinsam/text.py": "583f6952986c785bb1ce5c2d9fb7158cf816a182a40ef5fbe493da711631e956",
+    "pyproject.toml": "8625bcaac24420a84476e14e10b7bea1331ffbce43e172ddb91d0df292a2c714",
+    "requirements-dev.txt": "a4fbb25989ad950adf673f3bcbdce81269e59d1b532a087e601ade3c61ff2116",
+    "themen/01_textaufbereitung_direkte_suche/experimente/run.py": "9743b942a4ebc7b459c3edc45f71858af4221aac2e42e235e2e7f6051636eb77",
+    "themen/01_textaufbereitung_direkte_suche/src/direkte_suche/__init__.py": "4ccd2e15b50655c88f1a8b3faf685470f8c8f8d04a101ca0f6f8f9533ef5848c",
+    "themen/01_textaufbereitung_direkte_suche/src/direkte_suche/__main__.py": "4886c631e18cb65e8f11e16dd450f6a3c9293a635297c540493d32c401a1bd83",
+    "themen/01_textaufbereitung_direkte_suche/src/direkte_suche/search.py": "23a944b491fc0ce6622960369967bca38efb3ce339c330502008dc05af486c83"
+  },
+  "python_hash_seed": "0",
+  "pilot_plan": {
+    "warmups": 1,
+    "repeats": 3,
+    "query_block_size": 10,
+    "seed": 20261006
+  },
+  "pilot_is_not_final_measurement": true
+}

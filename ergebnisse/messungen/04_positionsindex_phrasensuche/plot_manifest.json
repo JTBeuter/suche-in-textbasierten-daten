@@ -1,0 +1,30 @@
+{
+  "source": {
+    "raw.csv": "0de53382b384c9051ab881ece3b1a0980bae00a145e86250a3b61c90b164b4b2",
+    "summary.json": "39ecce75866219a3fd78767946a2bfc7ab9e62f5cb930ae556fc12c26ac1d7e1",
+    "memory.csv": "d1244dbe0e6c59de8f9340801f2ac30e0519f78e3f75de649a31b5906093143b",
+    "memory.json": "0546ea9dfd74a4304c0c45f184488765da3285275a40f7e9e929e8f365dd0428"
+  },
+  "renderer_path": "themen/04_positionsindex_phrasensuche/experimente/plots/render.py",
+  "renderer_sha256": "b5d88281e78ea9469a6f3bebb2c8c6d51f25b71b069613b03217790ebff22695",
+  "matplotlib_version": "3.10.1",
+  "figures": [
+    {
+      "path": "ergebnisse/abbildungen/04_phrasenlaenge.png",
+      "sha256": "6d5f2b5dceffe97c1b73f92dd3fbc725f28ceca41f109156f2d3db9e9d65d7c8"
+    },
+    {
+      "path": "ergebnisse/abbildungen/04_phrasenlaenge.svg",
+      "sha256": "68f29f3452e183390ad90b8b8e4d641ac0b3622506bc6d05c61d29016063f718"
+    },
+    {
+      "path": "ergebnisse/abbildungen/04_ergebnisgroesse_speicher.png",
+      "sha256": "6e94ac969e14d1bed15ad966ca8338e540801d240f7b31c5507d6dd6f10bfec8"
+    },
+    {
+      "path": "ergebnisse/abbildungen/04_ergebnisgroesse_speicher.svg",
+      "sha256": "cbd57e566318502cbae435812313f553d23a8d019e3335505c9679e90dc27ef7"
+    }
+  ],
+  "limits": "H variation also changes token order and merge progress; IQR is not a confidence interval; memory is not RSS."
+}

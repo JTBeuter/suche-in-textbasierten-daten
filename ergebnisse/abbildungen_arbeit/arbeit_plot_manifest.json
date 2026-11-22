@@ -1,0 +1,38 @@
+{
+  "zweck": "Herkunft der eigens für die Arbeit gezeichneten Abbildungen unter ergebnisse/abbildungen_arbeit/, die kein anderes Plotmanifest erfasst",
+  "skripte": {
+    "ergebnisse/abbildungen_arbeit/03b_galloping_arbeit.py": {
+      "skript_sha256": "100e906579a289eb39aafe5cc9757c61283c363fe2e6ecd459d50b5ddad9844d",
+      "matplotlib_version": "3.10.1",
+      "python_version": "3.11.2",
+      "eingaben_sha256": {
+        "ergebnisse/messungen/03b_galloping/summary.json": "bfa218f197c407931694c4ac793638b9f10565deafdeb43007f62f2cb70c478d",
+        "ergebnisse/messungen/03b_galloping/comparisons.json": "9af5a9c89875b359a9e28e495ee9fb7612a887855f13c458cd904aedd9de5549"
+      },
+      "ausgaben_sha256": {
+        "ergebnisse/abbildungen_arbeit/03b_galloping_arbeit.pdf": "7b7277a70e53764630fc1e7e050fd6e5513ead72df3bd7a7c7f3a41ecac09e02",
+        "ergebnisse/abbildungen_arbeit/03b_galloping_arbeit.png": "9023d8d37963bd68d8ebfaedf45f7d3c3ca4a66bc31bd65893c7f7b9a93365f0"
+      }
+    },
+    "ergebnisse/abbildungen_arbeit/42_woerterbuch_postings.py": {
+      "skript_sha256": "653af8f7c5a5720b20335acf0dd4495e7eaf9d79149c2cd32b6e6a20ab522beb",
+      "matplotlib_version": "3.10.1",
+      "python_version": "3.11.2",
+      "eingaben_sha256": {
+        "daten/beispiele/d0_d5/D0.txt": "1ee1333a96bb2720ab6aa1c650798e90bfc9414d103ff6fa7c52f8d44b44c8c8",
+        "daten/beispiele/d0_d5/D1.txt": "5e9e4b700503494b5f17c3ad0635021a71d2ab7d13c857d14703af64cf2c9c96",
+        "daten/beispiele/d0_d5/D2.txt": "4957f79a4a98a4ff3e3bd6353bef950dd591278284e29550d8955f2755271728",
+        "daten/beispiele/d0_d5/D3.txt": "282ec4e034f17583d78299f4e4b685626d1caf50402c9ebac44be8df34dad48e",
+        "daten/beispiele/d0_d5/D4.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "daten/beispiele/d0_d5/D5.txt": "0c66d4d9cf45dad100b0c9b8d3e99c5e5a4316a3c3d4162ac48c10862505432e",
+        "gemeinsam/src/gemeinsam/corpus.py": "e0ca8de1c116329058d5ae580a28efbd7a6605c0b09e7272959bec3a5caa9731",
+        "gemeinsam/src/gemeinsam/text.py": "583f6952986c785bb1ce5c2d9fb7158cf816a182a40ef5fbe493da711631e956",
+        "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/index.py": "cc21a1fa820fad0b4da0a9bc961b8e6e50f69851b9037bb3d18ec5481d7a0c57"
+      },
+      "ausgaben_sha256": {
+        "ergebnisse/abbildungen_arbeit/42_woerterbuch_postings.pdf": "24adf9114417096a7416e21d8152cd284d05ebed73b51aeb7af887f5143e091b",
+        "ergebnisse/abbildungen_arbeit/42_woerterbuch_postings.png": "15c6ca7f3a0ef8b84ba900084cd535a6e01894a9660cdb63cee3d4f7c3a21ed2"
+      }
+    }
+  }
+}

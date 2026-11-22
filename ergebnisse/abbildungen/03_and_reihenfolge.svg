@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="430" viewBox="0 0 940 430">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="sans-serif" font-size="13" fill="#222">
+<text x="78" y="25" font-size="18">AND: fünf Begriffe in ursprünglicher Reihenfolge</text>
+<text x="18" y="52">µs / Anfrage</text>
+<line x1="78" y1="330.0" x2="915" y2="330.0" stroke="#ddd"/>
+<text x="68" y="334.0" text-anchor="end">0</text>
+<line x1="78" y1="262.0" x2="915" y2="262.0" stroke="#ddd"/>
+<text x="68" y="266.0" text-anchor="end">230</text>
+<line x1="78" y1="194.0" x2="915" y2="194.0" stroke="#ddd"/>
+<text x="68" y="198.0" text-anchor="end">459</text>
+<line x1="78" y1="126.0" x2="915" y2="126.0" stroke="#ddd"/>
+<text x="68" y="130.0" text-anchor="end">689</text>
+<line x1="78" y1="58.0" x2="915" y2="58.0" stroke="#ddd"/>
+<text x="68" y="62.0" text-anchor="end">918</text>
+<rect x="110.78571428571428" y="318.5253660374471" width="24" height="11.474633962552923" fill="#476b9e"/>
+<rect x="141.78571428571428" y="318.12118383995085" width="24" height="11.878816160049174" fill="#c17935"/>
+<text x="137.78571428571428" y="353" text-anchor="middle">selten</text>
+<rect x="230.3571428571429" y="82.72727272727275" width="24" height="247.27272727272725" fill="#476b9e"/>
+<rect x="261.3571428571429" y="82.77993162279174" width="24" height="247.22006837720826" fill="#c17935"/>
+<text x="257.3571428571429" y="353" text-anchor="middle">häufig</text>
+<rect x="349.92857142857144" y="241.3366953045651" width="24" height="88.6633046954349" fill="#476b9e"/>
+<rect x="380.92857142857144" y="319.31240624527777" width="24" height="10.687593754722238" fill="#c17935"/>
+<text x="376.92857142857144" y="353" text-anchor="middle">gemischt</text>
+<rect x="469.5" y="319.9620239136212" width="24" height="10.037976086378812" fill="#476b9e"/>
+<rect x="500.5" y="321.4390200438431" width="24" height="8.560979956156931" fill="#c17935"/>
+<text x="496.5" y="353" text-anchor="middle">unbekannt</text>
+<rect x="589.0714285714286" y="317.5412547999293" width="24" height="12.458745200070723" fill="#476b9e"/>
+<rect x="620.0714285714286" y="317.1508444733084" width="24" height="12.849155526691638" fill="#c17935"/>
+<text x="616.0714285714286" y="353" text-anchor="middle">disjunkt</text>
+<rect x="708.6428571428571" y="183.98363538497117" width="24" height="146.01636461502883" fill="#476b9e"/>
+<rect x="739.6428571428571" y="180.2492963421114" width="24" height="149.7507036578886" fill="#c17935"/>
+<text x="735.6428571428571" y="353" text-anchor="middle">hohe Überl.</text>
+<rect x="828.2142857142857" y="279.7758824009406" width="24" height="50.22411759905941" fill="#476b9e"/>
+<rect x="859.2142857142857" y="280.0322465177082" width="24" height="49.96775348229182" fill="#c17935"/>
+<text x="855.2142857142857" y="353" text-anchor="middle">geringe Überl.</text>
+<rect x="80" y="378" width="14" height="14" fill="#476b9e"/><text x="103" y="390">input_order</text>
+<rect x="230" y="378" width="14" height="14" fill="#c17935"/><text x="253" y="390">shortest_first</text>
+<text x="80" y="417" font-size="11">Median aus 20 Blöcken à 5 vollständigen Anfragen; Planungsaufwand enthalten; Quelle: 03_boolesche_mehrwortsuche/raw.csv.</text>
+</g></svg>

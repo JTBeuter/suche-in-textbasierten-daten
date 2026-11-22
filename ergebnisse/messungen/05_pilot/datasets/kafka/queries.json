@@ -1,0 +1,1121 @@
+[
+  {
+    "id": "kafka:word:frequent:k1",
+    "kind": "word",
+    "text": "ER",
+    "terms": [
+      "er"
+    ],
+    "category": "frequent",
+    "length": 1,
+    "cf": [
+      38
+    ],
+    "df": [
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:word:rare:k1",
+    "kind": "word",
+    "text": "FENSTER",
+    "terms": [
+      "fenster"
+    ],
+    "category": "rare",
+    "length": 1,
+    "cf": [
+      1
+    ],
+    "df": [
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:word:missing:k1",
+    "kind": "word",
+    "text": "X999",
+    "terms": [
+      "x999"
+    ],
+    "category": "missing",
+    "length": 1,
+    "cf": [
+      0
+    ],
+    "df": [
+      0
+    ],
+    "expected": [],
+    "hit_count": 0,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:frequent:k2",
+    "kind": "and",
+    "text": "ER DIE",
+    "terms": [
+      "er",
+      "die"
+    ],
+    "category": "frequent",
+    "length": 2,
+    "cf": [
+      38,
+      35
+    ],
+    "df": [
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:rare:k2",
+    "kind": "and",
+    "text": "AB ABGESEHEN",
+    "terms": [
+      "ab",
+      "abgesehen"
+    ],
+    "category": "rare",
+    "length": 2,
+    "cf": [
+      1,
+      1
+    ],
+    "df": [
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:mixed:k2",
+    "kind": "and",
+    "text": "ER AB",
+    "terms": [
+      "er",
+      "ab"
+    ],
+    "category": "mixed",
+    "length": 2,
+    "cf": [
+      38,
+      1
+    ],
+    "df": [
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:missing:k2",
+    "kind": "and",
+    "text": "ER X999",
+    "terms": [
+      "er",
+      "x999"
+    ],
+    "category": "missing",
+    "length": 2,
+    "cf": [
+      38,
+      0
+    ],
+    "df": [
+      1,
+      0
+    ],
+    "expected": [],
+    "hit_count": 0,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:frequent:k3",
+    "kind": "and",
+    "text": "ER DIE UND",
+    "terms": [
+      "er",
+      "die",
+      "und"
+    ],
+    "category": "frequent",
+    "length": 3,
+    "cf": [
+      38,
+      35,
+      33
+    ],
+    "df": [
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:rare:k3",
+    "kind": "and",
+    "text": "AB ABGESEHEN ABSCHNEIDEN",
+    "terms": [
+      "ab",
+      "abgesehen",
+      "abschneiden"
+    ],
+    "category": "rare",
+    "length": 3,
+    "cf": [
+      1,
+      1,
+      1
+    ],
+    "df": [
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:mixed:k3",
+    "kind": "and",
+    "text": "ER DIE AB",
+    "terms": [
+      "er",
+      "die",
+      "ab"
+    ],
+    "category": "mixed",
+    "length": 3,
+    "cf": [
+      38,
+      35,
+      1
+    ],
+    "df": [
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:missing:k3",
+    "kind": "and",
+    "text": "ER DIE X999",
+    "terms": [
+      "er",
+      "die",
+      "x999"
+    ],
+    "category": "missing",
+    "length": 3,
+    "cf": [
+      38,
+      35,
+      0
+    ],
+    "df": [
+      1,
+      1,
+      0
+    ],
+    "expected": [],
+    "hit_count": 0,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:frequent:k5",
+    "kind": "and",
+    "text": "ER DIE UND DER ZU",
+    "terms": [
+      "er",
+      "die",
+      "und",
+      "der",
+      "zu"
+    ],
+    "category": "frequent",
+    "length": 5,
+    "cf": [
+      38,
+      35,
+      33,
+      28,
+      27
+    ],
+    "df": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:rare:k5",
+    "kind": "and",
+    "text": "AB ABGESEHEN ABSCHNEIDEN ABZUZAHLEN ACH",
+    "terms": [
+      "ab",
+      "abgesehen",
+      "abschneiden",
+      "abzuzahlen",
+      "ach"
+    ],
+    "category": "rare",
+    "length": 5,
+    "cf": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "df": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:mixed:k5",
+    "kind": "and",
+    "text": "ER DIE UND DER AB",
+    "terms": [
+      "er",
+      "die",
+      "und",
+      "der",
+      "ab"
+    ],
+    "category": "mixed",
+    "length": 5,
+    "cf": [
+      38,
+      35,
+      33,
+      28,
+      1
+    ],
+    "df": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:and:missing:k5",
+    "kind": "and",
+    "text": "ER DIE UND DER X999",
+    "terms": [
+      "er",
+      "die",
+      "und",
+      "der",
+      "x999"
+    ],
+    "category": "missing",
+    "length": 5,
+    "cf": [
+      38,
+      35,
+      33,
+      28,
+      0
+    ],
+    "df": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "expected": [],
+    "hit_count": 0,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:frequent:k2",
+    "kind": "or",
+    "text": "ER DIE",
+    "terms": [
+      "er",
+      "die"
+    ],
+    "category": "frequent",
+    "length": 2,
+    "cf": [
+      38,
+      35
+    ],
+    "df": [
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:rare:k2",
+    "kind": "or",
+    "text": "AB ABGESEHEN",
+    "terms": [
+      "ab",
+      "abgesehen"
+    ],
+    "category": "rare",
+    "length": 2,
+    "cf": [
+      1,
+      1
+    ],
+    "df": [
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:mixed:k2",
+    "kind": "or",
+    "text": "ER AB",
+    "terms": [
+      "er",
+      "ab"
+    ],
+    "category": "mixed",
+    "length": 2,
+    "cf": [
+      38,
+      1
+    ],
+    "df": [
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:missing:k2",
+    "kind": "or",
+    "text": "ER X999",
+    "terms": [
+      "er",
+      "x999"
+    ],
+    "category": "missing",
+    "length": 2,
+    "cf": [
+      38,
+      0
+    ],
+    "df": [
+      1,
+      0
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:frequent:k3",
+    "kind": "or",
+    "text": "ER DIE UND",
+    "terms": [
+      "er",
+      "die",
+      "und"
+    ],
+    "category": "frequent",
+    "length": 3,
+    "cf": [
+      38,
+      35,
+      33
+    ],
+    "df": [
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:rare:k3",
+    "kind": "or",
+    "text": "AB ABGESEHEN ABSCHNEIDEN",
+    "terms": [
+      "ab",
+      "abgesehen",
+      "abschneiden"
+    ],
+    "category": "rare",
+    "length": 3,
+    "cf": [
+      1,
+      1,
+      1
+    ],
+    "df": [
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:mixed:k3",
+    "kind": "or",
+    "text": "ER DIE AB",
+    "terms": [
+      "er",
+      "die",
+      "ab"
+    ],
+    "category": "mixed",
+    "length": 3,
+    "cf": [
+      38,
+      35,
+      1
+    ],
+    "df": [
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:missing:k3",
+    "kind": "or",
+    "text": "ER DIE X999",
+    "terms": [
+      "er",
+      "die",
+      "x999"
+    ],
+    "category": "missing",
+    "length": 3,
+    "cf": [
+      38,
+      35,
+      0
+    ],
+    "df": [
+      1,
+      1,
+      0
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:frequent:k5",
+    "kind": "or",
+    "text": "ER DIE UND DER ZU",
+    "terms": [
+      "er",
+      "die",
+      "und",
+      "der",
+      "zu"
+    ],
+    "category": "frequent",
+    "length": 5,
+    "cf": [
+      38,
+      35,
+      33,
+      28,
+      27
+    ],
+    "df": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:rare:k5",
+    "kind": "or",
+    "text": "AB ABGESEHEN ABSCHNEIDEN ABZUZAHLEN ACH",
+    "terms": [
+      "ab",
+      "abgesehen",
+      "abschneiden",
+      "abzuzahlen",
+      "ach"
+    ],
+    "category": "rare",
+    "length": 5,
+    "cf": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "df": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:mixed:k5",
+    "kind": "or",
+    "text": "ER DIE UND DER AB",
+    "terms": [
+      "er",
+      "die",
+      "und",
+      "der",
+      "ab"
+    ],
+    "category": "mixed",
+    "length": 5,
+    "cf": [
+      38,
+      35,
+      33,
+      28,
+      1
+    ],
+    "df": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:or:missing:k5",
+    "kind": "or",
+    "text": "ER DIE UND DER X999",
+    "terms": [
+      "er",
+      "die",
+      "und",
+      "der",
+      "x999"
+    ],
+    "category": "missing",
+    "length": 5,
+    "cf": [
+      38,
+      35,
+      33,
+      28,
+      0
+    ],
+    "df": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "expected": [
+      "01_anfang.txt"
+    ],
+    "hit_count": 1,
+    "position_count": null
+  },
+  {
+    "id": "kafka:phrase:frequent:k1",
+    "kind": "phrase",
+    "text": "ER",
+    "terms": [
+      "er"
+    ],
+    "category": "frequent",
+    "length": 1,
+    "cf": [
+      38
+    ],
+    "df": [
+      1
+    ],
+    "expected": {
+      "01_anfang.txt": [
+        10,
+        20,
+        30,
+        81,
+        121,
+        202,
+        209,
+        233,
+        244,
+        249,
+        270,
+        287,
+        350,
+        388,
+        413,
+        425,
+        520,
+        609,
+        622,
+        656,
+        665,
+        682,
+        693,
+        707,
+        720,
+        733,
+        773,
+        837,
+        869,
+        922,
+        1063,
+        1073,
+        1174,
+        1194,
+        1199,
+        1208,
+        1236,
+        1267
+      ]
+    },
+    "hit_count": 1,
+    "position_count": 38
+  },
+  {
+    "id": "kafka:phrase:rare:k1",
+    "kind": "phrase",
+    "text": "AB",
+    "terms": [
+      "ab"
+    ],
+    "category": "rare",
+    "length": 1,
+    "cf": [
+      1
+    ],
+    "df": [
+      1
+    ],
+    "expected": {
+      "01_anfang.txt": [
+        268
+      ]
+    },
+    "hit_count": 1,
+    "position_count": 1
+  },
+  {
+    "id": "kafka:phrase:missing:k1",
+    "kind": "phrase",
+    "text": "X999",
+    "terms": [
+      "x999"
+    ],
+    "category": "missing",
+    "length": 1,
+    "cf": [
+      0
+    ],
+    "df": [
+      0
+    ],
+    "expected": {},
+    "hit_count": 0,
+    "position_count": 0
+  },
+  {
+    "id": "kafka:phrase:frequent:k2",
+    "kind": "phrase",
+    "text": "DACHTE ER",
+    "terms": [
+      "dachte",
+      "er"
+    ],
+    "category": "frequent",
+    "length": 2,
+    "cf": [
+      6,
+      38
+    ],
+    "df": [
+      1,
+      1
+    ],
+    "expected": {
+      "01_anfang.txt": [
+        80,
+        201,
+        286,
+        424,
+        621
+      ]
+    },
+    "hit_count": 1,
+    "position_count": 5
+  },
+  {
+    "id": "kafka:phrase:rare:k2",
+    "kind": "phrase",
+    "text": "AB ALS",
+    "terms": [
+      "ab",
+      "als"
+    ],
+    "category": "rare",
+    "length": 2,
+    "cf": [
+      1,
+      7
+    ],
+    "df": [
+      1,
+      1
+    ],
+    "expected": {
+      "01_anfang.txt": [
+        268
+      ]
+    },
+    "hit_count": 1,
+    "position_count": 1
+  },
+  {
+    "id": "kafka:phrase:missing:k2",
+    "kind": "phrase",
+    "text": "X999 X999",
+    "terms": [
+      "x999",
+      "x999"
+    ],
+    "category": "missing",
+    "length": 2,
+    "cf": [
+      0,
+      0
+    ],
+    "df": [
+      0,
+      0
+    ],
+    "expected": {},
+    "hit_count": 0,
+    "position_count": 0
+  },
+  {
+    "id": "kafka:phrase:frequent:k3",
+    "kind": "phrase",
+    "text": "DACHTE ER ES",
+    "terms": [
+      "dachte",
+      "er",
+      "es"
+    ],
+    "category": "frequent",
+    "length": 3,
+    "cf": [
+      6,
+      38,
+      17
+    ],
+    "df": [
+      1,
+      1,
+      1
+    ],
+    "expected": {
+      "01_anfang.txt": [
+        80,
+        621
+      ]
+    },
+    "hit_count": 1,
+    "position_count": 2
+  },
+  {
+    "id": "kafka:phrase:rare:k3",
+    "kind": "phrase",
+    "text": "AB ALS ER",
+    "terms": [
+      "ab",
+      "als",
+      "er"
+    ],
+    "category": "rare",
+    "length": 3,
+    "cf": [
+      1,
+      7,
+      38
+    ],
+    "df": [
+      1,
+      1,
+      1
+    ],
+    "expected": {
+      "01_anfang.txt": [
+        268
+      ]
+    },
+    "hit_count": 1,
+    "position_count": 1
+  },
+  {
+    "id": "kafka:phrase:missing:k3",
+    "kind": "phrase",
+    "text": "X999 X999 X999",
+    "terms": [
+      "x999",
+      "x999",
+      "x999"
+    ],
+    "category": "missing",
+    "length": 3,
+    "cf": [
+      0,
+      0,
+      0
+    ],
+    "df": [
+      0,
+      0,
+      0
+    ],
+    "expected": {},
+    "hit_count": 0,
+    "position_count": 0
+  },
+  {
+    "id": "kafka:phrase:frequent:k5",
+    "kind": "phrase",
+    "text": "AB ALS ER IN DER",
+    "terms": [
+      "ab",
+      "als",
+      "er",
+      "in",
+      "der"
+    ],
+    "category": "frequent",
+    "length": 5,
+    "cf": [
+      1,
+      7,
+      38,
+      13,
+      28
+    ],
+    "df": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "expected": {
+      "01_anfang.txt": [
+        268
+      ]
+    },
+    "hit_count": 1,
+    "position_count": 1
+  },
+  {
+    "id": "kafka:phrase:rare:k5",
+    "kind": "phrase",
+    "text": "AB ALS ER IN DER",
+    "terms": [
+      "ab",
+      "als",
+      "er",
+      "in",
+      "der"
+    ],
+    "category": "rare",
+    "length": 5,
+    "cf": [
+      1,
+      7,
+      38,
+      13,
+      28
+    ],
+    "df": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "expected": {
+      "01_anfang.txt": [
+        268
+      ]
+    },
+    "hit_count": 1,
+    "position_count": 1
+  },
+  {
+    "id": "kafka:phrase:missing:k5",
+    "kind": "phrase",
+    "text": "X999 X999 X999 X999 X999",
+    "terms": [
+      "x999",
+      "x999",
+      "x999",
+      "x999",
+      "x999"
+    ],
+    "category": "missing",
+    "length": 5,
+    "cf": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "df": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "expected": {},
+    "hit_count": 0,
+    "position_count": 0
+  },
+  {
+    "id": "kafka:phrase:repeated:k2",
+    "kind": "phrase",
+    "text": "GREGOR GREGOR",
+    "terms": [
+      "gregor",
+      "gregor"
+    ],
+    "category": "repeated",
+    "length": 2,
+    "cf": [
+      15,
+      15
+    ],
+    "df": [
+      1,
+      1
+    ],
+    "expected": {
+      "01_anfang.txt": [
+        1060,
+        1078
+      ]
+    },
+    "hit_count": 1,
+    "position_count": 2
+  }
+]

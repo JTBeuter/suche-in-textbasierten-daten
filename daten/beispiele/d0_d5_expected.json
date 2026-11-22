@@ -1,0 +1,34 @@
+{
+  "description": "Handberechnete Sollwerte. Theorie D0 entspricht Dateikennung D0.txt. Keine Phrasensuchimplementierung in Thema 01.",
+  "tokens": {
+    "D0.txt": ["fehler", "bei", "der", "verbindung", "zum", "server"],
+    "D1.txt": ["serverfehler", "ohne", "verbindung"],
+    "D2.txt": ["verbindung", "zum", "server", "fehler", "fehler"],
+    "D3.txt": ["server", "ohne", "verbindung"],
+    "D4.txt": [],
+    "D5.txt": ["a", "a", "a"]
+  },
+  "word_matches": {
+    "Fehler": ["D0.txt", "D2.txt"],
+    "fehler": ["D0.txt", "D2.txt"],
+    "FEHLER": ["D0.txt", "D2.txt"],
+    "Serverfehler": ["D1.txt"],
+    "Server": ["D0.txt", "D2.txt", "D3.txt"],
+    "Verbindung": ["D0.txt", "D1.txt", "D2.txt", "D3.txt"],
+    "bei": ["D0.txt"],
+    "a": ["D5.txt"],
+    "unbekannt": []
+  },
+  "substring_matches": {
+    "Fehler": ["D0.txt", "D1.txt", "D2.txt"]
+  },
+  "phrase_positions": {
+    "Verbindung zum Server": {"D0.txt": [3], "D2.txt": [0]},
+    "a a": {"D5.txt": [0, 1]},
+    "Server Fehler": {"D2.txt": [2]},
+    "Server Serverfehler": {},
+    "Fehler Serverfehler": {},
+    "Verbindung Server": {},
+    "Fehler Fehler": {"D2.txt": [3]}
+  }
+}

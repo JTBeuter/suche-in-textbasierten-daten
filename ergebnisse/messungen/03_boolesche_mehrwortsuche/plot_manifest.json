@@ -1,0 +1,127 @@
+{
+  "generated_at_utc": "2026-10-06T15:21:39.479708+00:00",
+  "renderer": "Matplotlib",
+  "matplotlib_version": "3.10.1",
+  "python": "3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0]",
+  "source_path": "themen/03_boolesche_mehrwortsuche/experimente/plots/render.py",
+  "source_sha256": "5e84de85fb45601cd73649b77cce91883a16af36477c4a4f652537432f9e7e8b",
+  "source_archive": "plot_source/render.py",
+  "input_sha256": {
+    "raw.csv": "fd677bca475361cebb52154d8e1222f6c6254de94eec569d15e5b10e55c6e1b1",
+    "summary.json": "792bbd34c4b13b8e0f8682648ed8d0d8a2ad848f7d419e8a238b0ec437cb8e2c",
+    "metadata.json": "27edfb20cff92add7437485138de171864c03954f7fbae044828619bf67e0490"
+  },
+  "outputs": [
+    {
+      "path": "ergebnisse/abbildungen/03_and_reihenfolge.png",
+      "sha256": "46a9c0f8433fb6814a9d4ccfa3e6e20626b539c6e60535b4fde591b63aee2633"
+    },
+    {
+      "path": "ergebnisse/abbildungen/03_and_reihenfolge_matplotlib.svg",
+      "sha256": "a8580f9e91c93c1584a173948324fa45d030d0a235c186800bbe6dc36f32c715"
+    }
+  ],
+  "values": [
+    {
+      "algorithm": "and_input_order",
+      "query_id": "rare_k5_forward_and",
+      "median_us": 38.7435,
+      "q1_us": 36.9767,
+      "q3_us": 56.4003
+    },
+    {
+      "algorithm": "and_input_order",
+      "query_id": "frequent_k5_forward_and",
+      "median_us": 834.9033999999999,
+      "q1_us": 824.4804000000001,
+      "q3_us": 1209.8833499999998
+    },
+    {
+      "algorithm": "and_input_order",
+      "query_id": "mixed_k5_forward_and",
+      "median_us": 299.3670000000001,
+      "q1_us": 294.30449999999996,
+      "q3_us": 306.6023
+    },
+    {
+      "algorithm": "and_input_order",
+      "query_id": "unknown_k5_forward_and",
+      "median_us": 33.8927,
+      "q1_us": 32.28575,
+      "q3_us": 37.66
+    },
+    {
+      "algorithm": "and_input_order",
+      "query_id": "disjoint_k5_forward_and",
+      "median_us": 42.0663,
+      "q1_us": 41.607000000000006,
+      "q3_us": 46.1064
+    },
+    {
+      "algorithm": "and_input_order",
+      "query_id": "high_overlap_k5_forward_and",
+      "median_us": 493.0166,
+      "q1_us": 489.3358,
+      "q3_us": 530.5222000000001
+    },
+    {
+      "algorithm": "and_input_order",
+      "query_id": "low_overlap_k5_forward_and",
+      "median_us": 169.57909999999998,
+      "q1_us": 167.39800000000002,
+      "q3_us": 175.20055
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "query_id": "rare_k5_forward_and",
+      "median_us": 40.1082,
+      "q1_us": 38.4559,
+      "q3_us": 47.154849999999996
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "query_id": "frequent_k5_forward_and",
+      "median_us": 834.7256000000001,
+      "q1_us": 824.2299,
+      "q3_us": 847.7873000000001
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "query_id": "mixed_k5_forward_and",
+      "median_us": 36.086099999999995,
+      "q1_us": 34.0859,
+      "q3_us": 39.14455
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "query_id": "unknown_k5_forward_and",
+      "median_us": 28.9057,
+      "q1_us": 26.615550000000006,
+      "q3_us": 29.62775
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "query_id": "disjoint_k5_forward_and",
+      "median_us": 43.38450000000001,
+      "q1_us": 42.32614999999999,
+      "q3_us": 62.0611
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "query_id": "high_overlap_k5_forward_and",
+      "median_us": 505.6254,
+      "q1_us": 498.85839999999996,
+      "q3_us": 528.3398500000001
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "query_id": "low_overlap_k5_forward_and",
+      "median_us": 168.7135,
+      "q1_us": 166.7061,
+      "q3_us": 175.96285
+    }
+  ],
+  "error_bars": "inclusive Q1 to Q3, not confidence intervals",
+  "query_count": 7,
+  "measurement_unchanged": true
+}

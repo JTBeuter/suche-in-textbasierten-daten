@@ -1,0 +1,113 @@
+{
+  "pilot_correct": true,
+  "locked_parameters": {
+    "seed": 20261006,
+    "synthetic": {
+      "dataset_id": "boolean_controlled",
+      "document_count": 1000,
+      "tokens_per_document": 100
+    },
+    "real_dataset_id": "real_kafka_anfang",
+    "real_token_count": 1271,
+    "query_lengths": [
+      2,
+      3,
+      5
+    ],
+    "query_orders": [
+      "forward",
+      "reverse"
+    ],
+    "groups": {
+      "rare": [
+        "q000",
+        "q001",
+        "q002",
+        "q003",
+        "q004"
+      ],
+      "frequent": [
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009"
+      ],
+      "mixed": [
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014"
+      ],
+      "unknown": [
+        "q005",
+        "q999",
+        "q006",
+        "q007",
+        "q008"
+      ],
+      "disjoint": [
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019"
+      ],
+      "high_overlap": [
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024"
+      ],
+      "low_overlap": [
+        "q025",
+        "q026",
+        "q027",
+        "q028",
+        "q029"
+      ]
+    },
+    "final_plan": {
+      "warmups": 5,
+      "repeats": 20,
+      "query_block_size": 5,
+      "seed": 20261006
+    },
+    "schedule": "shuffle all eligible (algorithm,operator,query) blocks per repetition; fixed seed",
+    "generator": "exact fixed membership recipes; 100 tokens/doc; all query/filler tokens four ASCII characters; seeded filler and position shuffle; uppercase + punctuation"
+  },
+  "method_code_sha256": {
+    "gemeinsam/__init__.py": "0292f8e7c801f5d7ed8740100fa187db428828d51c4fd33451f725f68c245cc1",
+    "gemeinsam/src/gemeinsam/__init__.py": "7ade195f2e6dfbdb43bc1554d1040385631926ad8b2067828697464d173395af",
+    "gemeinsam/src/gemeinsam/corpus.py": "e0ca8de1c116329058d5ae580a28efbd7a6605c0b09e7272959bec3a5caa9731",
+    "gemeinsam/src/gemeinsam/datengenerator.py": "9b3e3d2c46a05694849bc3eac0bef4ec1ac7cab716ab30f8721d4acbe13f8d7b",
+    "gemeinsam/src/gemeinsam/messung.py": "ef4ce81f389196a55ceb2a8ca45e65b199e0966c6ddf4c07b840d59a5b739331",
+    "gemeinsam/src/gemeinsam/models.py": "edf5011d790ebdc3a99fb21bad33e6b1c26fc8c118ec936265a8381883635b92",
+    "gemeinsam/src/gemeinsam/text.py": "583f6952986c785bb1ce5c2d9fb7158cf816a182a40ef5fbe493da711631e956",
+    "pyproject.toml": "47f79c21b5d1aefcb4503c5ea21acc055f6ece3274615f9a0910c6f3e621506d",
+    "requirements-dev.txt": "a4fbb25989ad950adf673f3bcbdce81269e59d1b532a087e601ade3c61ff2116",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__init__.py": "073e9bc6d184a6a87bf916c53fe4bdf0dd927ad6fc708c0255dbc0192d418dea",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__main__.py": "156d2306b39e652beb2aab2c51f42978afb18b14c5f31da189954cb928dfa349",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/index.py": "cc21a1fa820fad0b4da0a9bc961b8e6e50f69851b9037bb3d18ec5481d7a0c57",
+    "themen/03_boolesche_mehrwortsuche/experimente/analyse.py": "69bb19f2523a309d5b751129f0b4452208f2a4b8ab562ac486fbcadb82b443ff",
+    "themen/03_boolesche_mehrwortsuche/experimente/boolean_diagnostics.py": "136ed57b82a26c681158f1b969c50a88c90dfc98f69aeee6ba82cb443d0e931d",
+    "themen/03_boolesche_mehrwortsuche/experimente/boolean_generator.py": "06d062cec8f50eb40f6d5f5c48b49cd1453905b1acb283204611978fc7846980",
+    "themen/03_boolesche_mehrwortsuche/experimente/run.py": "3e0717e995f6303b78903ceae217fb49b5b76a502627d927076e05a7995d1ac5",
+    "themen/03_boolesche_mehrwortsuche/experimente/verify_results.py": "e0ab0e6849aaba4cc56740242e66fe60180d273c0afd43a8cc87f407cb8ed058",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/__init__.py": "815abfe552417c5e1299d88164648c96e83d7981811f14fa1843219705355075",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/__main__.py": "b0832d8bf85e9b2301b6acccc2592268a8cf6b9b095118d4f30b3c878cd7d1ed",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/lists.py": "c2a97dd5845be8086e1791b51df935c866635b6eac5f7603a74a6618a6bcc340",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/query.py": "c1cfb3a6a3a82747a68da5ef04959265ef6c22fb8f20bbe1f0907b9d2187da79",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/search.py": "330c3f0368e81a0d9955ea1a484dfe4cd9dc0ba46a160b59a20823ea33a88220"
+  },
+  "pilot_plan": {
+    "warmups": 1,
+    "repeats": 3,
+    "query_block_size": 5,
+    "seed": 20261006
+  },
+  "decision": "kontrollierte Rezepturen und reale Quelle korrekt; Parameter unverändert für Finalmessung gesperrt",
+  "pilot_is_not_final_measurement": true
+}

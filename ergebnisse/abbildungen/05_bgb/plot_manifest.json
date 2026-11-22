@@ -1,0 +1,32 @@
+{
+  "run_id": "05_20261014T162157329451",
+  "verification": {
+    "status": "verified",
+    "raw_rows": 340,
+    "batch_rows": 240,
+    "total_rows": 890,
+    "memory_rows": 6
+  },
+  "input_sha256": {
+    "raw.csv": "961ee3ed98efceb39f20a1cff5fdb14b8c63769aad2057c2f8d46379b97de8ba",
+    "batches.csv": "100105a3ec52e8ed37237d3a58c39358ea15fd521c0863daafa4ad4e1b96d788",
+    "totals.csv": "b14ba198ba35393e1fb8bcb97c6426f60b90953f69cb496905e609d95cdef0f3",
+    "metadata.json": "9698c7f08ae5e9653f8a4ae30b32cfc6d851995ae895b4432f543531417cb012",
+    "memory.json": "8e13aec5ad88f2aba008d503e56560b1148ab4459e4e5fc6d2b35cb6f4208c80",
+    "correctness.json": "c24e9a28b5749ab5185eab958955afdc8a720f69b9bd4fc083e04bb64f0248bc"
+  },
+  "renderer_sha256": "5badd277bc78b514b956c63a07a04fb5e9576a99b51962d872c29f82c5fb8f11",
+  "output_sha256": {
+    "summary.json": "83ec30825c63e4f8192adbafc41a50cae6a736b2507215203242659f7f657064",
+    "models.json": "a48db9d4ec78ad5158517cb2752605e499051e749f2272b0d95750c0fc2cb96a",
+    "amortisation.json": "4bad5b1bbd936cc1fc4319dd96ea82914d5624a0cc41f31dc36ebb637527ab13",
+    "amortisation.csv": "3a3c185c5fa33757e3e20b68cca01f403fdfeed656e5aef08ec33fb018bb80c1",
+    "05_gesamtkosten.png": "9d5a66db1b45257cc668dc6af38234d8c26b09f5b783331811e2db548f72038b",
+    "05_gesamtkosten.svg": "3c6b92ae05bbacf56646dbc4eb4c9b246553a4326d3b713f42e0d3f6e14ee1c8",
+    "05_gesamtkosten.pdf": "3d6e11134cb250b5da51d689a07526e919c87622b3fd7a804b27b41ce533195a",
+    "05_amortisation.png": "f8239917121536b9b490282cc3ff7a916b8775d2b5338fd886ca3c3d59f3d635",
+    "05_amortisation.svg": "6477665369789f62140329e0a0fd6e18f06e23b3a69c01f5f6259ce5f3b511d1",
+    "05_amortisation.pdf": "9fbc0f68e27999c3c03a6295ef7f90d829d78779dce4089b4a8c7cfdeafd5549"
+  },
+  "scatter": "inclusive quartiles, not confidence intervals; no discarded samples"
+}

@@ -1,0 +1,33 @@
+{
+  "run_id": "05_20261006T162428623062",
+  "verification": {
+    "status": "verified",
+    "raw_rows": 4080,
+    "batch_rows": 480,
+    "total_rows": 1670,
+    "memory_rows": 12
+  },
+  "input_sha256": {
+    "raw.csv": "f10b8fc100adae51a3e3318fae5e9625fc71cfed6fbc528117e98cab31ed7f0b",
+    "batches.csv": "40613f70fca43b6202dcb3b60d092e1ceef7784fc304e85e9dccb829be40e0e6",
+    "totals.csv": "1c9c1574c158b935f47c2e68ad78d0b96aa8d40d5212cfa2c4d4d16ca3d53826",
+    "metadata.json": "96cb539f106224b21e17666a95fde3e1c57ed4943991115e1d7814316dbf6941",
+    "memory.json": "13bb0a71992b489a4f06bd344991a717b812a71b1e70e34bb797e294e81cef50",
+    "correctness.json": "f08a84e13614e8c058db08310183cc9028c086f33efb53a49a5aa0679b52e686"
+  },
+  "renderer_sha256": "130f806431c5aac730d99a1b3fa583eb2f957194835f8607a7a2173e743cf6ee",
+  "output_sha256": {
+    "summary.json": "3ec5065eb64182b79da31033ebf585f8acbb52e386438d04ec68ea0b8c07508e",
+    "models.json": "16ad5e018ef8e31cc2796aae098cc35bc306ead3b7a979a810186a72e288f57d",
+    "05_gesamtkosten.png": "9025a6b12c703af576b631c872ac81c9fd6ee7503b42058c5e2c365f8aad1281",
+    "05_gesamtkosten.svg": "70d6be616ce414d368ac819a3323bc56ee11352b448f77993f054430d7625847",
+    "05_gesamtkosten.pdf": "0bff26e20d0e2c393eabb8233264d8745c26e15a085f7d7bb13043b617fb34e5",
+    "05_amortisation.png": "67d8df1760ccf2e3337464e2ec486c7f1b293330fdb802ae806afdc72fe41c64",
+    "05_amortisation.svg": "9da8428415a5453b8b310a8ecb8292c1c0b626f181f16ca976d22508a4df2c56",
+    "05_amortisation.pdf": "37ec94fd67813c73bb55045bb71ead042b7c322ff165d599f9d86988567aeba1"
+  },
+  "scatter": "inclusive quartiles, not confidence intervals; no discarded samples",
+  "initial_renderer_sha256": "d6563281f12bb8c2683a7dcad8d5b23744fb4f309212ef8bc61b29875dd577e0",
+  "renderer_source": "themen/05_experimentelle_analyse/experimente/render.py",
+  "q_axis_domain": "Q>=0; symlog lower bound0; signed savings on y"
+}

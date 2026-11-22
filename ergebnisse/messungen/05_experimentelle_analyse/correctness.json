@@ -1,0 +1,1766 @@
+[
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:word:frequent:k1",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:word:frequent:k1",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:word:rare:k1",
+    "algorithm": "direct",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:word:rare:k1",
+    "algorithm": "index",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:word:missing:k1",
+    "algorithm": "direct",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:word:missing:k1",
+    "algorithm": "index",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:frequent:k2",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:frequent:k2",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:frequent:k2",
+    "algorithm": "index_shortest",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:rare:k2",
+    "algorithm": "direct",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:rare:k2",
+    "algorithm": "index",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:rare:k2",
+    "algorithm": "index_shortest",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:mixed:k2",
+    "algorithm": "direct",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:mixed:k2",
+    "algorithm": "index",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:mixed:k2",
+    "algorithm": "index_shortest",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:missing:k2",
+    "algorithm": "direct",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:missing:k2",
+    "algorithm": "index",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:missing:k2",
+    "algorithm": "index_shortest",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:frequent:k3",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:frequent:k3",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:frequent:k3",
+    "algorithm": "index_shortest",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:rare:k3",
+    "algorithm": "direct",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:rare:k3",
+    "algorithm": "index",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:rare:k3",
+    "algorithm": "index_shortest",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:mixed:k3",
+    "algorithm": "direct",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:mixed:k3",
+    "algorithm": "index",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:mixed:k3",
+    "algorithm": "index_shortest",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:missing:k3",
+    "algorithm": "direct",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:missing:k3",
+    "algorithm": "index",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:missing:k3",
+    "algorithm": "index_shortest",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:frequent:k5",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:frequent:k5",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:frequent:k5",
+    "algorithm": "index_shortest",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:rare:k5",
+    "algorithm": "direct",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:rare:k5",
+    "algorithm": "index",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:rare:k5",
+    "algorithm": "index_shortest",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:mixed:k5",
+    "algorithm": "direct",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:mixed:k5",
+    "algorithm": "index",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:mixed:k5",
+    "algorithm": "index_shortest",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:missing:k5",
+    "algorithm": "direct",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:missing:k5",
+    "algorithm": "index",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:and:missing:k5",
+    "algorithm": "index_shortest",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:frequent:k2",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:frequent:k2",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:rare:k2",
+    "algorithm": "direct",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:rare:k2",
+    "algorithm": "index",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:mixed:k2",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:mixed:k2",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:missing:k2",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:missing:k2",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:frequent:k3",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:frequent:k3",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:rare:k3",
+    "algorithm": "direct",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:rare:k3",
+    "algorithm": "index",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:mixed:k3",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:mixed:k3",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:missing:k3",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:missing:k3",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:frequent:k5",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:frequent:k5",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:rare:k5",
+    "algorithm": "direct",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:rare:k5",
+    "algorithm": "index",
+    "result_sha256": "478cfa54bbc733d32f196c5b68cbd071bfcb216b7ea8c6fc8828156e4c5cad8f",
+    "hit_count": 2,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:mixed:k5",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:mixed:k5",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:missing:k5",
+    "algorithm": "direct",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:or:missing:k5",
+    "algorithm": "index",
+    "result_sha256": "5d5e55adbec3b12b3f76554baa2666fbd293f24b95bfb9f2ba6ec980e3d34bd0",
+    "hit_count": 20,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:frequent:k1",
+    "algorithm": "direct",
+    "result_sha256": "7b8feee764fc63328be43cc86036e738ad799a5386580e0fadb7e8b4ee56fdcc",
+    "hit_count": 20,
+    "position_count": 200,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:frequent:k1",
+    "algorithm": "index",
+    "result_sha256": "7b8feee764fc63328be43cc86036e738ad799a5386580e0fadb7e8b4ee56fdcc",
+    "hit_count": 20,
+    "position_count": 200,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:rare:k1",
+    "algorithm": "direct",
+    "result_sha256": "64475424932cee90524a117ff54337d38191e494fa7c8222afd7024ece6d6c50",
+    "hit_count": 2,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:rare:k1",
+    "algorithm": "index",
+    "result_sha256": "64475424932cee90524a117ff54337d38191e494fa7c8222afd7024ece6d6c50",
+    "hit_count": 2,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:missing:k1",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:missing:k1",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:repeated:k1",
+    "algorithm": "direct",
+    "result_sha256": "c1ae0209847247f93f97b702fddd4ab5f3ea8341e2fdba6b12c6aaa015d7350a",
+    "hit_count": 20,
+    "position_count": 120,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:repeated:k1",
+    "algorithm": "index",
+    "result_sha256": "c1ae0209847247f93f97b702fddd4ab5f3ea8341e2fdba6b12c6aaa015d7350a",
+    "hit_count": 20,
+    "position_count": 120,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:frequent:k2",
+    "algorithm": "direct",
+    "result_sha256": "7b8feee764fc63328be43cc86036e738ad799a5386580e0fadb7e8b4ee56fdcc",
+    "hit_count": 20,
+    "position_count": 200,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:frequent:k2",
+    "algorithm": "index",
+    "result_sha256": "7b8feee764fc63328be43cc86036e738ad799a5386580e0fadb7e8b4ee56fdcc",
+    "hit_count": 20,
+    "position_count": 200,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:rare:k2",
+    "algorithm": "direct",
+    "result_sha256": "64475424932cee90524a117ff54337d38191e494fa7c8222afd7024ece6d6c50",
+    "hit_count": 2,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:rare:k2",
+    "algorithm": "index",
+    "result_sha256": "64475424932cee90524a117ff54337d38191e494fa7c8222afd7024ece6d6c50",
+    "hit_count": 2,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:missing:k2",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:missing:k2",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:repeated:k2",
+    "algorithm": "direct",
+    "result_sha256": "1292c16080aebc58f81248e1bfce263693ddd5dcff40d192502bd3c23b0c8128",
+    "hit_count": 20,
+    "position_count": 100,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:repeated:k2",
+    "algorithm": "index",
+    "result_sha256": "1292c16080aebc58f81248e1bfce263693ddd5dcff40d192502bd3c23b0c8128",
+    "hit_count": 20,
+    "position_count": 100,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:wrong_order:k2",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:wrong_order:k2",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:frequent:k3",
+    "algorithm": "direct",
+    "result_sha256": "7b8feee764fc63328be43cc86036e738ad799a5386580e0fadb7e8b4ee56fdcc",
+    "hit_count": 20,
+    "position_count": 200,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:frequent:k3",
+    "algorithm": "index",
+    "result_sha256": "7b8feee764fc63328be43cc86036e738ad799a5386580e0fadb7e8b4ee56fdcc",
+    "hit_count": 20,
+    "position_count": 200,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:rare:k3",
+    "algorithm": "direct",
+    "result_sha256": "64475424932cee90524a117ff54337d38191e494fa7c8222afd7024ece6d6c50",
+    "hit_count": 2,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:rare:k3",
+    "algorithm": "index",
+    "result_sha256": "64475424932cee90524a117ff54337d38191e494fa7c8222afd7024ece6d6c50",
+    "hit_count": 2,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:missing:k3",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:missing:k3",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:repeated:k3",
+    "algorithm": "direct",
+    "result_sha256": "4058837cf1f29fa393f25f4b982ab66d29732cba75488793ed9a757605f05eda",
+    "hit_count": 20,
+    "position_count": 80,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:repeated:k3",
+    "algorithm": "index",
+    "result_sha256": "4058837cf1f29fa393f25f4b982ab66d29732cba75488793ed9a757605f05eda",
+    "hit_count": 20,
+    "position_count": 80,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:wrong_order:k3",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:wrong_order:k3",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:frequent:k5",
+    "algorithm": "direct",
+    "result_sha256": "7b8feee764fc63328be43cc86036e738ad799a5386580e0fadb7e8b4ee56fdcc",
+    "hit_count": 20,
+    "position_count": 200,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:frequent:k5",
+    "algorithm": "index",
+    "result_sha256": "7b8feee764fc63328be43cc86036e738ad799a5386580e0fadb7e8b4ee56fdcc",
+    "hit_count": 20,
+    "position_count": 200,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:rare:k5",
+    "algorithm": "direct",
+    "result_sha256": "64475424932cee90524a117ff54337d38191e494fa7c8222afd7024ece6d6c50",
+    "hit_count": 2,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:rare:k5",
+    "algorithm": "index",
+    "result_sha256": "64475424932cee90524a117ff54337d38191e494fa7c8222afd7024ece6d6c50",
+    "hit_count": 2,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:missing:k5",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:missing:k5",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:repeated:k5",
+    "algorithm": "direct",
+    "result_sha256": "7f0b8b607c69fc7ac9bff8f50d6bc22862a290be02dbdffcadd5804f75f53a83",
+    "hit_count": 20,
+    "position_count": 40,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:repeated:k5",
+    "algorithm": "index",
+    "result_sha256": "7f0b8b607c69fc7ac9bff8f50d6bc22862a290be02dbdffcadd5804f75f53a83",
+    "hit_count": 20,
+    "position_count": 40,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:wrong_order:k5",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "query_id": "synthetic_10000:phrase:wrong_order:k5",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:word:frequent:k1",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:word:frequent:k1",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:word:rare:k1",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:word:rare:k1",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:word:missing:k1",
+    "algorithm": "direct",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:word:missing:k1",
+    "algorithm": "index",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:frequent:k2",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:frequent:k2",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:frequent:k2",
+    "algorithm": "index_shortest",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:rare:k2",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:rare:k2",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:rare:k2",
+    "algorithm": "index_shortest",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:mixed:k2",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:mixed:k2",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:mixed:k2",
+    "algorithm": "index_shortest",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:missing:k2",
+    "algorithm": "direct",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:missing:k2",
+    "algorithm": "index",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:missing:k2",
+    "algorithm": "index_shortest",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:frequent:k3",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:frequent:k3",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:frequent:k3",
+    "algorithm": "index_shortest",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:rare:k3",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:rare:k3",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:rare:k3",
+    "algorithm": "index_shortest",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:mixed:k3",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:mixed:k3",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:mixed:k3",
+    "algorithm": "index_shortest",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:missing:k3",
+    "algorithm": "direct",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:missing:k3",
+    "algorithm": "index",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:missing:k3",
+    "algorithm": "index_shortest",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:frequent:k5",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:frequent:k5",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:frequent:k5",
+    "algorithm": "index_shortest",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:rare:k5",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:rare:k5",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:rare:k5",
+    "algorithm": "index_shortest",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:mixed:k5",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:mixed:k5",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:mixed:k5",
+    "algorithm": "index_shortest",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:missing:k5",
+    "algorithm": "direct",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:missing:k5",
+    "algorithm": "index",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:and:missing:k5",
+    "algorithm": "index_shortest",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:frequent:k2",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:frequent:k2",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:rare:k2",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:rare:k2",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:mixed:k2",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:mixed:k2",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:missing:k2",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:missing:k2",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:frequent:k3",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:frequent:k3",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:rare:k3",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:rare:k3",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:mixed:k3",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:mixed:k3",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:missing:k3",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:missing:k3",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:frequent:k5",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:frequent:k5",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:rare:k5",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:rare:k5",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:mixed:k5",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:mixed:k5",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:missing:k5",
+    "algorithm": "direct",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:or:missing:k5",
+    "algorithm": "index",
+    "result_sha256": "04a28bfb0745def45914ef95505a86f3fd027e4882ecc396ff4c50e0119cf2bb",
+    "hit_count": 1,
+    "position_count": null,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:frequent:k1",
+    "algorithm": "direct",
+    "result_sha256": "04d9d2abb822546c0f646d4051b181befb33305ee641ee09c8114609183dab8d",
+    "hit_count": 1,
+    "position_count": 38,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:frequent:k1",
+    "algorithm": "index",
+    "result_sha256": "04d9d2abb822546c0f646d4051b181befb33305ee641ee09c8114609183dab8d",
+    "hit_count": 1,
+    "position_count": 38,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:rare:k1",
+    "algorithm": "direct",
+    "result_sha256": "64bf65667425e8ff7d47341541b8bde284ad59d7e0c7fbec1d0f26d8c5d83d65",
+    "hit_count": 1,
+    "position_count": 1,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:rare:k1",
+    "algorithm": "index",
+    "result_sha256": "64bf65667425e8ff7d47341541b8bde284ad59d7e0c7fbec1d0f26d8c5d83d65",
+    "hit_count": 1,
+    "position_count": 1,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:missing:k1",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:missing:k1",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:frequent:k2",
+    "algorithm": "direct",
+    "result_sha256": "97bb66ae6f190b69c8ce0a461859d084815a8865d4df7e1521f2553a88bc7314",
+    "hit_count": 1,
+    "position_count": 5,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:frequent:k2",
+    "algorithm": "index",
+    "result_sha256": "97bb66ae6f190b69c8ce0a461859d084815a8865d4df7e1521f2553a88bc7314",
+    "hit_count": 1,
+    "position_count": 5,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:rare:k2",
+    "algorithm": "direct",
+    "result_sha256": "64bf65667425e8ff7d47341541b8bde284ad59d7e0c7fbec1d0f26d8c5d83d65",
+    "hit_count": 1,
+    "position_count": 1,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:rare:k2",
+    "algorithm": "index",
+    "result_sha256": "64bf65667425e8ff7d47341541b8bde284ad59d7e0c7fbec1d0f26d8c5d83d65",
+    "hit_count": 1,
+    "position_count": 1,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:missing:k2",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:missing:k2",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:frequent:k3",
+    "algorithm": "direct",
+    "result_sha256": "18cd182376b70aa18dbef9dc425a57fd8eb16626ea5548be5dc60b2e64173928",
+    "hit_count": 1,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:frequent:k3",
+    "algorithm": "index",
+    "result_sha256": "18cd182376b70aa18dbef9dc425a57fd8eb16626ea5548be5dc60b2e64173928",
+    "hit_count": 1,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:rare:k3",
+    "algorithm": "direct",
+    "result_sha256": "64bf65667425e8ff7d47341541b8bde284ad59d7e0c7fbec1d0f26d8c5d83d65",
+    "hit_count": 1,
+    "position_count": 1,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:rare:k3",
+    "algorithm": "index",
+    "result_sha256": "64bf65667425e8ff7d47341541b8bde284ad59d7e0c7fbec1d0f26d8c5d83d65",
+    "hit_count": 1,
+    "position_count": 1,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:missing:k3",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:missing:k3",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:frequent:k5",
+    "algorithm": "direct",
+    "result_sha256": "64bf65667425e8ff7d47341541b8bde284ad59d7e0c7fbec1d0f26d8c5d83d65",
+    "hit_count": 1,
+    "position_count": 1,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:frequent:k5",
+    "algorithm": "index",
+    "result_sha256": "64bf65667425e8ff7d47341541b8bde284ad59d7e0c7fbec1d0f26d8c5d83d65",
+    "hit_count": 1,
+    "position_count": 1,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:rare:k5",
+    "algorithm": "direct",
+    "result_sha256": "64bf65667425e8ff7d47341541b8bde284ad59d7e0c7fbec1d0f26d8c5d83d65",
+    "hit_count": 1,
+    "position_count": 1,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:rare:k5",
+    "algorithm": "index",
+    "result_sha256": "64bf65667425e8ff7d47341541b8bde284ad59d7e0c7fbec1d0f26d8c5d83d65",
+    "hit_count": 1,
+    "position_count": 1,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:missing:k5",
+    "algorithm": "direct",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:missing:k5",
+    "algorithm": "index",
+    "result_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "hit_count": 0,
+    "position_count": 0,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:repeated:k2",
+    "algorithm": "direct",
+    "result_sha256": "6824282f1b3231291c32974207217e1e657cecd52026e79a5caddbb893860d46",
+    "hit_count": 1,
+    "position_count": 2,
+    "validated_calls": 126
+  },
+  {
+    "dataset_id": "kafka",
+    "query_id": "kafka:phrase:repeated:k2",
+    "algorithm": "index",
+    "result_sha256": "6824282f1b3231291c32974207217e1e657cecd52026e79a5caddbb893860d46",
+    "hit_count": 1,
+    "position_count": 2,
+    "validated_calls": 126
+  }
+]

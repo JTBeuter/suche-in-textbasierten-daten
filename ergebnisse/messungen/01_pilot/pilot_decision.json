@@ -1,0 +1,30 @@
+{
+  "pilot_correct": true,
+  "decision": "alle Größen und Trefferprüfungen ausführbar; vorab geplante Parameter unverändert für final gesperrt",
+  "locked_parameters": {
+    "total_tokens": [
+      10000,
+      100000,
+      1000000
+    ],
+    "document_count": 20,
+    "seed": 20261006,
+    "vocabulary": "wort0000..wort0999",
+    "frequent": "Fehler at position 0 and each position divisible by 100 in every document",
+    "rare": "Verbindung at the last position of doc00.txt only",
+    "missing": "Unauffindbar never planted or sampled",
+    "measurement_plan": {
+      "warmups": 5,
+      "repeats": 20,
+      "query_block_size": 10,
+      "seed": 20261006
+    }
+  },
+  "pilot_plan": {
+    "warmups": 1,
+    "repeats": 3,
+    "query_block_size": 10,
+    "seed": 20261006
+  },
+  "pilot_is_not_final_measurement": true
+}

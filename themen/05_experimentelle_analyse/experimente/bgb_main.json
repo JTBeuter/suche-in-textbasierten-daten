@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "mode": "main",
+  "pilot_directory": "ergebnisse/messungen/05_bgb_pilot",
+  "seed": 20261006,
+  "warmups": 5,
+  "repeats": 20,
+  "block_size": 5,
+  "memory_repeats": 3,
+  "total_repeats": 5,
+  "sequence_block_size": 50,
+  "amortisation_table": "abschnitt_3_6",
+  "datasets": [
+    {
+      "id": "bgb",
+      "kind": "real",
+      "path": "daten/real/bgb",
+      "queries": [
+        {
+          "kind": "word",
+          "category": "missing",
+          "text": "Server"
+        },
+        {
+          "kind": "word",
+          "category": "frequent",
+          "text": "der"
+        },
+        {
+          "kind": "word",
+          "category": "rare",
+          "text": "Verbindung"
+        },
+        {
+          "kind": "and",
+          "category": "present",
+          "text": "Gläubiger Schuldner Frist"
+        },
+        {
+          "kind": "or",
+          "category": "present",
+          "text": "Mieter Vermieter Miete"
+        },
+        {
+          "kind": "phrase",
+          "category": "present",
+          "text": "im Sinne des"
+        }
+      ]
+    }
+  ],
+  "q_values": [
+    0,
+    1,
+    2,
+    5,
+    10,
+    20,
+    50,
+    100,
+    200,
+    500,
+    1000
+  ]
+}

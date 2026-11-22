@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dhbw-textsuche"
+version = "0.1.0"
+description = "Reproduzierbare direkte und indexbasierte Textsuche"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["gemeinsam", "direkte_suche"]
+package-dir = { gemeinsam = "gemeinsam/src/gemeinsam", direkte_suche = "themen/01_textaufbereitung_direkte_suche/src/direkte_suche" }
+
+[tool.pytest.ini_options]
+testpaths = ["themen/01_textaufbereitung_direkte_suche/tests", "themen/01_textaufbereitung_direkte_suche/experimente/tests"]
+addopts = "-ra"

@@ -1,0 +1,271 @@
+run_id,git_commit,seed,dataset_id,document_count,text_bytes,token_count,algorithm,phase,query_id,query_type,query_text,repeat,order_index,block_size,elapsed_ns,load_ms,preparation_ms,build_ms,query_ms,index_bytes,peak_memory_bytes,hit_count,correct
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,inverted_index,build,,,,0,,1,5047068,,,5.047068,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,inverted_index,build,,,,1,,1,7666666,,,7.666666,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,inverted_index,build,,,,2,,1,5170874,,,5.170874,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,positional_index,build,,,,0,,1,32337819,,,32.337819,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,positional_index,build,,,,1,,1,40253170,,,40.25317,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,positional_index,build,,,,2,,1,32947341,,,32.947341,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,positional_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,0,0,5,3565408,,,,0.7130816,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,direct_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,0,1,5,117364103,,,,23.4728206,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,direct_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,1,0,5,114148631,,,,22.8297262,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,positional_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,1,1,5,3592945,,,,0.7185889999999999,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,direct_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,2,0,5,104306477,,,,20.8612954,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h000,200,600000,100000,positional_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,2,1,5,3567908,,,,0.7135816,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,inverted_index,build,,,,0,,1,5174380,,,5.17438,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,inverted_index,build,,,,1,,1,5240788,,,5.240788,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,inverted_index,build,,,,2,,1,5407518,,,5.407518,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,positional_index,build,,,,0,,1,33022249,,,33.022249,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,positional_index,build,,,,1,,1,42282109,,,42.282109,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,positional_index,build,,,,2,,1,32752128,,,32.752128,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,positional_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,0,0,5,6591026,,,,1.3182052,,,20,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,direct_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,0,1,5,115115557,,,,23.023111399999998,,,20,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,direct_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,1,0,5,105974910,,,,21.194982,,,20,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,positional_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,1,1,5,3749753,,,,0.7499506,,,20,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,direct_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,2,0,5,105061013,,,,21.012202600000002,,,20,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h020,200,600000,100000,positional_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,2,1,5,3787335,,,,0.757467,,,20,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,inverted_index,build,,,,0,,1,7149002,,,7.149002,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,inverted_index,build,,,,1,,1,5424594,,,5.424594,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,inverted_index,build,,,,2,,1,5196877,,,5.196877,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_index,build,,,,0,,1,32547382,,,32.547382,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_index,build,,,,1,,1,44983770,,,44.98377,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_index,build,,,,2,,1,32335745,,,32.335745,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k5,phrase,R000 R000 R000 R000 R000,0,0,5,108509937,,,,21.7019874,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k3,phrase,X999 X999 X999,0,1,5,74601,,,,0.0149202,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k5,phrase,R000 R000 R000 R000 R000,0,2,5,7467849,,,,1.4935698,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k1,phrase,S000,0,3,5,58091,,,,0.011618199999999999,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k2,phrase,S000 S001,0,4,5,85758,,,,0.0171516,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k1,phrase,X999,0,5,5,32996,,,,0.0065991999999999995,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,wrong_order_k3,phrase,F002 F001 F000,0,6,5,130475968,,,,26.095193599999998,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k3,phrase,S000 S001 S002,0,7,5,152308,,,,0.0304616,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,wrong_order_k2,phrase,F001 F000,0,8,5,108529861,,,,21.705972199999998,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k5,phrase,F000 F001 F002 F003 F004,0,9,5,111189267,,,,22.2378534,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k2,phrase,R000 R000,0,10,5,3275577,,,,0.6551154,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k1,phrase,R000,0,11,5,107040370,,,,21.408074,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,wrong_order_k5,phrase,F004 F003 F002 F001 F000,0,12,5,106764131,,,,21.352826200000003,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k5,phrase,X999 X999 X999 X999 X999,0,13,5,105823291,,,,21.164658199999998,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k5,phrase,S000 S001 S002 S003 S004,0,14,5,105958578,,,,21.191715600000002,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k3,phrase,F000 F001 F002,0,15,5,7206539,,,,1.4413078000000001,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k3,phrase,R000 R000 R000,0,16,5,110985064,,,,22.1970128,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k5,phrase,S000 S001 S002 S003 S004,0,17,5,203581,,,,0.0407162,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k2,phrase,X999 X999,0,18,5,48099,,,,0.009619800000000001,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k1,phrase,S000,0,19,5,108198721,,,,21.639744200000003,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k3,phrase,X999 X999 X999,0,20,5,112330755,,,,22.466151,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k1,phrase,X999,0,21,5,106910036,,,,21.3820072,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k1,phrase,F000,0,22,5,123034179,,,,24.6068358,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,wrong_order_k3,phrase,F002 F001 F000,0,23,5,6028514,,,,1.2057028,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k3,phrase,F000 F001 F002,0,24,5,109821203,,,,21.9642406,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k2,phrase,S000 S001,0,25,5,106356164,,,,21.2712328,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k1,phrase,R000,0,26,5,1726981,,,,0.34539620000000004,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,wrong_order_k5,phrase,F004 F003 F002 F001 F000,0,27,5,7124561,,,,1.4249122,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k1,phrase,F000,0,28,5,2129715,,,,0.425943,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,0,29,5,4804606,,,,0.9609211999999999,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,0,30,5,106794349,,,,21.3588698,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,wrong_order_k2,phrase,F001 F000,0,31,5,5496814,,,,1.0993628,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k2,phrase,F000 F001,0,32,5,109252420,,,,21.850484,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k5,phrase,X999 X999 X999 X999 X999,0,33,5,95982,,,,0.0191964,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k2,phrase,F000 F001,0,34,5,4645438,,,,0.9290876000000001,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k2,phrase,R000 R000,0,35,5,108258103,,,,21.6516206,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k2,phrase,X999 X999,0,36,5,106590018,,,,21.3180036,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k3,phrase,R000 R000 R000,0,37,5,4768888,,,,0.9537775999999999,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k5,phrase,F000 F001 F002 F003 F004,0,38,5,11819629,,,,2.3639258,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k3,phrase,S000 S001 S002,0,39,5,111136896,,,,22.227379199999998,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k5,phrase,R000 R000 R000 R000 R000,1,0,5,107565293,,,,21.5130586,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k2,phrase,R000 R000,1,1,5,108057364,,,,21.6114728,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,wrong_order_k2,phrase,F001 F000,1,2,5,5510947,,,,1.1021893999999999,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k5,phrase,S000 S001 S002 S003 S004,1,3,5,203415,,,,0.040683000000000004,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,wrong_order_k3,phrase,F002 F001 F000,1,4,5,5829857,,,,1.1659713999999999,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,wrong_order_k5,phrase,F004 F003 F002 F001 F000,1,5,5,106271229,,,,21.2542458,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k3,phrase,R000 R000 R000,1,6,5,114889399,,,,22.9778798,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,1,7,5,107271022,,,,21.454204400000002,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k5,phrase,F000 F001 F002 F003 F004,1,8,5,12456613,,,,2.4913226,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k5,phrase,X999 X999 X999 X999 X999,1,9,5,125800218,,,,25.1600436,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,1,10,5,4959373,,,,0.9918746,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k1,phrase,X999,1,11,5,107375588,,,,21.475117599999997,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k3,phrase,X999 X999 X999,1,12,5,106547119,,,,21.309423799999998,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k3,phrase,X999 X999 X999,1,13,5,70409,,,,0.0140818,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k1,phrase,F000,1,14,5,113561956,,,,22.7123912,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,wrong_order_k5,phrase,F004 F003 F002 F001 F000,1,15,5,6962060,,,,1.392412,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k2,phrase,X999 X999,1,16,5,51680,,,,0.010336,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k1,phrase,S000,1,17,5,107295437,,,,21.4590874,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k2,phrase,F000 F001,1,18,5,4873306,,,,0.9746612000000001,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k3,phrase,F000 F001 F002,1,19,5,110223190,,,,22.044638,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k1,phrase,F000,1,20,5,2047269,,,,0.4094538,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,wrong_order_k3,phrase,F002 F001 F000,1,21,5,108139301,,,,21.6278602,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k5,phrase,R000 R000 R000 R000 R000,1,22,5,7568595,,,,1.513719,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k3,phrase,F000 F001 F002,1,23,5,7184152,,,,1.4368304,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k1,phrase,S000,1,24,5,61565,,,,0.012313000000000001,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k2,phrase,S000 S001,1,25,5,86825,,,,0.017365,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k5,phrase,X999 X999 X999 X999 X999,1,26,5,72115,,,,0.014423,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,wrong_order_k2,phrase,F001 F000,1,27,5,108816875,,,,21.763375,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k3,phrase,S000 S001 S002,1,28,5,147161,,,,0.0294322,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k5,phrase,F000 F001 F002 F003 F004,1,29,5,112335442,,,,22.4670884,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k1,phrase,R000,1,30,5,117783652,,,,23.5567304,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k2,phrase,R000 R000,1,31,5,3279668,,,,0.6559336,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k2,phrase,X999 X999,1,32,5,106616840,,,,21.323368,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k3,phrase,R000 R000 R000,1,33,5,5012985,,,,1.002597,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k2,phrase,S000 S001,1,34,5,107071608,,,,21.4143216,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k1,phrase,X999,1,35,5,51179,,,,0.0102358,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k2,phrase,F000 F001,1,36,5,112994851,,,,22.5989702,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k1,phrase,R000,1,37,5,1757600,,,,0.35152,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k3,phrase,S000 S001 S002,1,38,5,106719168,,,,21.3438336,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k5,phrase,S000 S001 S002 S003 S004,1,39,5,105810683,,,,21.1621366,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k1,phrase,R000,2,0,5,1739274,,,,0.3478548,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k1,phrase,S000,2,1,5,122945050,,,,24.58901,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k5,phrase,R000 R000 R000 R000 R000,2,2,5,111518123,,,,22.3036246,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k3,phrase,X999 X999 X999,2,3,5,80135,,,,0.016027,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k2,phrase,F000 F001,2,4,5,4728798,,,,0.9457596,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,2,5,5,107991123,,,,21.5982246,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k3,phrase,F000 F001 F002,2,6,5,111709004,,,,22.341800799999998,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,wrong_order_k5,phrase,F004 F003 F002 F001 F000,2,7,5,7101867,,,,1.4203734000000001,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k1,phrase,X999,2,8,5,45523,,,,0.009104600000000001,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k2,phrase,S000 S001,2,9,5,91484,,,,0.0182968,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k1,phrase,F000,2,10,5,1999783,,,,0.3999566,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k5,phrase,X999 X999 X999 X999 X999,2,11,5,76710,,,,0.015342,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,wrong_order_k5,phrase,F004 F003 F002 F001 F000,2,12,5,107938170,,,,21.587634,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k5,phrase,S000 S001 S002 S003 S004,2,13,5,164208616,,,,32.841723200000004,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k3,phrase,F000 F001 F002,2,14,5,7535631,,,,1.5071262,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k5,phrase,S000 S001 S002 S003 S004,2,15,5,191596,,,,0.0383192,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k1,phrase,S000,2,16,5,51079,,,,0.0102158,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k2,phrase,S000 S001,2,17,5,107516184,,,,21.5032368,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k2,phrase,F000 F001,2,18,5,110993582,,,,22.198716400000002,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,wrong_order_k3,phrase,F002 F001 F000,2,19,5,5950821,,,,1.1901642000000001,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k1,phrase,R000,2,20,5,107530408,,,,21.506081599999998,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k1,phrase,F000,2,21,5,110707001,,,,22.1414002,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k3,phrase,R000 R000 R000,2,22,5,114324686,,,,22.8649372,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,frequent_k5,phrase,F000 F001 F002 F003 F004,2,23,5,12066237,,,,2.4132474,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,unknown_k2,phrase,X999 X999,2,24,5,62233,,,,0.012446599999999999,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k5,phrase,R000 R000 R000 R000 R000,2,25,5,7467696,,,,1.4935392,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,wrong_order_k2,phrase,F001 F000,2,26,5,108232626,,,,21.6465252,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k5,phrase,X999 X999 X999 X999 X999,2,27,5,112824377,,,,22.5648754,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,wrong_order_k3,phrase,F002 F001 F000,2,28,5,112627085,,,,22.525416999999997,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k3,phrase,X999 X999 X999,2,29,5,108040417,,,,21.6080834,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k1,phrase,X999,2,30,5,107819367,,,,21.5638734,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,wrong_order_k2,phrase,F001 F000,2,31,5,5600855,,,,1.120171,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,unknown_k2,phrase,X999 X999,2,32,5,106710841,,,,21.3421682,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k3,phrase,R000 R000 R000,2,33,5,4890192,,,,0.9780384,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,result_size_k5,phrase,Z000 Z001 Z002 Z003 Z004,2,34,5,4865868,,,,0.9731736,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,repeated_k2,phrase,R000 R000,2,35,5,109089443,,,,21.8178886,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,rare_k3,phrase,S000 S001 S002,2,36,5,144869,,,,0.0289738,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,frequent_k5,phrase,F000 F001 F002 F003 F004,2,37,5,112732569,,,,22.5465138,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,positional_phrase,query,repeated_k2,phrase,R000 R000,2,38,5,3255258,,,,0.6510516,,,200,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,phrase_h200,200,600000,100000,direct_phrase,query,rare_k3,phrase,S000 S001 S002,2,39,5,107429968,,,,21.4859936,,,2,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,inverted_index,build,,,,0,,1,2048637,,,2.048637,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,inverted_index,build,,,,1,,1,2027068,,,2.027068,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,inverted_index,build,,,,2,,1,2044828,,,2.044828,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_index,build,,,,0,,1,9610900,,,9.6109,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_index,build,,,,1,,1,2738141,,,2.738141,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_index,build,,,,2,,1,2922710,,,2.92271,,,,,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k5,phrase,X999 X999 X999 X999 X999,0,0,5,68580,,,,0.013716,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k2,phrase,GREGOR GREGOR,0,1,5,1393453,,,,0.2786906,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k3,phrase,X999 X999 X999,0,2,5,1448822,,,,0.28976440000000003,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k3,phrase,GREGOR GREGOR GREGOR,0,3,5,1416676,,,,0.2833352,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k2,phrase,GREGOR GREGOR,0,4,5,102341,,,,0.0204682,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k1,phrase,GREGOR,0,5,5,1376672,,,,0.2753344,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_wrong_order_k3,phrase,SAMSA GREGOR ALS,0,6,5,112793,,,,0.0225586,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k3,phrase,ER ER ER,0,7,5,122158,,,,0.0244316,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k3,phrase,GREGOR GREGOR GREGOR,0,8,5,115629,,,,0.0231258,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k1,phrase,ALS,0,9,5,39275,,,,0.007855,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k1,phrase,ER,0,10,5,43564,,,,0.0087128,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k3,phrase,ALS GREGOR SAMSA,0,11,5,1445899,,,,0.2891798,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k1,phrase,X999,0,12,5,1359949,,,,0.2719898,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k2,phrase,X999 X999,0,13,5,46558,,,,0.0093116,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k5,phrase,ALS GREGOR SAMSA EINES MORGENS,0,14,5,169083,,,,0.0338166,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k2,phrase,X999 X999,0,15,5,1486820,,,,0.297364,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k5,phrase,ER ER ER ER ER,0,16,5,142722,,,,0.028544399999999998,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_wrong_order_k5,phrase,MORGENS EINES SAMSA GREGOR ALS,0,17,5,1446540,,,,0.289308,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k5,phrase,ALS GREGOR SAMSA EINES MORGENS,0,18,5,1473063,,,,0.2946126,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k3,phrase,ER ER ER,0,19,5,1374538,,,,0.27490760000000003,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_wrong_order_k5,phrase,MORGENS EINES SAMSA GREGOR ALS,0,20,5,163137,,,,0.0326274,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k3,phrase,ALS GREGOR SAMSA,0,21,5,104767,,,,0.0209534,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k2,phrase,ALS GREGOR,0,22,5,87586,,,,0.0175172,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k1,phrase,ALS,0,23,5,1379829,,,,0.2759658,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k5,phrase,X999 X999 X999 X999 X999,0,24,5,1393284,,,,0.2786568,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_wrong_order_k2,phrase,GREGOR ALS,0,25,5,1390490,,,,0.278098,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k2,phrase,ALS GREGOR,0,26,5,1434725,,,,0.286945,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k5,phrase,GREGOR GREGOR GREGOR GREGOR GREGOR,0,27,5,152270,,,,0.030454,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_wrong_order_k2,phrase,GREGOR ALS,0,28,5,87908,,,,0.0175816,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k2,phrase,ER ER,0,29,5,1371475,,,,0.274295,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k3,phrase,X999 X999 X999,0,30,5,53440,,,,0.010688,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k1,phrase,X999,0,31,5,29557,,,,0.0059114,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k2,phrase,ER ER,0,32,5,113002,,,,0.0226004,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k5,phrase,ER ER ER ER ER,0,33,5,1392795,,,,0.278559,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_wrong_order_k3,phrase,SAMSA GREGOR ALS,0,34,5,1402362,,,,0.2804724,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k5,phrase,GREGOR GREGOR GREGOR GREGOR GREGOR,0,35,5,1428186,,,,0.2856372,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k1,phrase,ER,0,36,5,1383725,,,,0.276745,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k1,phrase,GREGOR,0,37,5,56048,,,,0.0112096,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k2,phrase,X999 X999,1,0,5,1372286,,,,0.27445719999999996,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k3,phrase,ER ER ER,1,1,5,1446312,,,,0.28926240000000003,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k3,phrase,GREGOR GREGOR GREGOR,1,2,5,1396659,,,,0.2793318,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k1,phrase,ALS,1,3,5,1377856,,,,0.2755712,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k2,phrase,GREGOR GREGOR,1,4,5,99086,,,,0.0198172,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k2,phrase,ER ER,1,5,5,1376395,,,,0.275279,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_wrong_order_k3,phrase,SAMSA GREGOR ALS,1,6,5,110229,,,,0.022045799999999997,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k2,phrase,X999 X999,1,7,5,42862,,,,0.008572399999999999,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k3,phrase,GREGOR GREGOR GREGOR,1,8,5,114789,,,,0.0229578,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k3,phrase,ALS GREGOR SAMSA,1,9,5,103307,,,,0.0206614,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k5,phrase,ALS GREGOR SAMSA EINES MORGENS,1,10,5,161677,,,,0.0323354,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k1,phrase,ER,1,11,5,46317,,,,0.0092634,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k1,phrase,X999,1,12,5,1366600,,,,0.27332,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k3,phrase,ER ER ER,1,13,5,122678,,,,0.024535599999999998,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k2,phrase,ER ER,1,14,5,108751,,,,0.0217502,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k1,phrase,GREGOR,1,15,5,50211,,,,0.0100422,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_wrong_order_k5,phrase,MORGENS EINES SAMSA GREGOR ALS,1,16,5,158698,,,,0.0317396,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_wrong_order_k5,phrase,MORGENS EINES SAMSA GREGOR ALS,1,17,5,1438162,,,,0.2876324,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k1,phrase,ALS,1,18,5,41770,,,,0.008354,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k3,phrase,X999 X999 X999,1,19,5,51721,,,,0.010344200000000001,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_wrong_order_k3,phrase,SAMSA GREGOR ALS,1,20,5,1404993,,,,0.2809986,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k1,phrase,ER,1,21,5,1360010,,,,0.27200199999999997,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k5,phrase,X999 X999 X999 X999 X999,1,22,5,69411,,,,0.0138822,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k5,phrase,ER ER ER ER ER,1,23,5,138716,,,,0.027743200000000003,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_wrong_order_k2,phrase,GREGOR ALS,1,24,5,90864,,,,0.0181728,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k2,phrase,ALS GREGOR,1,25,5,87352,,,,0.0174704,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k5,phrase,X999 X999 X999 X999 X999,1,26,5,1421583,,,,0.28431660000000003,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k5,phrase,ALS GREGOR SAMSA EINES MORGENS,1,27,5,1478991,,,,0.2957982,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_wrong_order_k2,phrase,GREGOR ALS,1,28,5,1393450,,,,0.27869,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k2,phrase,ALS GREGOR,1,29,5,1407083,,,,0.2814166,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k3,phrase,X999 X999 X999,1,30,5,1389044,,,,0.27780879999999997,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k5,phrase,ER ER ER ER ER,1,31,5,1388388,,,,0.27767759999999997,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k1,phrase,GREGOR,1,32,5,1370969,,,,0.27419380000000004,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k3,phrase,ALS GREGOR SAMSA,1,33,5,1426945,,,,0.285389,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k2,phrase,GREGOR GREGOR,1,34,5,1390611,,,,0.2781222,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k1,phrase,X999,1,35,5,34324,,,,0.0068648,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k5,phrase,GREGOR GREGOR GREGOR GREGOR GREGOR,1,36,5,1417518,,,,0.2835036,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k5,phrase,GREGOR GREGOR GREGOR GREGOR GREGOR,1,37,5,148021,,,,0.029604200000000004,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k2,phrase,X999 X999,2,0,5,42558,,,,0.0085116,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k1,phrase,ALS,2,1,5,1379829,,,,0.2759658,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_wrong_order_k5,phrase,MORGENS EINES SAMSA GREGOR ALS,2,2,5,162749,,,,0.032549800000000004,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_wrong_order_k2,phrase,GREGOR ALS,2,3,5,88507,,,,0.0177014,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k2,phrase,ER ER,2,4,5,111598,,,,0.022319600000000002,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k1,phrase,ALS,2,5,5,37540,,,,0.007507999999999999,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k3,phrase,X999 X999 X999,2,6,5,55861,,,,0.0111722,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k5,phrase,ALS GREGOR SAMSA EINES MORGENS,2,7,5,163696,,,,0.0327392,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k1,phrase,GREGOR,2,8,5,1375001,,,,0.2750002,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k3,phrase,ALS GREGOR SAMSA,2,9,5,108279,,,,0.0216558,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k2,phrase,GREGOR GREGOR,2,10,5,89096,,,,0.0178192,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k5,phrase,ALS GREGOR SAMSA EINES MORGENS,2,11,5,1494587,,,,0.2989174,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_prefix_k2,phrase,ALS GREGOR,2,12,5,96226,,,,0.0192452,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_wrong_order_k3,phrase,SAMSA GREGOR ALS,2,13,5,102773,,,,0.0205546,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k1,phrase,X999,2,14,5,1367625,,,,0.273525,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k2,phrase,GREGOR GREGOR,2,15,5,1382391,,,,0.2764782,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k2,phrase,ALS GREGOR,2,16,5,1400815,,,,0.280163,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k5,phrase,GREGOR GREGOR GREGOR GREGOR GREGOR,2,17,5,1418866,,,,0.2837732,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k3,phrase,X999 X999 X999,2,18,5,1371074,,,,0.2742148,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k3,phrase,ER ER ER,2,19,5,125365,,,,0.025073,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_wrong_order_k2,phrase,GREGOR ALS,2,20,5,1388899,,,,0.2777798,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_wrong_order_k5,phrase,MORGENS EINES SAMSA GREGOR ALS,2,21,5,1431429,,,,0.28628580000000003,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k1,phrase,X999,2,22,5,33276,,,,0.0066552,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k2,phrase,X999 X999,2,23,5,1362417,,,,0.2724834,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_prefix_k3,phrase,ALS GREGOR SAMSA,2,24,5,1428469,,,,0.2856938,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_wrong_order_k3,phrase,SAMSA GREGOR ALS,2,25,5,1416326,,,,0.2832652,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_unknown_k5,phrase,X999 X999 X999 X999 X999,2,26,5,70149,,,,0.0140298,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_unknown_k5,phrase,X999 X999 X999 X999 X999,2,27,5,1403866,,,,0.2807732,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k5,phrase,ER ER ER ER ER,2,28,5,140174,,,,0.0280348,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_repeated_k3,phrase,GREGOR GREGOR GREGOR,2,29,5,1407502,,,,0.2815004,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k2,phrase,ER ER,2,30,5,1367296,,,,0.2734592,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k1,phrase,GREGOR,2,31,5,54993,,,,0.0109986,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k1,phrase,ER,2,32,5,1356577,,,,0.2713154,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k5,phrase,GREGOR GREGOR GREGOR GREGOR GREGOR,2,33,5,148122,,,,0.029624400000000002,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k5,phrase,ER ER ER ER ER,2,34,5,1388626,,,,0.2777252,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_common_k1,phrase,ER,2,35,5,48023,,,,0.009604600000000001,,,1,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,direct_phrase,query,real_common_k3,phrase,ER ER ER,2,36,5,1372093,,,,0.2744186,,,0,True
+04_pilot,9e40cec2880c4bde9501c90e4511256df96443e2,20261006,real_kafka_anfang,1,8495,1271,positional_phrase,query,real_repeated_k3,phrase,GREGOR GREGOR GREGOR,2,37,5,119214,,,,0.0238428,,,0,True

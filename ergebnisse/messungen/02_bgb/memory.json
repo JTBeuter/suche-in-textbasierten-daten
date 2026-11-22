@@ -1,0 +1,281 @@
+{
+  "schema": [
+    "run_id",
+    "dataset_id",
+    "document_count",
+    "token_count",
+    "vocabulary_size",
+    "posting_count",
+    "repeat",
+    "retained_traced_bytes",
+    "peak_traced_bytes",
+    "exclusive_index_bytes"
+  ],
+  "measurement": {
+    "separate_process": true,
+    "repeats": 3,
+    "retained_traced_bytes": "tracemalloc current_after_build-current_before_build; tracer starts after preparation",
+    "peak_traced_bytes": "peak_since_reset-current_before_build; includes transient build allocations",
+    "exclusive_index_bytes": "sys.getsizeof unique index/proxy/dict/tuple/str objects, excluding corpus strings",
+    "limitations": "Python traced allocations and object graph estimates (memory.py of series 02), not RSS"
+  },
+  "worker_pid": 3504962,
+  "started_at_utc": "2026-10-14T15:53:55.255906+00:00",
+  "completed_at_utc": "2026-10-14T15:54:02.054361+00:00",
+  "rows": [
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d0250",
+      "document_count": 250,
+      "token_count": 16899,
+      "vocabulary_size": 2577,
+      "posting_count": 11077,
+      "repeat": 0,
+      "retained_traced_bytes": 248576,
+      "peak_traced_bytes": 722872,
+      "exclusive_index_bytes": 243744
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d0250",
+      "document_count": 250,
+      "token_count": 16899,
+      "vocabulary_size": 2577,
+      "posting_count": 11077,
+      "repeat": 1,
+      "retained_traced_bytes": 248576,
+      "peak_traced_bytes": 722872,
+      "exclusive_index_bytes": 243744
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d0250",
+      "document_count": 250,
+      "token_count": 16899,
+      "vocabulary_size": 2577,
+      "posting_count": 11077,
+      "repeat": 2,
+      "retained_traced_bytes": 248576,
+      "peak_traced_bytes": 722872,
+      "exclusive_index_bytes": 243744
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d0500",
+      "document_count": 500,
+      "token_count": 44221,
+      "vocabulary_size": 4699,
+      "posting_count": 26529,
+      "repeat": 0,
+      "retained_traced_bytes": 508960,
+      "peak_traced_bytes": 1347736,
+      "exclusive_index_bytes": 504128
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d0500",
+      "document_count": 500,
+      "token_count": 44221,
+      "vocabulary_size": 4699,
+      "posting_count": 26529,
+      "repeat": 1,
+      "retained_traced_bytes": 508960,
+      "peak_traced_bytes": 1347736,
+      "exclusive_index_bytes": 504128
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d0500",
+      "document_count": 500,
+      "token_count": 44221,
+      "vocabulary_size": 4699,
+      "posting_count": 26529,
+      "repeat": 2,
+      "retained_traced_bytes": 508960,
+      "peak_traced_bytes": 1347736,
+      "exclusive_index_bytes": 504128
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d1000",
+      "document_count": 1000,
+      "token_count": 103733,
+      "vocabulary_size": 7750,
+      "posting_count": 61468,
+      "repeat": 0,
+      "retained_traced_bytes": 1014272,
+      "peak_traced_bytes": 2870832,
+      "exclusive_index_bytes": 1009440
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d1000",
+      "document_count": 1000,
+      "token_count": 103733,
+      "vocabulary_size": 7750,
+      "posting_count": 61468,
+      "repeat": 1,
+      "retained_traced_bytes": 1014272,
+      "peak_traced_bytes": 2870832,
+      "exclusive_index_bytes": 1009440
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d1000",
+      "document_count": 1000,
+      "token_count": 103733,
+      "vocabulary_size": 7750,
+      "posting_count": 61468,
+      "repeat": 2,
+      "retained_traced_bytes": 1014272,
+      "peak_traced_bytes": 2870832,
+      "exclusive_index_bytes": 1009440
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d1500",
+      "document_count": 1500,
+      "token_count": 135600,
+      "vocabulary_size": 8975,
+      "posting_count": 83782,
+      "repeat": 0,
+      "retained_traced_bytes": 1241784,
+      "peak_traced_bytes": 3476800,
+      "exclusive_index_bytes": 1236952
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d1500",
+      "document_count": 1500,
+      "token_count": 135600,
+      "vocabulary_size": 8975,
+      "posting_count": 83782,
+      "repeat": 1,
+      "retained_traced_bytes": 1241784,
+      "peak_traced_bytes": 3476800,
+      "exclusive_index_bytes": 1236952
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d1500",
+      "document_count": 1500,
+      "token_count": 135600,
+      "vocabulary_size": 8975,
+      "posting_count": 83782,
+      "repeat": 2,
+      "retained_traced_bytes": 1241784,
+      "peak_traced_bytes": 3476800,
+      "exclusive_index_bytes": 1236952
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d2000",
+      "document_count": 2000,
+      "token_count": 183132,
+      "vocabulary_size": 10595,
+      "posting_count": 112759,
+      "repeat": 0,
+      "retained_traced_bytes": 1538400,
+      "peak_traced_bytes": 4137672,
+      "exclusive_index_bytes": 1533568
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d2000",
+      "document_count": 2000,
+      "token_count": 183132,
+      "vocabulary_size": 10595,
+      "posting_count": 112759,
+      "repeat": 1,
+      "retained_traced_bytes": 1538400,
+      "peak_traced_bytes": 4137672,
+      "exclusive_index_bytes": 1533568
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d2000",
+      "document_count": 2000,
+      "token_count": 183132,
+      "vocabulary_size": 10595,
+      "posting_count": 112759,
+      "repeat": 2,
+      "retained_traced_bytes": 1538400,
+      "peak_traced_bytes": 4137672,
+      "exclusive_index_bytes": 1533568
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d2486",
+      "document_count": 2486,
+      "token_count": 213718,
+      "vocabulary_size": 11398,
+      "posting_count": 133909,
+      "repeat": 0,
+      "retained_traced_bytes": 1947256,
+      "peak_traced_bytes": 5178104,
+      "exclusive_index_bytes": 1942424
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d2486",
+      "document_count": 2486,
+      "token_count": 213718,
+      "vocabulary_size": 11398,
+      "posting_count": 133909,
+      "repeat": 1,
+      "retained_traced_bytes": 1947256,
+      "peak_traced_bytes": 5178104,
+      "exclusive_index_bytes": 1942424
+    },
+    {
+      "run_id": "02_bgb",
+      "dataset_id": "bgb_d2486",
+      "document_count": 2486,
+      "token_count": 213718,
+      "vocabulary_size": 11398,
+      "posting_count": 133909,
+      "repeat": 2,
+      "retained_traced_bytes": 1947256,
+      "peak_traced_bytes": 5178104,
+      "exclusive_index_bytes": 1942424
+    }
+  ],
+  "summary": [
+    {
+      "dataset_id": "bgb_d0250",
+      "median_retained_traced_bytes": 248576,
+      "median_peak_traced_bytes": 722872,
+      "median_exclusive_index_bytes": 243744
+    },
+    {
+      "dataset_id": "bgb_d0500",
+      "median_retained_traced_bytes": 508960,
+      "median_peak_traced_bytes": 1347736,
+      "median_exclusive_index_bytes": 504128
+    },
+    {
+      "dataset_id": "bgb_d1000",
+      "median_retained_traced_bytes": 1014272,
+      "median_peak_traced_bytes": 2870832,
+      "median_exclusive_index_bytes": 1009440
+    },
+    {
+      "dataset_id": "bgb_d1500",
+      "median_retained_traced_bytes": 1241784,
+      "median_peak_traced_bytes": 3476800,
+      "median_exclusive_index_bytes": 1236952
+    },
+    {
+      "dataset_id": "bgb_d2000",
+      "median_retained_traced_bytes": 1538400,
+      "median_peak_traced_bytes": 4137672,
+      "median_exclusive_index_bytes": 1533568
+    },
+    {
+      "dataset_id": "bgb_d2486",
+      "median_retained_traced_bytes": 1947256,
+      "median_peak_traced_bytes": 5178104,
+      "median_exclusive_index_bytes": 1942424
+    }
+  ]
+}

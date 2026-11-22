@@ -1,0 +1,107 @@
+{
+  "dataset_id": "kafka-verwandlung-anfang-v1",
+  "author": "Franz Kafka",
+  "title": "Die Verwandlung",
+  "language": "de",
+  "catalogue_url": "https://www.gutenberg.org/ebooks/22367",
+  "download_url": "https://www.gutenberg.org/cache/epub/22367/pg22367.txt",
+  "retrieved_at": "2026-10-06T15:59:59+02:00",
+  "catalogue_release_date": "2007-08-21",
+  "catalogue_last_update": "2017-12-29",
+  "http_last_modified": "2026-09-09T13:36:52Z",
+  "source_file": "quelle.pg",
+  "source_bytes": 145983,
+  "source_sha256": "359d3f5983c812393f4bd7ee49a350ffffc7d476015e58d6b84b6c848dd2b0e9",
+  "selection": {
+    "start_inclusive": "Als Gregor Samsa eines Morgens",
+    "end_exclusive": "Die Decke abzuwerfen war ganz einfach;",
+    "paragraph_count": 8,
+    "transformation": "Strict UTF-8 decode; CRLF/CR -> LF; strip leading/trailing whitespace of selected slice; append one LF. Wrapped prose lines otherwise preserved. Header/footer, title, chapter label excluded."
+  },
+  "documents": [
+    {
+      "document_id": "01_anfang.txt",
+      "source_path": "01_anfang.txt",
+      "bytes": 8495,
+      "sha256": "2af880c67c82af640ba7d1e0f1050e4b0b94bbabfc49e47ece2a8f0b4f25e858"
+    }
+  ],
+  "license_urls": [
+    "https://www.gutenberg.org/policy/permission.html",
+    "https://www.gutenberg.org/policy/terms_of_use.html",
+    "https://www.gutenberg.org/policy/license.html"
+  ],
+  "rights_evidence": {
+    "catalogue": "Public domain in the USA",
+    "author_death_year": 1924,
+    "german_term_sources": [
+      "https://www.gesetze-im-internet.de/urhg/__64.html",
+      "https://www.gesetze-im-internet.de/urhg/__69.html"
+    ],
+    "german_original_text_assessment": "Eigene Ableitung: 70 Jahre nach Todesjahr1924, Fristende1994; deutscher Originaltext seit1995 gemeinfrei. Keine moderne Übersetzung. Unveränderte PG-Lizenz im Quellenarchiv enthalten."
+  },
+  "expected_prefix_tokens": [
+    "als",
+    "gregor",
+    "samsa",
+    "eines",
+    "morgens",
+    "aus",
+    "unruhigen",
+    "träumen",
+    "erwachte",
+    "fand",
+    "er",
+    "sich",
+    "in",
+    "seinem",
+    "bett",
+    "zu",
+    "einem",
+    "ungeheueren",
+    "ungeziefer",
+    "verwandelt"
+  ],
+  "verified_queries": [
+    {
+      "query": "Gregor",
+      "expected_document_ids": [
+        "01_anfang.txt"
+      ],
+      "expected_occurrences": 15,
+      "expected_token_positions": [
+        1,
+        785,
+        845,
+        901,
+        919,
+        976,
+        1039,
+        1060,
+        1061,
+        1078,
+        1079,
+        1089,
+        1102,
+        1141,
+        1147
+      ]
+    },
+    {
+      "query": "Fenster",
+      "expected_document_ids": [
+        "01_anfang.txt"
+      ],
+      "expected_occurrences": 1,
+      "expected_token_positions": [
+        172
+      ]
+    },
+    {
+      "query": "Unauffindbar",
+      "expected_document_ids": [],
+      "expected_occurrences": 0,
+      "expected_token_positions": []
+    }
+  ]
+}

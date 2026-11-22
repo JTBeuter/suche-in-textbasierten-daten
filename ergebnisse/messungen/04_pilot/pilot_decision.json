@@ -1,0 +1,69 @@
+{
+  "pilot_correct": true,
+  "locked_parameters": {
+    "seed": 20261006,
+    "synthetic": {
+      "document_count": 200,
+      "tokens_per_document": 500
+    },
+    "result_document_counts": [
+      0,
+      20,
+      200
+    ],
+    "full_query_result_count": 200,
+    "real_dataset_id": "real_kafka_anfang",
+    "real_token_count": 1271,
+    "phrase_lengths": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "memory_repeats": 3,
+    "final_plan": {
+      "warmups": 5,
+      "repeats": 20,
+      "query_block_size": 5,
+      "seed": 20261006
+    },
+    "generator": "four-character ASCII tokens; fixed plant positions;50 guaranteed filler tokens; uppercase period separators; z000..z004 reorder with constant per-token CF/DF",
+    "schedule": "shuffle every (algorithm,query) block per repetition with fixed seed; reset schedule per dataset"
+  },
+  "method_code_sha256": {
+    "gemeinsam/__init__.py": "0292f8e7c801f5d7ed8740100fa187db428828d51c4fd33451f725f68c245cc1",
+    "gemeinsam/src/gemeinsam/__init__.py": "7ade195f2e6dfbdb43bc1554d1040385631926ad8b2067828697464d173395af",
+    "gemeinsam/src/gemeinsam/corpus.py": "e0ca8de1c116329058d5ae580a28efbd7a6605c0b09e7272959bec3a5caa9731",
+    "gemeinsam/src/gemeinsam/datengenerator.py": "9b3e3d2c46a05694849bc3eac0bef4ec1ac7cab716ab30f8721d4acbe13f8d7b",
+    "gemeinsam/src/gemeinsam/messung.py": "ef4ce81f389196a55ceb2a8ca45e65b199e0966c6ddf4c07b840d59a5b739331",
+    "gemeinsam/src/gemeinsam/models.py": "edf5011d790ebdc3a99fb21bad33e6b1c26fc8c118ec936265a8381883635b92",
+    "gemeinsam/src/gemeinsam/text.py": "583f6952986c785bb1ce5c2d9fb7158cf816a182a40ef5fbe493da711631e956",
+    "pyproject.toml": "f596a70d91579dfa197e44a025bed25ef29dc717ce4feb752cbbdcb4020ba2bd",
+    "requirements-dev.txt": "a4fbb25989ad950adf673f3bcbdce81269e59d1b532a087e601ade3c61ff2116",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__init__.py": "073e9bc6d184a6a87bf916c53fe4bdf0dd927ad6fc708c0255dbc0192d418dea",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__main__.py": "156d2306b39e652beb2aab2c51f42978afb18b14c5f31da189954cb928dfa349",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/index.py": "cc21a1fa820fad0b4da0a9bc961b8e6e50f69851b9037bb3d18ec5481d7a0c57",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/__init__.py": "815abfe552417c5e1299d88164648c96e83d7981811f14fa1843219705355075",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/__main__.py": "b0832d8bf85e9b2301b6acccc2592268a8cf6b9b095118d4f30b3c878cd7d1ed",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/lists.py": "c2a97dd5845be8086e1791b51df935c866635b6eac5f7603a74a6618a6bcc340",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/query.py": "c1cfb3a6a3a82747a68da5ef04959265ef6c22fb8f20bbe1f0907b9d2187da79",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/search.py": "330c3f0368e81a0d9955ea1a484dfe4cd9dc0ba46a160b59a20823ea33a88220",
+    "themen/04_positionsindex_phrasensuche/experimente/generator.py": "474d9ea0b9e564c94975389aa4893c805df90e5856da7e9adc4580a8165738da",
+    "themen/04_positionsindex_phrasensuche/experimente/memory.py": "f83ff02d46bffceb01b33adb9a23922ffeb3c471af15f988d7fbdce762d5ec65",
+    "themen/04_positionsindex_phrasensuche/experimente/run.py": "071bdcbfecb26bfc635abae62ce78b91f649a64855a413df1b7749dfa37852fe",
+    "themen/04_positionsindex_phrasensuche/experimente/verify_results.py": "d0b22b2e9d0c6daf12b98a67fdb0865b955388c805e53b444b93bae22789d90a",
+    "themen/04_positionsindex_phrasensuche/src/positionsindex/__init__.py": "39a4b0c62bf71ea399422fc13708b82f9dce7844c6c95191fbf9e5fcdadf0289",
+    "themen/04_positionsindex_phrasensuche/src/positionsindex/__main__.py": "57ea74c4eaeb9e3c58171084e8035d2a8b085b06226c57f73a4efd3359c7fe6e",
+    "themen/04_positionsindex_phrasensuche/src/positionsindex/index.py": "4e9cdfd2f8b766631b16aab62965129a5dd38d5335c62923998143884dbce56d",
+    "themen/04_positionsindex_phrasensuche/src/positionsindex/query.py": "5fa34d5a528f98b9b675e0d77c1c644be9b3084431674d551899b51a92126bd5",
+    "themen/04_positionsindex_phrasensuche/src/positionsindex/search.py": "972e977b34942c3e644120463bc9e092ab8fc709ce86a9ae1405cddc854084a2"
+  },
+  "pilot_plan": {
+    "warmups": 1,
+    "repeats": 3,
+    "query_block_size": 5,
+    "seed": 20261006
+  },
+  "decision": "full positional results and independent corpus plans verified; final parameters locked; separated memory run required before final",
+  "pilot_is_not_final_measurement": true
+}

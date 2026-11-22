@@ -1,0 +1,26 @@
+{
+  "run_id": "05_20261014T162157329451",
+  "dataset_id": "bgb",
+  "input_sha256": {
+    "05_bgb/metadata.json": "9698c7f08ae5e9653f8a4ae30b32cfc6d851995ae895b4432f543531417cb012",
+    "05_bgb/totals.csv": "b14ba198ba35393e1fb8bcb97c6426f60b90953f69cb496905e609d95cdef0f3",
+    "05_bgb/batches.csv": "100105a3ec52e8ed37237d3a58c39358ea15fd521c0863daafa4ad4e1b96d788",
+    "05_bgb/raw.csv": "961ee3ed98efceb39f20a1cff5fdb14b8c63769aad2057c2f8d46379b97de8ba",
+    "05_bgb/models.json": "a48db9d4ec78ad5158517cb2752605e499051e749f2272b0d95750c0fc2cb96a",
+    "05_bgb/amortisation.json": "4bad5b1bbd936cc1fc4319dd96ea82914d5624a0cc41f31dc36ebb637527ab13",
+    "05_bgb/plot_manifest.json": "75b251853432d50472114568f75e5def9a3d8def1c5cac57c210509341a9e2bf"
+  },
+  "output_sha256": {
+    "05_bgb_gesamtkosten_baender.png": "5a43fc0b3e20499a67677d6bde61ff8b03f29202f9fbb222e0e09bcdcba3f73f",
+    "05_bgb_gesamtkosten_baender.svg": "c736acffaf63c6be93b931d5c64c40f64ebe86ab728f4bfd20f2c228060d254c",
+    "05_bgb_gesamtkosten_baender.pdf": "298fc05709f33790336d2b327f9c0ea657daa4fad1e69fa164b71bc5c915b242",
+    "05_bgb_amortisation_baender.png": "6493c48d07d033b5a956610f305b9bec8e735e99227f03a4179af5d2aa201903",
+    "05_bgb_amortisation_baender.svg": "3cb9ead505557c9880a3d0620725059d26460a8df10dbffe768ae7523b233b56",
+    "05_bgb_amortisation_baender.pdf": "deb0066bd328bfdba0435bd193bbb58e08b2e6a4bddc1bf711ceb1d4d54e388f"
+  },
+  "renderer_source": "themen/05_experimentelle_analyse/experimente/render_bgb.py",
+  "renderer_sha256": "f985bb6f9446030358631d2ca976b915c9bb67f564b44792d9d9676add95f482",
+  "matplotlib_version": "3.10.1",
+  "verification": "strict",
+  "darstellung": "Mediane als Linien, Q1 bis Q3 als Bänder (inklusive Quartile, keine Konfidenzintervalle), senkrechte Linie bei aufgerundetem q* des Modells, symlog für q ab 0"
+}

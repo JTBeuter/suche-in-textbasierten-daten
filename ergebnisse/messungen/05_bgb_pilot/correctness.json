@@ -1,0 +1,119 @@
+[
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:word:missing:k1",
+    "algorithm": "direct",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:word:missing:k1",
+    "algorithm": "index",
+    "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "hit_count": 0,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:word:frequent:k1",
+    "algorithm": "direct",
+    "result_sha256": "8b097ed689691b096b79580010a8c88129527cd565719036ffd92f1aa2ce50d2",
+    "hit_count": 2280,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:word:frequent:k1",
+    "algorithm": "index",
+    "result_sha256": "8b097ed689691b096b79580010a8c88129527cd565719036ffd92f1aa2ce50d2",
+    "hit_count": 2280,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:word:rare:k1",
+    "algorithm": "direct",
+    "result_sha256": "15da85bc5dcd3c2766d2dbba3c418e513cbfb6dcccf7391c17bffa04a343356f",
+    "hit_count": 16,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:word:rare:k1",
+    "algorithm": "index",
+    "result_sha256": "15da85bc5dcd3c2766d2dbba3c418e513cbfb6dcccf7391c17bffa04a343356f",
+    "hit_count": 16,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:and:present:k3",
+    "algorithm": "direct",
+    "result_sha256": "e9368ce942610648c81be6fb94f35b4059d2232d9bdb7f69321a4788d65fd7dd",
+    "hit_count": 5,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:and:present:k3",
+    "algorithm": "index",
+    "result_sha256": "e9368ce942610648c81be6fb94f35b4059d2232d9bdb7f69321a4788d65fd7dd",
+    "hit_count": 5,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:and:present:k3",
+    "algorithm": "index_shortest",
+    "result_sha256": "e9368ce942610648c81be6fb94f35b4059d2232d9bdb7f69321a4788d65fd7dd",
+    "hit_count": 5,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:or:present:k3",
+    "algorithm": "direct",
+    "result_sha256": "e22defc769659c48d26ed335d447a5dffa6fb8c9c7727217936f1da11df70efb",
+    "hit_count": 105,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:or:present:k3",
+    "algorithm": "index",
+    "result_sha256": "e22defc769659c48d26ed335d447a5dffa6fb8c9c7727217936f1da11df70efb",
+    "hit_count": 105,
+    "position_count": null,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:phrase:present:k3",
+    "algorithm": "direct",
+    "result_sha256": "a2df9eb9a18204da19d46d5f784e9483feb359d659c25d5bead4fd4972918550",
+    "hit_count": 62,
+    "position_count": 85,
+    "validated_calls": 21
+  },
+  {
+    "dataset_id": "bgb",
+    "query_id": "bgb:phrase:present:k3",
+    "algorithm": "index",
+    "result_sha256": "a2df9eb9a18204da19d46d5f784e9483feb359d659c25d5bead4fd4972918550",
+    "hit_count": 62,
+    "position_count": 85,
+    "validated_calls": 21
+  }
+]

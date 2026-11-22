@@ -1,0 +1,397 @@
+{
+  "generated_at_utc": "2026-10-14T15:57:57.076730+00:00",
+  "renderer": "Matplotlib",
+  "matplotlib_version": "3.10.1",
+  "python": "3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0]",
+  "source_path": "themen/03_boolesche_mehrwortsuche/experimente/galloping/plots/render.py",
+  "source_sha256": "efa476c484404daf73c0ade87b61f5dc55143fd36993bb28adb9e1924f4f0530",
+  "source_archive": "plot_source/render.py",
+  "input_sha256": {
+    "raw.csv": "09a8a05cae3947a54651e1a9b346d4e29ac45e93dc3da8ba609b74034d955725",
+    "summary.json": "bfa218f197c407931694c4ac793638b9f10565deafdeb43007f62f2cb70c478d",
+    "metadata.json": "3f5f6dab26dea31678c19d1f1a52f6b87b8574479ccb313aedbfedda7cac0a4d"
+  },
+  "outputs": [
+    {
+      "path": "ergebnisse/abbildungen/03b_galloping.png",
+      "sha256": "00801d1d32a55c075a7dfaf80fd3ae569a2a396fac5e59d58153077b0d8f4fdc"
+    },
+    {
+      "path": "ergebnisse/abbildungen/03b_galloping.svg",
+      "sha256": "cd39c9bbc44e4571ffbc3131a70f8f7efd4f54a4c485bd0e9d6a51d78a19e71b"
+    },
+    {
+      "path": "ergebnisse/abbildungen/03b_galloping.pdf",
+      "sha256": "794ad38df6aa6560764cd7abee9ab89dd8807125e4829ec61365cd249b2c57bf"
+    }
+  ],
+  "values": [
+    {
+      "algorithm": "and_shortest_first",
+      "case": "verteilt",
+      "query_id": "verteilt_df00010",
+      "long_document_frequency": 10,
+      "median_us": 14.1224,
+      "q1_us": 13.973799999999999,
+      "q3_us": 14.56235
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "verteilt",
+      "query_id": "verteilt_df00020",
+      "long_document_frequency": 20,
+      "median_us": 15.869300000000003,
+      "q1_us": 15.704299999999998,
+      "q3_us": 16.560599999999997
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "verteilt",
+      "query_id": "verteilt_df00050",
+      "long_document_frequency": 50,
+      "median_us": 20.5495,
+      "q1_us": 20.288350000000005,
+      "q3_us": 21.0283
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "verteilt",
+      "query_id": "verteilt_df00100",
+      "long_document_frequency": 100,
+      "median_us": 27.9254,
+      "q1_us": 27.519999999999996,
+      "q3_us": 28.502699999999997
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "verteilt",
+      "query_id": "verteilt_df00200",
+      "long_document_frequency": 200,
+      "median_us": 42.557399999999994,
+      "q1_us": 42.376599999999996,
+      "q3_us": 43.45285
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "verteilt",
+      "query_id": "verteilt_df00500",
+      "long_document_frequency": 500,
+      "median_us": 96.7438,
+      "q1_us": 96.17689999999997,
+      "q3_us": 97.11715000000001
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "verteilt",
+      "query_id": "verteilt_df01000",
+      "long_document_frequency": 1000,
+      "median_us": 181.2332,
+      "q1_us": 180.65659999999997,
+      "q3_us": 181.80395
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "verteilt",
+      "query_id": "verteilt_df02000",
+      "long_document_frequency": 2000,
+      "median_us": 352.0857,
+      "q1_us": 350.0234,
+      "q3_us": 363.53125
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "verteilt",
+      "query_id": "verteilt_df05000",
+      "long_document_frequency": 5000,
+      "median_us": 853.1843,
+      "q1_us": 848.6016,
+      "q3_us": 880.40035
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "verteilt",
+      "query_id": "verteilt_df10000",
+      "long_document_frequency": 10000,
+      "median_us": 1694.0518,
+      "q1_us": 1685.7211,
+      "q3_us": 1725.5219
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "verteilt",
+      "query_id": "verteilt_df00010",
+      "long_document_frequency": 10,
+      "median_us": 15.1371,
+      "q1_us": 14.780750000000001,
+      "q3_us": 15.62055
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "verteilt",
+      "query_id": "verteilt_df00020",
+      "long_document_frequency": 20,
+      "median_us": 16.156899999999997,
+      "q1_us": 15.86435,
+      "q3_us": 16.567650000000004
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "verteilt",
+      "query_id": "verteilt_df00050",
+      "long_document_frequency": 50,
+      "median_us": 19.317500000000003,
+      "q1_us": 19.215,
+      "q3_us": 19.75865
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "verteilt",
+      "query_id": "verteilt_df00100",
+      "long_document_frequency": 100,
+      "median_us": 23.7194,
+      "q1_us": 23.261200000000002,
+      "q3_us": 23.945849999999997
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "verteilt",
+      "query_id": "verteilt_df00200",
+      "long_document_frequency": 200,
+      "median_us": 25.7701,
+      "q1_us": 25.6425,
+      "q3_us": 26.090349999999997
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "verteilt",
+      "query_id": "verteilt_df00500",
+      "long_document_frequency": 500,
+      "median_us": 30.058299999999996,
+      "q1_us": 29.92905,
+      "q3_us": 30.3635
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "verteilt",
+      "query_id": "verteilt_df01000",
+      "long_document_frequency": 1000,
+      "median_us": 33.7946,
+      "q1_us": 33.21105000000001,
+      "q3_us": 34.9308
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "verteilt",
+      "query_id": "verteilt_df02000",
+      "long_document_frequency": 2000,
+      "median_us": 36.6056,
+      "q1_us": 36.23545,
+      "q3_us": 36.90735000000001
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "verteilt",
+      "query_id": "verteilt_df05000",
+      "long_document_frequency": 5000,
+      "median_us": 39.308499999999995,
+      "q1_us": 39.00595,
+      "q3_us": 39.734849999999994
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "verteilt",
+      "query_id": "verteilt_df10000",
+      "long_document_frequency": 10000,
+      "median_us": 42.297599999999996,
+      "q1_us": 41.972049999999996,
+      "q3_us": 42.71105
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "anfang",
+      "query_id": "anfang_df00010",
+      "long_document_frequency": 10,
+      "median_us": 14.260499999999999,
+      "q1_us": 13.97095,
+      "q3_us": 14.5234
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "anfang",
+      "query_id": "anfang_df00020",
+      "long_document_frequency": 20,
+      "median_us": 14.1488,
+      "q1_us": 13.974,
+      "q3_us": 14.716899999999999
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "anfang",
+      "query_id": "anfang_df00050",
+      "long_document_frequency": 50,
+      "median_us": 14.510100000000001,
+      "q1_us": 14.084950000000001,
+      "q3_us": 14.945699999999999
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "anfang",
+      "query_id": "anfang_df00100",
+      "long_document_frequency": 100,
+      "median_us": 14.282299999999998,
+      "q1_us": 13.9265,
+      "q3_us": 14.920250000000001
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "anfang",
+      "query_id": "anfang_df00200",
+      "long_document_frequency": 200,
+      "median_us": 14.3386,
+      "q1_us": 14.060250000000002,
+      "q3_us": 14.6069
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "anfang",
+      "query_id": "anfang_df00500",
+      "long_document_frequency": 500,
+      "median_us": 14.4792,
+      "q1_us": 14.17655,
+      "q3_us": 14.972800000000001
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "anfang",
+      "query_id": "anfang_df01000",
+      "long_document_frequency": 1000,
+      "median_us": 14.404900000000001,
+      "q1_us": 14.003749999999998,
+      "q3_us": 14.760549999999999
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "anfang",
+      "query_id": "anfang_df02000",
+      "long_document_frequency": 2000,
+      "median_us": 14.4995,
+      "q1_us": 14.42265,
+      "q3_us": 14.88395
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "anfang",
+      "query_id": "anfang_df05000",
+      "long_document_frequency": 5000,
+      "median_us": 14.6827,
+      "q1_us": 14.3183,
+      "q3_us": 14.99885
+    },
+    {
+      "algorithm": "and_shortest_first",
+      "case": "anfang",
+      "query_id": "anfang_df10000",
+      "long_document_frequency": 10000,
+      "median_us": 14.416,
+      "q1_us": 14.103349999999997,
+      "q3_us": 14.98575
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "anfang",
+      "query_id": "anfang_df00010",
+      "long_document_frequency": 10,
+      "median_us": 14.941800000000002,
+      "q1_us": 14.73815,
+      "q3_us": 15.469000000000001
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "anfang",
+      "query_id": "anfang_df00020",
+      "long_document_frequency": 20,
+      "median_us": 14.9969,
+      "q1_us": 14.759099999999997,
+      "q3_us": 15.532
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "anfang",
+      "query_id": "anfang_df00050",
+      "long_document_frequency": 50,
+      "median_us": 14.779,
+      "q1_us": 14.562000000000001,
+      "q3_us": 15.10775
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "anfang",
+      "query_id": "anfang_df00100",
+      "long_document_frequency": 100,
+      "median_us": 14.954100000000002,
+      "q1_us": 14.651000000000002,
+      "q3_us": 15.372399999999999
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "anfang",
+      "query_id": "anfang_df00200",
+      "long_document_frequency": 200,
+      "median_us": 15.180900000000001,
+      "q1_us": 14.6471,
+      "q3_us": 15.666199999999998
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "anfang",
+      "query_id": "anfang_df00500",
+      "long_document_frequency": 500,
+      "median_us": 14.8012,
+      "q1_us": 14.515500000000001,
+      "q3_us": 15.095999999999998
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "anfang",
+      "query_id": "anfang_df01000",
+      "long_document_frequency": 1000,
+      "median_us": 14.995800000000001,
+      "q1_us": 14.651850000000001,
+      "q3_us": 15.20805
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "anfang",
+      "query_id": "anfang_df02000",
+      "long_document_frequency": 2000,
+      "median_us": 14.9818,
+      "q1_us": 14.599049999999997,
+      "q3_us": 15.2696
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "anfang",
+      "query_id": "anfang_df05000",
+      "long_document_frequency": 5000,
+      "median_us": 14.886199999999999,
+      "q1_us": 14.718400000000003,
+      "q3_us": 15.30375
+    },
+    {
+      "algorithm": "and_galloping",
+      "case": "anfang",
+      "query_id": "anfang_df10000",
+      "long_document_frequency": 10000,
+      "median_us": 14.8077,
+      "q1_us": 14.5061,
+      "q3_us": 15.128200000000001
+    }
+  ],
+  "axes": {
+    "x": "long-list document frequency, logarithmic",
+    "y": "median query time in microseconds, logarithmic"
+  },
+  "bands": "inclusive Q1 to Q3 as translucent bands, not confidence intervals",
+  "query_count": 20,
+  "measurement_unchanged": true
+}

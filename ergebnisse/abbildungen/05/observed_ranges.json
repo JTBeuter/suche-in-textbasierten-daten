@@ -1,0 +1,62 @@
+[
+  {
+    "dataset_id": "synthetic_10000",
+    "profile_id": "word_missing",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": 100
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "profile_id": "word_frequent",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": null
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "profile_id": "word_rare",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": 200
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "profile_id": "and_present3",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": null
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "profile_id": "or_present3",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": null
+  },
+  {
+    "dataset_id": "synthetic_10000",
+    "profile_id": "phrase_present3",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": 10
+  },
+  {
+    "dataset_id": "kafka",
+    "profile_id": "word_missing",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": 116
+  },
+  {
+    "dataset_id": "kafka",
+    "profile_id": "word_frequent",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": 5000
+  },
+  {
+    "dataset_id": "kafka",
+    "profile_id": "word_rare",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": null
+  },
+  {
+    "dataset_id": "kafka",
+    "profile_id": "and_present3",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": null
+  },
+  {
+    "dataset_id": "kafka",
+    "profile_id": "or_present3",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": null
+  },
+  {
+    "dataset_id": "kafka",
+    "profile_id": "phrase_present3",
+    "first_q_all_higher_tested_stages_all_repeats_advantage": 20
+  }
+]

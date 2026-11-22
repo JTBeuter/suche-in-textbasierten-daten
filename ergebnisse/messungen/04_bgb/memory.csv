@@ -1,0 +1,7 @@
+run_id,dataset_id,algorithm,document_count,token_count,vocabulary_size,posting_count,repeat,worker_pid,retained_traced_bytes,peak_traced_bytes,transient_peak_bytes
+04_bgb,real_bgb,inverted_index,2486,213718,11398,133909,0,3507949,1947256,5178104,3230848
+04_bgb,real_bgb,inverted_index,2486,213718,11398,133909,1,3507949,1947256,5178104,3230848
+04_bgb,real_bgb,inverted_index,2486,213718,11398,133909,2,3507949,1947256,5178104,3230848
+04_bgb,real_bgb,positional_index,2486,213718,11398,133909,0,3507998,13341924,31506044,18164120
+04_bgb,real_bgb,positional_index,2486,213718,11398,133909,1,3507998,13341924,31506044,18164120
+04_bgb,real_bgb,positional_index,2486,213718,11398,133909,2,3507998,13341924,31506044,18164120

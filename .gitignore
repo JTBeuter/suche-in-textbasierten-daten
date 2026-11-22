@@ -1,0 +1,78 @@
+# Lokale Konfiguration und Zugangsdaten
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor und Betriebssystem
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Lokale Laufzeit- und Build-Verzeichnisse
+.venv/
+venv/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+dist/
+build/
+coverage/
+htmlcov/
+.coverage
+
+# Große Rohdaten und reproduzierbare Zwischenstände
+/daten/roh/*
+!/daten/roh/.gitkeep
+!/daten/roh/README.md
+/daten/aufbereitet/*
+!/daten/aufbereitet/.gitkeep
+!/daten/aufbereitet/README.md
+
+# LaTeX-Hilfsdateien; Quellen, Kapitel und Konfiguration bleiben versioniert
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lol
+*.lot
+*.nav
+*.nlg
+*.nlo
+*.nls
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.ist
+
+# Erzeugtes Arbeits-PDF; Anhang- und Original-PDFs bleiben erlaubt
+
+# Lokale Claude-Code-Konfiguration
+CLAUDE.md
+.claude/

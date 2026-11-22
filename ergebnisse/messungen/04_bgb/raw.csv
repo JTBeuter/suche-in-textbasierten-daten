@@ -1,0 +1,521 @@
+run_id,git_commit,seed,dataset_id,document_count,text_bytes,token_count,algorithm,phase,query_id,query_type,query_text,repeat,order_index,block_size,elapsed_ns,load_ms,preparation_ms,build_ms,query_ms,index_bytes,peak_memory_bytes,hit_count,correct
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,0,,1,100621757,,,100.621757,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,1,,1,100516610,,,100.51661,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,2,,1,100348034,,,100.348034,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,3,,1,100715802,,,100.715802,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,4,,1,149752658,,,149.752658,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,5,,1,101454014,,,101.454014,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,6,,1,101572012,,,101.572012,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,7,,1,101695209,,,101.695209,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,8,,1,101336224,,,101.336224,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,9,,1,102307396,,,102.307396,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,10,,1,112278930,,,112.27893,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,11,,1,100619117,,,100.619117,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,12,,1,101935225,,,101.935225,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,13,,1,115244878,,,115.244878,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,14,,1,102543137,,,102.543137,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,15,,1,104219979,,,104.219979,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,16,,1,110895000,,,110.895,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,17,,1,104599961,,,104.599961,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,18,,1,104173547,,,104.173547,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,inverted_index,build,,,,19,,1,113331108,,,113.331108,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,0,,1,320116932,,,320.116932,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,1,,1,317730907,,,317.730907,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,2,,1,323183766,,,323.183766,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,3,,1,320697832,,,320.697832,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,4,,1,292568428,,,292.568428,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,5,,1,308739230,,,308.73923,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,6,,1,313197860,,,313.19786,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,7,,1,358841438,,,358.841438,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,8,,1,298084507,,,298.084507,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,9,,1,314440329,,,314.440329,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,10,,1,316263252,,,316.263252,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,11,,1,343788531,,,343.788531,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,12,,1,294044140,,,294.04414,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,13,,1,311751023,,,311.751023,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,14,,1,324045193,,,324.045193,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,15,,1,318574914,,,318.574914,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,16,,1,362013788,,,362.013788,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,17,,1,309059288,,,309.059288,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,18,,1,312995016,,,312.995016,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_index,build,,,,19,,1,325625538,,,325.625538,,,,,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,0,0,5,223977731,,,,44.795546200000004,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,0,1,5,240996798,,,,48.1993596,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,0,2,5,906264,,,,0.1812528,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,0,3,5,1976452,,,,0.39529040000000004,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,0,4,5,770358,,,,0.1540716,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,0,5,5,214009468,,,,42.8018936,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,0,6,5,34722403,,,,6.9444806,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,0,7,5,219664514,,,,43.9329028,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,0,8,5,224950099,,,,44.9900198,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,0,9,5,218337795,,,,43.667559,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,0,10,5,220543388,,,,44.1086776,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,0,11,5,220706996,,,,44.1413992,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,0,12,5,161305,,,,0.032261,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,0,13,5,183569,,,,0.036713800000000005,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,0,14,5,3437214,,,,0.6874428,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",0,15,5,3185716,,,,0.6371432,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,0,16,5,1879419,,,,0.3758838,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,0,17,5,3770758,,,,0.7541515999999999,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",0,18,5,212802898,,,,42.5605796,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,0,19,5,327712,,,,0.0655424,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,0,20,5,224024836,,,,44.8049672,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,0,21,5,7413587,,,,1.4827173999999999,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,0,22,5,267470804,,,,53.494160799999996,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,0,23,5,215614969,,,,43.1229938,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,1,0,5,201292,,,,0.0402584,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,1,1,5,475278,,,,0.09505559999999999,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,1,2,5,3421612,,,,0.6843224,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,1,3,5,219330146,,,,43.8660292,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,1,4,5,1985723,,,,0.39714459999999996,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,1,5,5,216484634,,,,43.2969268,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,1,6,5,228765544,,,,45.7531088,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,1,7,5,213417475,,,,42.683495,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,1,8,5,218996891,,,,43.7993782,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,1,9,5,228307122,,,,45.6614244,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",1,10,5,211110938,,,,42.2221876,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,1,11,5,34981160,,,,6.996232000000001,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,1,12,5,186993,,,,0.0373986,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,1,13,5,215817703,,,,43.1635406,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,1,14,5,901674,,,,0.1803348,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,1,15,5,219152325,,,,43.830465,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,1,16,5,1963609,,,,0.3927218,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,1,17,5,218735659,,,,43.7471318,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",1,18,5,3208575,,,,0.641715,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,1,19,5,218099270,,,,43.619854,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,1,20,5,3939969,,,,0.7879938,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,1,21,5,7473853,,,,1.4947706,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,1,22,5,750380,,,,0.15007600000000001,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,1,23,5,229877106,,,,45.9754212,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,2,0,5,247556339,,,,49.5112678,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,2,1,5,247771929,,,,49.5543858,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,2,2,5,796797,,,,0.15935939999999998,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,2,3,5,1952246,,,,0.3904492,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,2,4,5,220622981,,,,44.1245962,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,2,5,5,7355852,,,,1.4711703999999999,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,2,6,5,183008,,,,0.0366016,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,2,7,5,34714318,,,,6.9428636,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,2,8,5,219770462,,,,43.9540924,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",2,9,5,216811870,,,,43.362374,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,2,10,5,912446,,,,0.1824892,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,2,11,5,3426924,,,,0.6853848,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,2,12,5,1877680,,,,0.375536,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,2,13,5,219657633,,,,43.9315266,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,2,14,5,225943659,,,,45.1887318,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,2,15,5,242711460,,,,48.542291999999996,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",2,16,5,3197430,,,,0.639486,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,2,17,5,325938478,,,,65.1876956,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,2,18,5,351726198,,,,70.3452396,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,2,19,5,319486001,,,,63.8972002,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,2,20,5,162444,,,,0.0324888,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,2,21,5,303705,,,,0.060741,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,2,22,5,216282788,,,,43.2565576,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,2,23,5,3842306,,,,0.7684612000000001,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,3,0,5,271197164,,,,54.239432799999996,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,3,1,5,215184,,,,0.0430368,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,3,2,5,1986425,,,,0.397285,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,3,3,5,225855325,,,,45.171065,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,3,4,5,159897,,,,0.031979400000000005,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,3,5,5,874889,,,,0.17497780000000002,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,3,6,5,213003298,,,,42.6006596,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,3,7,5,787337,,,,0.15746739999999998,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,3,8,5,229001508,,,,45.8003016,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,3,9,5,215911795,,,,43.182359000000005,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,3,10,5,3673763,,,,0.7347526,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,3,11,5,232265358,,,,46.4530716,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,3,12,5,229629483,,,,45.9258966,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,3,13,5,220921715,,,,44.184343,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",3,14,5,3419379,,,,0.6838758,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,3,15,5,1879867,,,,0.3759734,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,3,16,5,224767830,,,,44.953566,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,3,17,5,220487833,,,,44.0975666,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,3,18,5,339482,,,,0.0678964,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",3,19,5,216333755,,,,43.266751,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,3,20,5,34671908,,,,6.9343816,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,3,21,5,4068207,,,,0.8136414000000001,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,3,22,5,219146412,,,,43.8292824,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,3,23,5,7465022,,,,1.4930044,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,4,0,5,215999861,,,,43.199972200000005,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,4,1,5,896922,,,,0.1793844,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,4,2,5,234420910,,,,46.884181999999996,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,4,3,5,749567,,,,0.1499134,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,4,4,5,316935,,,,0.063387,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,4,5,5,262724566,,,,52.544913199999996,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,4,6,5,213320220,,,,42.664044000000004,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,4,7,5,221899139,,,,44.3798278,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,4,8,5,237135421,,,,47.4270842,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,4,9,5,213921505,,,,42.784301,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,4,10,5,800737,,,,0.1601474,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,4,11,5,1886615,,,,0.37732299999999996,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,4,12,5,3400212,,,,0.6800423999999999,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,4,13,5,7462714,,,,1.4925428,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",4,14,5,3185692,,,,0.6371384,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,4,15,5,34370958,,,,6.8741916000000005,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,4,16,5,222043174,,,,44.4086348,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,4,17,5,210086,,,,0.0420172,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,4,18,5,222084367,,,,44.4168734,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,4,19,5,1990020,,,,0.39800399999999997,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,4,20,5,240750383,,,,48.1500766,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,4,21,5,3849592,,,,0.7699184,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",4,22,5,215359386,,,,43.0718772,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,4,23,5,216251281,,,,43.2502562,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,5,0,5,337237,,,,0.0674474,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,5,1,5,217867209,,,,43.5734418,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,5,2,5,7496463,,,,1.4992926,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,5,3,5,3416743,,,,0.6833486,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,5,4,5,221932008,,,,44.3864016,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,5,5,5,223130042,,,,44.6260084,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,5,6,5,217802,,,,0.0435604,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,5,7,5,134550,,,,0.02691,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,5,8,5,867020,,,,0.173404,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,5,9,5,234234425,,,,46.846885,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,5,10,5,38490180,,,,7.698036,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,5,11,5,268999126,,,,53.7998252,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,5,12,5,221743420,,,,44.348684,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,5,13,5,214021143,,,,42.8042286,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,5,14,5,216706534,,,,43.3413068,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",5,15,5,210354118,,,,42.0708236,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,5,16,5,222426837,,,,44.4853674,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,5,17,5,798165,,,,0.159633,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,5,18,5,1882884,,,,0.3765768,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",5,19,5,3357808,,,,0.6715616,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,5,20,5,223474065,,,,44.694812999999996,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,5,21,5,214652868,,,,42.9305736,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,5,22,5,1993261,,,,0.3986522,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,5,23,5,3828049,,,,0.7656098,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,6,0,5,37111211,,,,7.4222421999999995,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,6,1,5,3475533,,,,0.6951066,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,6,2,5,1892573,,,,0.37851460000000003,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",6,3,5,214626447,,,,42.925289400000004,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,6,4,5,216611,,,,0.0433222,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,6,5,5,227116497,,,,45.423299400000005,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,6,6,5,226722466,,,,45.3444932,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,6,7,5,164823,,,,0.0329646,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,6,8,5,217962588,,,,43.5925176,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,6,9,5,230494767,,,,46.0989534,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,6,10,5,3876708,,,,0.7753416,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,6,11,5,224875144,,,,44.975028800000004,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,6,12,5,1717637,,,,0.34352740000000004,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,6,13,5,774845,,,,0.154969,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,6,14,5,22815118,,,,4.563023599999999,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,6,15,5,223716147,,,,44.743229400000004,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,6,16,5,218833844,,,,43.7667688,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,6,17,5,218436631,,,,43.6873262,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,6,18,5,798929,,,,0.1597858,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,6,19,5,217870858,,,,43.5741716,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,6,20,5,1979027,,,,0.39580540000000003,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,6,21,5,213778084,,,,42.7556168,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,6,22,5,214433822,,,,42.8867644,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",6,23,5,3355695,,,,0.6711389999999999,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",7,0,5,3102160,,,,0.620432,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,7,1,5,1891963,,,,0.3783926,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",7,2,5,210494169,,,,42.0988338,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,7,3,5,324774,,,,0.06495480000000001,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,7,4,5,219565307,,,,43.9130614,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,7,5,5,219249513,,,,43.8499026,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,7,6,5,220031744,,,,44.0063488,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,7,7,5,7560249,,,,1.5120498,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,7,8,5,864991,,,,0.1729982,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,7,9,5,229586183,,,,45.9172366,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,7,10,5,223364169,,,,44.6728338,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,7,11,5,795489,,,,0.1590978,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,7,12,5,1970643,,,,0.3941286,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,7,13,5,214306483,,,,42.861296599999996,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,7,14,5,3462240,,,,0.692448,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,7,15,5,230954343,,,,46.1908686,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,7,16,5,257912771,,,,51.582554200000004,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,7,17,5,209711,,,,0.0419422,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,7,18,5,225625476,,,,45.1250952,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,7,19,5,3938917,,,,0.7877834,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,7,20,5,218365144,,,,43.6730288,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,7,21,5,155989,,,,0.031197799999999998,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,7,22,5,34492416,,,,6.898483199999999,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,7,23,5,215979914,,,,43.1959828,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,8,0,5,328306,,,,0.0656612,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,8,1,5,7352128,,,,1.4704256,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,8,2,5,228312913,,,,45.6625826,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,8,3,5,2035098,,,,0.40701960000000004,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,8,4,5,220029218,,,,44.0058436,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,8,5,5,212672,,,,0.0425344,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",8,6,5,3163121,,,,0.6326242,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,8,7,5,749706,,,,0.1499412,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,8,8,5,133065,,,,0.026612999999999998,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,8,9,5,855351,,,,0.1710702,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,8,10,5,220177960,,,,44.035592,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,8,11,5,228662702,,,,45.7325404,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,8,12,5,217279733,,,,43.4559466,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,8,13,5,218016823,,,,43.6033646,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,8,14,5,3469407,,,,0.6938814,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,8,15,5,240217962,,,,48.0435924,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,8,16,5,210606606,,,,42.1213212,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",8,17,5,210530027,,,,42.1060054,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,8,18,5,34676413,,,,6.935282599999999,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,8,19,5,236116423,,,,47.2232846,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,8,20,5,220262127,,,,44.0524254,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,8,21,5,3884134,,,,0.7768268,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,8,22,5,1931925,,,,0.386385,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,8,23,5,213368155,,,,42.673631,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,9,0,5,800722,,,,0.16014440000000002,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,9,1,5,1923139,,,,0.38462779999999996,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,9,2,5,219197704,,,,43.839540799999995,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,9,3,5,7482512,,,,1.4965024,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,9,4,5,231890601,,,,46.3781202,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,9,5,5,3489540,,,,0.697908,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,9,6,5,217006596,,,,43.4013192,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,9,7,5,330031,,,,0.0660062,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,9,8,5,34683200,,,,6.93664,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,9,9,5,216262120,,,,43.252424000000005,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,9,10,5,213209386,,,,42.641877199999996,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,9,11,5,215787473,,,,43.1574946,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,9,12,5,1969532,,,,0.3939064,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,9,13,5,138035,,,,0.027607,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,9,14,5,3801582,,,,0.7603164,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",9,15,5,3271730,,,,0.654346,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,9,16,5,223771363,,,,44.7542726,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,9,17,5,215525266,,,,43.1050532,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",9,18,5,213700275,,,,42.740055,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,9,19,5,978234,,,,0.1956468,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,9,20,5,214640143,,,,42.9280286,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,9,21,5,221955384,,,,44.3910768,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,9,22,5,266097145,,,,53.219429000000005,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,9,23,5,208169,,,,0.0416338,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,10,0,5,227151710,,,,45.430342,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,10,1,5,221300599,,,,44.2601198,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,10,2,5,221368351,,,,44.2736702,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,10,3,5,3893850,,,,0.77877,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",10,4,5,3114976,,,,0.6229952,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,10,5,5,34971403,,,,6.994280600000001,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,10,6,5,186505,,,,0.037301,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,10,7,5,743819,,,,0.1487638,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,10,8,5,967699,,,,0.19353979999999998,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,10,9,5,7278864,,,,1.4557727999999999,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,10,10,5,219758905,,,,43.951781,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,10,11,5,229035803,,,,45.807160599999996,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,10,12,5,3475421,,,,0.6950841999999999,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,10,13,5,221741965,,,,44.348393,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,10,14,5,158439,,,,0.0316878,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,10,15,5,226105370,,,,45.221074,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,10,16,5,218328150,,,,43.66563,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,10,17,5,326519,,,,0.0653038,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,10,18,5,218649086,,,,43.7298172,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",10,19,5,234526281,,,,46.905256200000004,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,10,20,5,1988244,,,,0.39764879999999997,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,10,21,5,226171543,,,,45.234308600000006,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,10,22,5,1928497,,,,0.38569939999999997,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,10,23,5,230676829,,,,46.1353658,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,11,0,5,2016959,,,,0.40339179999999997,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,11,1,5,290951,,,,0.058190200000000004,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,11,2,5,132469,,,,0.0264938,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,11,3,5,223016725,,,,44.603345000000004,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,11,4,5,823786,,,,0.1647572,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,11,5,5,274752841,,,,54.9505682,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,11,6,5,902939,,,,0.18058780000000002,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,11,7,5,212969528,,,,42.5939056,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,11,8,5,219212167,,,,43.8424334,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,11,9,5,3854160,,,,0.770832,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,11,10,5,3369528,,,,0.6739056,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,11,11,5,1960359,,,,0.39207179999999997,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,11,12,5,7321751,,,,1.4643502,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,11,13,5,34566856,,,,6.9133712,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,11,14,5,219162703,,,,43.8325406,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,11,15,5,217697845,,,,43.539569,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",11,16,5,3154310,,,,0.630862,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,11,17,5,214743455,,,,42.948691000000004,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",11,18,5,219324759,,,,43.8649518,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,11,19,5,218326132,,,,43.6652264,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,11,20,5,211792,,,,0.042358400000000004,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,11,21,5,223623534,,,,44.7247068,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,11,22,5,223408683,,,,44.6817366,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,11,23,5,219279099,,,,43.8558198,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,12,0,5,204715,,,,0.040943,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,12,1,5,215577794,,,,43.1155588,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,12,2,5,1924709,,,,0.3849418,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,12,3,5,3378837,,,,0.6757674,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,12,4,5,7324961,,,,1.4649922,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,12,5,5,34443272,,,,6.8886544,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,12,6,5,228163242,,,,45.6326484,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,12,7,5,216692678,,,,43.3385356,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,12,8,5,794170,,,,0.158834,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,12,9,5,3798706,,,,0.7597412,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,12,10,5,273783429,,,,54.7566858,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,12,11,5,248104944,,,,49.6209888,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",12,12,5,220481902,,,,44.0963804,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,12,13,5,220255095,,,,44.051019000000004,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,12,14,5,217759908,,,,43.5519816,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",12,15,5,3204570,,,,0.640914,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,12,16,5,222005953,,,,44.4011906,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,12,17,5,215988355,,,,43.197671,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,12,18,5,218335219,,,,43.6670438,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,12,19,5,2009199,,,,0.4018398,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,12,20,5,138539,,,,0.027707799999999998,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,12,21,5,857498,,,,0.1714996,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,12,22,5,236208094,,,,47.2416188,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,12,23,5,329114,,,,0.0658228,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,13,0,5,10461027,,,,2.0922054,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,13,1,5,216184186,,,,43.236837200000004,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,13,2,5,322729,,,,0.0645458,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,13,3,5,229773025,,,,45.954605,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,13,4,5,222215841,,,,44.4431682,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,13,5,5,1992517,,,,0.3985034,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,13,6,5,219939048,,,,43.987809600000006,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,13,7,5,224696155,,,,44.939231,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,13,8,5,168230,,,,0.033645999999999995,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",13,9,5,4434558,,,,0.8869116,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,13,10,5,3912189,,,,0.7824378000000001,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,13,11,5,868050,,,,0.17361,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,13,12,5,59806547,,,,11.961309400000001,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,13,13,5,233342689,,,,46.6685378,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,13,14,5,216458350,,,,43.291669999999996,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,13,15,5,228461895,,,,45.692379,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,13,16,5,808884,,,,0.1617768,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,13,17,5,232473069,,,,46.4946138,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,13,18,5,226746515,,,,45.349303,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,13,19,5,224719,,,,0.0449438,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,13,20,5,220785059,,,,44.1570118,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,13,21,5,3541015,,,,0.7082029999999999,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",13,22,5,214359859,,,,42.8719718,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,13,23,5,1944241,,,,0.38884820000000003,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,14,0,5,34584345,,,,6.916869,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,14,1,5,220256999,,,,44.0513998,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,14,2,5,1947430,,,,0.389486,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,14,3,5,1927057,,,,0.3854114,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",14,4,5,3222001,,,,0.6444002,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,14,5,5,216462186,,,,43.2924372,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,14,6,5,157409,,,,0.0314818,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,14,7,5,223496621,,,,44.6993242,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,14,8,5,214527366,,,,42.9054732,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,14,9,5,7728945,,,,1.545789,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,14,10,5,220665470,,,,44.133094,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,14,11,5,3938905,,,,0.7877810000000001,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,14,12,5,752635,,,,0.15052700000000002,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,14,13,5,169906,,,,0.0339812,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,14,14,5,225788288,,,,45.1576576,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,14,15,5,239226167,,,,47.8452334,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",14,16,5,212277581,,,,42.4555162,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,14,17,5,215288547,,,,43.0577094,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,14,18,5,237964134,,,,47.5928268,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,14,19,5,3443112,,,,0.6886224000000001,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,14,20,5,290133,,,,0.0580266,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,14,21,5,855712,,,,0.1711424,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,14,22,5,212642778,,,,42.5285556,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,14,23,5,230711331,,,,46.1422662,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,15,0,5,219930723,,,,43.9861446,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,15,1,5,208326,,,,0.0416652,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,15,2,5,289711,,,,0.0579422,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,15,3,5,7359270,,,,1.471854,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,15,4,5,1869972,,,,0.3739944,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,15,5,5,42166177,,,,8.4332354,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",15,6,5,237753108,,,,47.5506216,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,15,7,5,216944933,,,,43.388986599999996,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,15,8,5,219630804,,,,43.926160800000005,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,15,9,5,3862280,,,,0.772456,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,15,10,5,880857,,,,0.1761714,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,15,11,5,244021941,,,,48.8043882,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",15,12,5,3169033,,,,0.6338066,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,15,13,5,240438847,,,,48.0877694,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,15,14,5,214437711,,,,42.8875422,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,15,15,5,218251724,,,,43.6503448,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,15,16,5,243173277,,,,48.6346554,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,15,17,5,1984835,,,,0.39696699999999996,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,15,18,5,214798838,,,,42.9597676,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,15,19,5,159470,,,,0.031894,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,15,20,5,3712643,,,,0.7425286,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,15,21,5,218857437,,,,43.7714874,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,15,22,5,796651,,,,0.1593302,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,15,23,5,229000626,,,,45.800125200000004,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,16,0,5,821149,,,,0.1642298,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,16,1,5,223162791,,,,44.6325582,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,16,2,5,214449053,,,,42.8898106,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,16,3,5,1924483,,,,0.3848966,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",16,4,5,3102482,,,,0.6204964000000001,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",16,5,5,220474123,,,,44.094824599999995,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,16,6,5,242583566,,,,48.5167132,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,16,7,5,1998716,,,,0.39974319999999997,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,16,8,5,3819749,,,,0.7639498,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,16,9,5,222628325,,,,44.525665,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,16,10,5,324654,,,,0.0649308,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,16,11,5,170197,,,,0.0340394,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,16,12,5,213981231,,,,42.7962462,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,16,13,5,3465649,,,,0.6931298,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,16,14,5,219755818,,,,43.9511636,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,16,15,5,217234715,,,,43.446943,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,16,16,5,157417,,,,0.0314834,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,16,17,5,868096,,,,0.1736192,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,16,18,5,241726383,,,,48.3452766,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,16,19,5,220520938,,,,44.1041876,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,16,20,5,34693875,,,,6.938775,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,16,21,5,7343153,,,,1.4686306,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,16,22,5,249935185,,,,49.987037,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,16,23,5,219184853,,,,43.8369706,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,17,0,5,3672836,,,,0.7345672000000001,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,17,1,5,230918773,,,,46.1837546,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,17,2,5,215858112,,,,43.171622400000004,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,17,3,5,219100226,,,,43.820045199999996,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,17,4,5,34705348,,,,6.9410696000000005,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,17,5,5,765341,,,,0.15306820000000002,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,17,6,5,251861995,,,,50.372399,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,17,7,5,947135,,,,0.18942699999999998,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,17,8,5,1952693,,,,0.3905386,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,17,9,5,214235603,,,,42.8471206,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,17,10,5,162292,,,,0.0324584,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,17,11,5,4718004,,,,0.9436007999999999,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,17,12,5,228975314,,,,45.7950628,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",17,13,5,3174081,,,,0.6348162,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,17,14,5,237438736,,,,47.4877472,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,17,15,5,346504,,,,0.0693008,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,17,16,5,222801579,,,,44.5603158,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,17,17,5,219186538,,,,43.8373076,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,17,18,5,1921650,,,,0.38433,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,17,19,5,174052,,,,0.034810400000000005,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,17,20,5,7345632,,,,1.4691264,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,17,21,5,228582880,,,,45.716575999999996,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,17,22,5,223177322,,,,44.635464400000004,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",17,23,5,249897245,,,,49.979449,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,18,0,5,1933812,,,,0.3867624,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,18,1,5,207888,,,,0.0415776,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,18,2,5,228809922,,,,45.7619844,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,18,3,5,794498,,,,0.1588996,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,18,4,5,7866841,,,,1.5733682,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,18,5,5,34528238,,,,6.9056476,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,18,6,5,235028271,,,,47.005654199999995,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,18,7,5,216054758,,,,43.2109516,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,18,8,5,218657836,,,,43.7315672,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,18,9,5,216016485,,,,43.203297,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,18,10,5,215250918,,,,43.050183600000004,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",18,11,5,211618334,,,,42.3236668,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,18,12,5,327238,,,,0.0654476,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,18,13,5,218241390,,,,43.648278,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,18,14,5,212166450,,,,42.43329,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,18,15,5,161594,,,,0.032318799999999995,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,18,16,5,223176037,,,,44.6352074,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,18,17,5,3479449,,,,0.6958898,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,18,18,5,218210609,,,,43.6421218,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,18,19,5,214530466,,,,42.9060932,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",18,20,5,3126539,,,,0.6253078000000001,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,18,21,5,864033,,,,0.1728066,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,18,22,5,2015695,,,,0.403139,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,18,23,5,3800428,,,,0.7600856,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k3,phrase,im Sinne des,19,0,5,221502472,,,,44.300494400000005,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,19,1,5,254570845,,,,50.914169,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,19,2,5,211778,,,,0.0423556,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_common_words_k2,phrase,der die,19,3,5,35673200,,,,7.13464,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_common_words_k2,phrase,der die,19,4,5,242589796,,,,48.5179592,,,32,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,19,5,5,215605949,,,,43.1211898,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,19,6,5,156958,,,,0.0313916,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,19,7,5,7429575,,,,1.4859149999999999,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,19,8,5,3488267,,,,0.6976534,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,19,9,5,216368274,,,,43.2736548,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",19,10,5,3147579,,,,0.6295158,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_wrong_order_k3,phrase,des Sinne im,19,11,5,223315416,,,,44.6630832,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k2,phrase,nach Maßgabe,19,12,5,1978100,,,,0.39561999999999997,,,57,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,19,13,5,233943627,,,,46.7887254,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k3,phrase,Beginn der Rechtsfähigkeit,19,14,5,320869,,,,0.0641738,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_missing_k3,phrase,Verbindung zum Server,19,15,5,212707272,,,,42.5414544,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,19,16,5,215814032,,,,43.1628064,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k5,phrase,mit Rücksicht auf die Verkehrssitte,19,17,5,792525,,,,0.158505,,,2,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k5,phrase,nach den Vorschriften über die,19,18,5,217201391,,,,43.4402782,,,35,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_frequent_k4,phrase,"es sei denn, dass",19,19,5,212335620,,,,42.467124,,,82,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_wrong_order_k2,phrase,Maßgabe nach,19,20,5,1932029,,,,0.3864058,,,0,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,direct_phrase,query,bgb_rare_k2,phrase,Bürgerlichen Gesetzbuchs,19,21,5,223383289,,,,44.6766578,,,1,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_frequent_k3,phrase,im Sinne des,19,22,5,4232418,,,,0.8464836,,,62,True
+04_bgb,7bc4f9a3a110afa9f259131add5849719eba8b50,20261006,real_bgb,2486,1587032,213718,positional_phrase,query,bgb_rare_k4,phrase,nach Treu und Glauben,19,23,5,862948,,,,0.1725896,,,1,True

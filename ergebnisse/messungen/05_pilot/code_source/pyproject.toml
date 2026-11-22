@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dhbw-textsuche"
+version = "0.1.0"
+description = "Reproduzierbare direkte und indexbasierte Textsuche"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["gemeinsam", "direkte_suche", "invertierter_index", "boolesche_suche", "positionsindex", "experimentelle_analyse"]
+package-dir = { gemeinsam = "gemeinsam/src/gemeinsam", direkte_suche = "themen/01_textaufbereitung_direkte_suche/src/direkte_suche", invertierter_index = "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index", boolesche_suche = "themen/03_boolesche_mehrwortsuche/src/boolesche_suche", positionsindex = "themen/04_positionsindex_phrasensuche/src/positionsindex", experimentelle_analyse = "themen/05_experimentelle_analyse/src/experimentelle_analyse" }
+
+[tool.pytest.ini_options]
+testpaths = ["themen/01_textaufbereitung_direkte_suche/tests", "themen/01_textaufbereitung_direkte_suche/experimente/tests", "themen/02_invertierter_index_einzelwortsuche/tests", "themen/02_invertierter_index_einzelwortsuche/experimente/tests", "themen/03_boolesche_mehrwortsuche/tests", "themen/03_boolesche_mehrwortsuche/experimente/tests", "themen/04_positionsindex_phrasensuche/tests", "themen/04_positionsindex_phrasensuche/experimente/tests", "themen/05_experimentelle_analyse/tests"]
+addopts = "-ra"

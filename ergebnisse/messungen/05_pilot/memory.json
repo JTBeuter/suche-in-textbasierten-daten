@@ -1,0 +1,134 @@
+[
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "synthetic_10000",
+    "algorithm": "inverted_index",
+    "repeat": 0,
+    "worker_pid": 3517165,
+    "retained_traced_bytes": 17784,
+    "peak_traced_bytes": 35552,
+    "transient_peak_bytes": 17768,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "synthetic_10000",
+    "algorithm": "inverted_index",
+    "repeat": 1,
+    "worker_pid": 3517165,
+    "retained_traced_bytes": 17784,
+    "peak_traced_bytes": 35552,
+    "transient_peak_bytes": 17768,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "synthetic_10000",
+    "algorithm": "inverted_index",
+    "repeat": 2,
+    "worker_pid": 3517165,
+    "retained_traced_bytes": 17784,
+    "peak_traced_bytes": 35552,
+    "transient_peak_bytes": 17768,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "synthetic_10000",
+    "algorithm": "positional_index",
+    "repeat": 0,
+    "worker_pid": 3517168,
+    "retained_traced_bytes": 313208,
+    "peak_traced_bytes": 518448,
+    "transient_peak_bytes": 205240,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "synthetic_10000",
+    "algorithm": "positional_index",
+    "repeat": 1,
+    "worker_pid": 3517168,
+    "retained_traced_bytes": 313208,
+    "peak_traced_bytes": 518448,
+    "transient_peak_bytes": 205240,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "synthetic_10000",
+    "algorithm": "positional_index",
+    "repeat": 2,
+    "worker_pid": 3517168,
+    "retained_traced_bytes": 313208,
+    "peak_traced_bytes": 518448,
+    "transient_peak_bytes": 205240,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "kafka",
+    "algorithm": "inverted_index",
+    "repeat": 0,
+    "worker_pid": 3517170,
+    "retained_traced_bytes": 47152,
+    "peak_traced_bytes": 142544,
+    "transient_peak_bytes": 95392,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "kafka",
+    "algorithm": "inverted_index",
+    "repeat": 1,
+    "worker_pid": 3517170,
+    "retained_traced_bytes": 47152,
+    "peak_traced_bytes": 142544,
+    "transient_peak_bytes": 95392,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "kafka",
+    "algorithm": "inverted_index",
+    "repeat": 2,
+    "worker_pid": 3517170,
+    "retained_traced_bytes": 47152,
+    "peak_traced_bytes": 142544,
+    "transient_peak_bytes": 95392,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "kafka",
+    "algorithm": "positional_index",
+    "repeat": 0,
+    "worker_pid": 3517171,
+    "retained_traced_bytes": 231632,
+    "peak_traced_bytes": 428280,
+    "transient_peak_bytes": 196648,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "kafka",
+    "algorithm": "positional_index",
+    "repeat": 1,
+    "worker_pid": 3517171,
+    "retained_traced_bytes": 231632,
+    "peak_traced_bytes": 428280,
+    "transient_peak_bytes": 196648,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261006T162233192394",
+    "dataset_id": "kafka",
+    "algorithm": "positional_index",
+    "repeat": 2,
+    "worker_pid": 3517171,
+    "retained_traced_bytes": 231632,
+    "peak_traced_bytes": 428280,
+    "transient_peak_bytes": 196648,
+    "unit": "bytes"
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "pilot_correct": true,
+  "locked_parameters": {
+    "seed": 20261006,
+    "datasets": [
+      {
+        "dataset_id": "v100",
+        "total_tokens": 100000,
+        "document_count": 100,
+        "base_vocabulary": 100
+      },
+      {
+        "dataset_id": "n100000",
+        "total_tokens": 100000,
+        "document_count": 100,
+        "base_vocabulary": 1000
+      },
+      {
+        "dataset_id": "v10000",
+        "total_tokens": 100000,
+        "document_count": 100,
+        "base_vocabulary": 10000
+      }
+    ],
+    "reference_run": "ergebnisse/messungen/02_invertierter_index",
+    "variants": {
+      "inverted_index": "public build_inverted_index, unchanged production code",
+      "inverted_index_ohne_tokenpruefung": "measurement-internal copy without checked_tokens set and tokenize(token) contract check; AST otherwise identical to production function"
+    },
+    "variant_order": {
+      "v100": [
+        "inverted_index",
+        "inverted_index_ohne_tokenpruefung"
+      ],
+      "n100000": [
+        "inverted_index_ohne_tokenpruefung",
+        "inverted_index"
+      ],
+      "v10000": [
+        "inverted_index",
+        "inverted_index_ohne_tokenpruefung"
+      ]
+    },
+    "final_plan": {
+      "warmups": 5,
+      "repeats": 20,
+      "query_block_size": 10,
+      "seed": 20261006
+    },
+    "pilot_plan": {
+      "warmups": 1,
+      "repeats": 3,
+      "query_block_size": 10,
+      "seed": 20261006
+    },
+    "share": "(median_a - median_b) / median_a per dataset; a=public build, b=copy without token check"
+  },
+  "method_code_sha256": {
+    "gemeinsam/__init__.py": "0292f8e7c801f5d7ed8740100fa187db428828d51c4fd33451f725f68c245cc1",
+    "gemeinsam/src/gemeinsam/__init__.py": "7ade195f2e6dfbdb43bc1554d1040385631926ad8b2067828697464d173395af",
+    "gemeinsam/src/gemeinsam/corpus.py": "e0ca8de1c116329058d5ae580a28efbd7a6605c0b09e7272959bec3a5caa9731",
+    "gemeinsam/src/gemeinsam/datengenerator.py": "9b3e3d2c46a05694849bc3eac0bef4ec1ac7cab716ab30f8721d4acbe13f8d7b",
+    "gemeinsam/src/gemeinsam/messung.py": "ef4ce81f389196a55ceb2a8ca45e65b199e0966c6ddf4c07b840d59a5b739331",
+    "gemeinsam/src/gemeinsam/models.py": "edf5011d790ebdc3a99fb21bad33e6b1c26fc8c118ec936265a8381883635b92",
+    "gemeinsam/src/gemeinsam/text.py": "583f6952986c785bb1ce5c2d9fb7158cf816a182a40ef5fbe493da711631e956",
+    "pyproject.toml": "8625bcaac24420a84476e14e10b7bea1331ffbce43e172ddb91d0df292a2c714",
+    "requirements-dev.txt": "a4fbb25989ad950adf673f3bcbdce81269e59d1b532a087e601ade3c61ff2116",
+    "themen/02_invertierter_index_einzelwortsuche/experimente/generator.py": "8a45e1272ca18fc58feb3285fa358dac68c2f0b837e66a494902fe4fbbe6fb64",
+    "themen/02_invertierter_index_einzelwortsuche/experimente/tokenpruefung.py": "a8fcffcc57ff37900e05a640e9a536ff0f9be1e87698fdd80c6eb6ccb4362ab2",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__init__.py": "073e9bc6d184a6a87bf916c53fe4bdf0dd927ad6fc708c0255dbc0192d418dea",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__main__.py": "156d2306b39e652beb2aab2c51f42978afb18b14c5f31da189954cb928dfa349",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/index.py": "cc21a1fa820fad0b4da0a9bc961b8e6e50f69851b9037bb3d18ec5481d7a0c57"
+  },
+  "python_hash_seed": "0",
+  "pilot_plan": {
+    "warmups": 1,
+    "repeats": 3,
+    "query_block_size": 10,
+    "seed": 20261006
+  },
+  "decision": "drei V-Datensätze byteidentisch zu Reihe 02, beide Varianten identisch und messbar; Parameter gesperrt",
+  "pilot_is_not_final_measurement": true
+}

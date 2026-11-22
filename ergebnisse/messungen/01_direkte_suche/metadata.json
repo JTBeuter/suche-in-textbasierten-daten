@@ -1,0 +1,778 @@
+{
+  "run_id": "01_final",
+  "started_at_utc": "2026-10-06T14:03:43.478044+00:00",
+  "git_commit": "9e40cec2880c4bde9501c90e4511256df96443e2",
+  "git_dirty": true,
+  "git_status_at_start": "M doku/README.md\n M doku/architektur.md\n M latex/chapter/20_textaufbereitung_direkte_suche.tex\n M latex/literatur.bib\n?? daten/beispiele/d0_d5/\n?? daten/beispiele/d0_d5_expected.json\n?? daten/real/\n?? dhbw_textsuche.egg-info/\n?? doku/prompts/\n?? doku/pruefberichte/\n?? doku/quellen_01.md\n?? ergebnisse/messungen/01_pilot/\n?? gemeinsam/__init__.py\n?? gemeinsam/src/gemeinsam/\n?? pyproject.toml\n?? requirements-dev.txt\n?? themen/01_textaufbereitung_direkte_suche/experimente/run.py\n?? themen/01_textaufbereitung_direkte_suche/experimente/tests/\n?? themen/01_textaufbereitung_direkte_suche/src/direkte_suche/\n?? themen/01_textaufbereitung_direkte_suche/tests/test_cli.py\n?? themen/01_textaufbereitung_direkte_suche/tests/test_corpus.py\n?? themen/01_textaufbereitung_direkte_suche/tests/test_real_corpus.py\n?? themen/01_textaufbereitung_direkte_suche/tests/test_search.py\n?? themen/01_textaufbereitung_direkte_suche/tests/test_text.py",
+  "code_sha256": {
+    "gemeinsam/src/gemeinsam/__init__.py": "7ade195f2e6dfbdb43bc1554d1040385631926ad8b2067828697464d173395af",
+    "gemeinsam/src/gemeinsam/corpus.py": "e0ca8de1c116329058d5ae580a28efbd7a6605c0b09e7272959bec3a5caa9731",
+    "gemeinsam/src/gemeinsam/datengenerator.py": "9b3e3d2c46a05694849bc3eac0bef4ec1ac7cab716ab30f8721d4acbe13f8d7b",
+    "gemeinsam/src/gemeinsam/messung.py": "ef4ce81f389196a55ceb2a8ca45e65b199e0966c6ddf4c07b840d59a5b739331",
+    "gemeinsam/src/gemeinsam/models.py": "edf5011d790ebdc3a99fb21bad33e6b1c26fc8c118ec936265a8381883635b92",
+    "gemeinsam/src/gemeinsam/text.py": "583f6952986c785bb1ce5c2d9fb7158cf816a182a40ef5fbe493da711631e956",
+    "pyproject.toml": "0518e43b49cb998d5fcae666f79c0c4430503f90659b82c3f8b18e116d2636a8",
+    "requirements-dev.txt": "a4fbb25989ad950adf673f3bcbdce81269e59d1b532a087e601ade3c61ff2116",
+    "themen/01_textaufbereitung_direkte_suche/experimente/run.py": "05e27e985af68cb66c01dd50c5fec1f3772a827a24ce8273de0f4565840229b6",
+    "themen/01_textaufbereitung_direkte_suche/src/direkte_suche/__init__.py": "4ccd2e15b50655c88f1a8b3faf685470f8c8f8d04a101ca0f6f8f9533ef5848c",
+    "themen/01_textaufbereitung_direkte_suche/src/direkte_suche/__main__.py": "e6881120cdb43b88b9b6203b1d77da274149d8924a00c8afa7cb6a8421185cdc",
+    "themen/01_textaufbereitung_direkte_suche/src/direkte_suche/search.py": "23a944b491fc0ce6622960369967bca38efb3ce339c330502008dc05af486c83",
+    "gemeinsam/__init__.py": "0292f8e7c801f5d7ed8740100fa187db428828d51c4fd33451f725f68c245cc1"
+  },
+  "environment": {
+    "python": "3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0]",
+    "implementation": "CPython",
+    "platform": "Linux-6.1.0-45-amd64-x86_64-with-glibc2.36",
+    "machine": "x86_64",
+    "cpu_model": "Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz",
+    "memory_total": "MemTotal:        8011072 kB",
+    "matplotlib": "3.10.1",
+    "pytest": "8.3.5",
+    "unicode_database": "14.0.0"
+  },
+  "parameters": {
+    "total_tokens": [
+      10000,
+      100000,
+      1000000
+    ],
+    "document_count": 20,
+    "seed": 20261006,
+    "vocabulary": "wort0000..wort0999",
+    "frequent": "Fehler at position 0 and each position divisible by 100 in every document",
+    "rare": "Verbindung at the last position of doc00.txt only",
+    "missing": "Unauffindbar never planted or sampled",
+    "measurement_plan": {
+      "warmups": 5,
+      "repeats": 20,
+      "query_block_size": 10,
+      "seed": 20261006
+    }
+  },
+  "measurement_plan": {
+    "warmups": 5,
+    "repeats": 20,
+    "query_block_size": 10,
+    "seed": 20261006
+  },
+  "timer": "time.perf_counter_ns; elapsed_ns retains integer block duration",
+  "cache": "warm: corpus initially read and verified; repeated loading with 5 warmups in final; OS cache not cleared",
+  "timing_boundaries": {
+    "load": "complete load_corpus including traversal, sorting, byte read and UTF-8 decode; block_size=1",
+    "preparation": "complete prepare_corpus including validation, document sorting, normalization and tokenization; block_size=1",
+    "build": "not applicable for direct search; CSV blank",
+    "query": "public search_direct_word on prepared corpus; query normalization, sequential token comparisons, complete sorted unique result included",
+    "blocks": "query blocks retain 10 full result lists; block loop and list allocation overhead included identically per query",
+    "excluded": "expectation checks, counting, metadata, plotting, disk output and printing outside intervals"
+  },
+  "statistics": "median and inclusive quartiles via statistics.quantiles(n=4, method='inclusive'); IQR=q3-q1",
+  "memory": "not measured; index_bytes and peak_memory_bytes CSV fields blank",
+  "dataset_order": "generated 10000,100000,1000000 then real; query order shuffled deterministically for each warmup and measured repetition",
+  "datasets": [
+    {
+      "dataset_id": "generated_10000",
+      "kind": "generated",
+      "document_count": 20,
+      "text_bytes": 89802,
+      "token_count": 10000,
+      "files": [
+        {
+          "document_id": "doc00.txt",
+          "source_path": "doc00.txt",
+          "bytes": 4492,
+          "sha256": "a09408c7bd8b05065fc34738925d521a896916421811b64683a154c676a1cb99"
+        },
+        {
+          "document_id": "doc01.txt",
+          "source_path": "doc01.txt",
+          "bytes": 4490,
+          "sha256": "b06cbb42e5616f68e65a3d42516ef7c3e7668887b8c01871e28e213343b5a19e"
+        },
+        {
+          "document_id": "doc02.txt",
+          "source_path": "doc02.txt",
+          "bytes": 4490,
+          "sha256": "588d8151d07a093f9a2e31b48b94996ae0c1535361726f8a26545d468edc06ae"
+        },
+        {
+          "document_id": "doc03.txt",
+          "source_path": "doc03.txt",
+          "bytes": 4490,
+          "sha256": "3f66037a05743e9e44f205da2b2b18bca5cf4ebfb61b0f816bbdca4da12fa5b7"
+        },
+        {
+          "document_id": "doc04.txt",
+          "source_path": "doc04.txt",
+          "bytes": 4490,
+          "sha256": "9b109b41bbe153db206aea40764300e1d7daacc907c17dbd0ede12663ba7a641"
+        },
+        {
+          "document_id": "doc05.txt",
+          "source_path": "doc05.txt",
+          "bytes": 4490,
+          "sha256": "8560421f24b568c2c6656cdbb7f04c2c03dce0e206c9c7811d8582953ac5ee43"
+        },
+        {
+          "document_id": "doc06.txt",
+          "source_path": "doc06.txt",
+          "bytes": 4490,
+          "sha256": "319682c4bc1e34f0eaa6f7ff46a362af3f55b15c98c6bd9b1dddd7dc46575454"
+        },
+        {
+          "document_id": "doc07.txt",
+          "source_path": "doc07.txt",
+          "bytes": 4490,
+          "sha256": "e119447dabcf83a57a9ff5f27b66700663936c5f3aa7c77016ebb6fa9da1b7c9"
+        },
+        {
+          "document_id": "doc08.txt",
+          "source_path": "doc08.txt",
+          "bytes": 4490,
+          "sha256": "2ae546f1839081261b3cdda128c064939808903cc7f1960e4f19b164eea9dd86"
+        },
+        {
+          "document_id": "doc09.txt",
+          "source_path": "doc09.txt",
+          "bytes": 4490,
+          "sha256": "f11809dcf4ca4b740bff208917ae0c8032f9929a368c486ea390c9406080352c"
+        },
+        {
+          "document_id": "doc10.txt",
+          "source_path": "doc10.txt",
+          "bytes": 4490,
+          "sha256": "26bff74f1d729a0573a6d0011c52c968acf4a0c0c2e55448df81386ac5a17bb0"
+        },
+        {
+          "document_id": "doc11.txt",
+          "source_path": "doc11.txt",
+          "bytes": 4490,
+          "sha256": "626b9637a5731164220195ada3ee2da0f726c43f6e32393a0ed1625fef56680a"
+        },
+        {
+          "document_id": "doc12.txt",
+          "source_path": "doc12.txt",
+          "bytes": 4490,
+          "sha256": "0a7f471d079b3e042e3c3646454e036703d7a6da64f8905e66df212930292a6a"
+        },
+        {
+          "document_id": "doc13.txt",
+          "source_path": "doc13.txt",
+          "bytes": 4490,
+          "sha256": "325015a143fd80a4fce1d6fec08c914ff7a240bbae5d3b841096235616cf6f29"
+        },
+        {
+          "document_id": "doc14.txt",
+          "source_path": "doc14.txt",
+          "bytes": 4490,
+          "sha256": "971de164ebdd4daf7c0f950b5489bca2565c43e8e2cd83384795d14c8da8f5f3"
+        },
+        {
+          "document_id": "doc15.txt",
+          "source_path": "doc15.txt",
+          "bytes": 4490,
+          "sha256": "e686cb60f77cccc5eda490b834d9b1d589aa18d19942765143378ad6252c48a2"
+        },
+        {
+          "document_id": "doc16.txt",
+          "source_path": "doc16.txt",
+          "bytes": 4490,
+          "sha256": "bebb2ec0d0586aa24ce3101a3557c051d849c2aacb2a11a5e6b1a80117bb2435"
+        },
+        {
+          "document_id": "doc17.txt",
+          "source_path": "doc17.txt",
+          "bytes": 4490,
+          "sha256": "4b21417b73b63357aadf0d7d05f6e4bc2da16363e47d4595251493e1dd906daf"
+        },
+        {
+          "document_id": "doc18.txt",
+          "source_path": "doc18.txt",
+          "bytes": 4490,
+          "sha256": "bc551997058c404fece055d5d6884f4e25a964384996211077d225cd7239c362"
+        },
+        {
+          "document_id": "doc19.txt",
+          "source_path": "doc19.txt",
+          "bytes": 4490,
+          "sha256": "1496e2078461cdc23fa48143f95b8821177c95fef6fd5e51906a4aad3dac0d1d"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "frequent",
+          "text": "Fehler",
+          "query_type": "word",
+          "expected_ids": [
+            "doc00.txt",
+            "doc01.txt",
+            "doc02.txt",
+            "doc03.txt",
+            "doc04.txt",
+            "doc05.txt",
+            "doc06.txt",
+            "doc07.txt",
+            "doc08.txt",
+            "doc09.txt",
+            "doc10.txt",
+            "doc11.txt",
+            "doc12.txt",
+            "doc13.txt",
+            "doc14.txt",
+            "doc15.txt",
+            "doc16.txt",
+            "doc17.txt",
+            "doc18.txt",
+            "doc19.txt"
+          ],
+          "normalized_token_expected": "fehler",
+          "expected_occurrences": 100,
+          "observed_occurrences": 100,
+          "observed_document_hits": 20,
+          "query_frequency": "frequent"
+        },
+        {
+          "query_id": "rare",
+          "text": "Verbindung",
+          "query_type": "word",
+          "expected_ids": [
+            "doc00.txt"
+          ],
+          "normalized_token_expected": "verbindung",
+          "expected_occurrences": 1,
+          "observed_occurrences": 1,
+          "observed_document_hits": 1,
+          "query_frequency": "rare"
+        },
+        {
+          "query_id": "missing",
+          "text": "Unauffindbar",
+          "query_type": "word",
+          "expected_ids": [],
+          "normalized_token_expected": "unauffindbar",
+          "expected_occurrences": 0,
+          "observed_occurrences": 0,
+          "observed_document_hits": 0,
+          "query_frequency": "missing"
+        }
+      ],
+      "corpus_sha256": "6d3e9dd9492e004381b20c836219857254fd34d6242798c22d76897378db5fc4",
+      "source_fixture": null
+    },
+    {
+      "dataset_id": "generated_100000",
+      "kind": "generated",
+      "document_count": 20,
+      "text_bytes": 898002,
+      "token_count": 100000,
+      "files": [
+        {
+          "document_id": "doc00.txt",
+          "source_path": "doc00.txt",
+          "bytes": 44902,
+          "sha256": "4c2442ba476d8589d02b315459d3bee50a0e42f99180f2aaf8b53e9fe19a49e1"
+        },
+        {
+          "document_id": "doc01.txt",
+          "source_path": "doc01.txt",
+          "bytes": 44900,
+          "sha256": "7e9d5b5f0d504eb5d3a7968f31bec91d1172e215c5d28ec3686eb9272615d138"
+        },
+        {
+          "document_id": "doc02.txt",
+          "source_path": "doc02.txt",
+          "bytes": 44900,
+          "sha256": "8b60e551fa4b7ef77a545ae2ee24fba0cfc2be0dfc5dede2029c1b59477cd700"
+        },
+        {
+          "document_id": "doc03.txt",
+          "source_path": "doc03.txt",
+          "bytes": 44900,
+          "sha256": "dcc156eb268e30567f2acfdbf0521c84482ff40c0464bdcb0252dfc6dc25157e"
+        },
+        {
+          "document_id": "doc04.txt",
+          "source_path": "doc04.txt",
+          "bytes": 44900,
+          "sha256": "a775dc72e06f585cff4e400fe3f49c54ca245c75bcbd917cb642355aa61572d8"
+        },
+        {
+          "document_id": "doc05.txt",
+          "source_path": "doc05.txt",
+          "bytes": 44900,
+          "sha256": "c68d590bf92a7b49e1738828002560659e2641b206637957d49fb2cea717fe54"
+        },
+        {
+          "document_id": "doc06.txt",
+          "source_path": "doc06.txt",
+          "bytes": 44900,
+          "sha256": "787e5453e3740c582211f4737f325f3fb99a620c5b89d741d7b23f215510ad4a"
+        },
+        {
+          "document_id": "doc07.txt",
+          "source_path": "doc07.txt",
+          "bytes": 44900,
+          "sha256": "abd1ec5686626ab8eda7139e3b39876b584b13dd20e4d7904a9fd808edd32e8d"
+        },
+        {
+          "document_id": "doc08.txt",
+          "source_path": "doc08.txt",
+          "bytes": 44900,
+          "sha256": "209556e605557665dafa3e39031d436a45d442ec482014986cbd6743c8fd28e7"
+        },
+        {
+          "document_id": "doc09.txt",
+          "source_path": "doc09.txt",
+          "bytes": 44900,
+          "sha256": "2e73c6923088e7f29020613a86abb89c096a44ca89540a7cd88809aabd9dc74f"
+        },
+        {
+          "document_id": "doc10.txt",
+          "source_path": "doc10.txt",
+          "bytes": 44900,
+          "sha256": "04a9502eb86a267337f6fad76e92b6c44c0961e2bb53eee950886f3c0849ed1d"
+        },
+        {
+          "document_id": "doc11.txt",
+          "source_path": "doc11.txt",
+          "bytes": 44900,
+          "sha256": "4ba59aa083a3d5495b1f2411b2a6ad51194f822cd13a550e8c8c38d947de5f74"
+        },
+        {
+          "document_id": "doc12.txt",
+          "source_path": "doc12.txt",
+          "bytes": 44900,
+          "sha256": "59c33f313c554c52d850037b64398f050482b61941da36e60d807595879d1301"
+        },
+        {
+          "document_id": "doc13.txt",
+          "source_path": "doc13.txt",
+          "bytes": 44900,
+          "sha256": "0cf9a71c0777bfe96a86b9f5df65ec8f38909fb3aa83bfa997aac62d3c14c586"
+        },
+        {
+          "document_id": "doc14.txt",
+          "source_path": "doc14.txt",
+          "bytes": 44900,
+          "sha256": "a370c9d5e8aa2cb545a6ec64e26c4a2defc8225c387339f1a8b495009f368d11"
+        },
+        {
+          "document_id": "doc15.txt",
+          "source_path": "doc15.txt",
+          "bytes": 44900,
+          "sha256": "6e82b66c094fca31138ac052febab750148ffef7245444efb2799d500ce8b24d"
+        },
+        {
+          "document_id": "doc16.txt",
+          "source_path": "doc16.txt",
+          "bytes": 44900,
+          "sha256": "02bb85d2c828bbc071146a46f8a2739769aa69e46ab1da05bb4d2c8073fc39c0"
+        },
+        {
+          "document_id": "doc17.txt",
+          "source_path": "doc17.txt",
+          "bytes": 44900,
+          "sha256": "29243bb8c3753b80045d078e1e3199328b4e923d2995d6febb13aebc222fa6a4"
+        },
+        {
+          "document_id": "doc18.txt",
+          "source_path": "doc18.txt",
+          "bytes": 44900,
+          "sha256": "e7a4ba292f62a312626999abaca3133aa4e8bef06ed285f2512091cc0b566a64"
+        },
+        {
+          "document_id": "doc19.txt",
+          "source_path": "doc19.txt",
+          "bytes": 44900,
+          "sha256": "8d366ee3568a2397fa72b4a87a24405ecb5c6fe9649a50f03f9029f6f3b249a9"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "frequent",
+          "text": "Fehler",
+          "query_type": "word",
+          "expected_ids": [
+            "doc00.txt",
+            "doc01.txt",
+            "doc02.txt",
+            "doc03.txt",
+            "doc04.txt",
+            "doc05.txt",
+            "doc06.txt",
+            "doc07.txt",
+            "doc08.txt",
+            "doc09.txt",
+            "doc10.txt",
+            "doc11.txt",
+            "doc12.txt",
+            "doc13.txt",
+            "doc14.txt",
+            "doc15.txt",
+            "doc16.txt",
+            "doc17.txt",
+            "doc18.txt",
+            "doc19.txt"
+          ],
+          "normalized_token_expected": "fehler",
+          "expected_occurrences": 1000,
+          "observed_occurrences": 1000,
+          "observed_document_hits": 20,
+          "query_frequency": "frequent"
+        },
+        {
+          "query_id": "rare",
+          "text": "Verbindung",
+          "query_type": "word",
+          "expected_ids": [
+            "doc00.txt"
+          ],
+          "normalized_token_expected": "verbindung",
+          "expected_occurrences": 1,
+          "observed_occurrences": 1,
+          "observed_document_hits": 1,
+          "query_frequency": "rare"
+        },
+        {
+          "query_id": "missing",
+          "text": "Unauffindbar",
+          "query_type": "word",
+          "expected_ids": [],
+          "normalized_token_expected": "unauffindbar",
+          "expected_occurrences": 0,
+          "observed_occurrences": 0,
+          "observed_document_hits": 0,
+          "query_frequency": "missing"
+        }
+      ],
+      "corpus_sha256": "69875ff03dd2492ed5ba70182f9fa546ab16de3436cf7191b79db818d7e5fd80",
+      "source_fixture": null
+    },
+    {
+      "dataset_id": "generated_1000000",
+      "kind": "generated",
+      "document_count": 20,
+      "text_bytes": 8980002,
+      "token_count": 1000000,
+      "files": [
+        {
+          "document_id": "doc00.txt",
+          "source_path": "doc00.txt",
+          "bytes": 449002,
+          "sha256": "98d7aa9795777213ed77a4c6837a5cb5b9468ffd04809d42ca2755e85b38ff69"
+        },
+        {
+          "document_id": "doc01.txt",
+          "source_path": "doc01.txt",
+          "bytes": 449000,
+          "sha256": "a4228d0396f49258dd4c851d4d571578e1a3836b016cb2ef297b5a294a98fd96"
+        },
+        {
+          "document_id": "doc02.txt",
+          "source_path": "doc02.txt",
+          "bytes": 449000,
+          "sha256": "e82ccf552ad9a43dbf7638e7b37b799153de4870eeed10b6b486134673b9137d"
+        },
+        {
+          "document_id": "doc03.txt",
+          "source_path": "doc03.txt",
+          "bytes": 449000,
+          "sha256": "89870f32951840a5105c34d123783c6886edc5ed9800f31998f7ab66ef0a5caa"
+        },
+        {
+          "document_id": "doc04.txt",
+          "source_path": "doc04.txt",
+          "bytes": 449000,
+          "sha256": "fae20ab89f0b73267afd4cea6e3ac063b583c17a071fd351de8a691743d25166"
+        },
+        {
+          "document_id": "doc05.txt",
+          "source_path": "doc05.txt",
+          "bytes": 449000,
+          "sha256": "cfc63bb6fc4501edffe49d60010e1d3c236528288aeb9b34e8f941fc8a67e697"
+        },
+        {
+          "document_id": "doc06.txt",
+          "source_path": "doc06.txt",
+          "bytes": 449000,
+          "sha256": "ae216e266b898bbdc5650d9ec58c4b4000c4ea07c9510607789244f3aa5a7cae"
+        },
+        {
+          "document_id": "doc07.txt",
+          "source_path": "doc07.txt",
+          "bytes": 449000,
+          "sha256": "6c47ccbd7f325e8d4f3b2c769795e4e91aea69047233f3eb48c98c261841a668"
+        },
+        {
+          "document_id": "doc08.txt",
+          "source_path": "doc08.txt",
+          "bytes": 449000,
+          "sha256": "c053de5a5636eaf510e5e49cd4b7e5ba18198e296a0ca9103ea6b4eb83fe5f2e"
+        },
+        {
+          "document_id": "doc09.txt",
+          "source_path": "doc09.txt",
+          "bytes": 449000,
+          "sha256": "0ba36e924d142348e09b6809b0103a0ff7efd8a6c4bc0fb4073aeb5c38b12254"
+        },
+        {
+          "document_id": "doc10.txt",
+          "source_path": "doc10.txt",
+          "bytes": 449000,
+          "sha256": "bfa6f82bce08c0577920cd9cdc824b2c64a048d4c17786740e2a29b91f5a4700"
+        },
+        {
+          "document_id": "doc11.txt",
+          "source_path": "doc11.txt",
+          "bytes": 449000,
+          "sha256": "47f8e9cec4d7d20d10849bedf852b18e889a5378e264ffbf728f630190791272"
+        },
+        {
+          "document_id": "doc12.txt",
+          "source_path": "doc12.txt",
+          "bytes": 449000,
+          "sha256": "53da5cb4d42ca53a95f6e3cc1d621c1d9b75adc45023081dfd0be4b3571e5618"
+        },
+        {
+          "document_id": "doc13.txt",
+          "source_path": "doc13.txt",
+          "bytes": 449000,
+          "sha256": "be843b666bdb9abc4186f66d61f005fcef65a65039933c097edea0e7b0a2affb"
+        },
+        {
+          "document_id": "doc14.txt",
+          "source_path": "doc14.txt",
+          "bytes": 449000,
+          "sha256": "eb3ea7ca1f6e0dedd94c090885109c68552ae0ec44cc7122081f56c45cd9f7ab"
+        },
+        {
+          "document_id": "doc15.txt",
+          "source_path": "doc15.txt",
+          "bytes": 449000,
+          "sha256": "00be42cb72641f0e0d3b75d64a84bb5196159ff8d185d087a86e11eb8677bb7f"
+        },
+        {
+          "document_id": "doc16.txt",
+          "source_path": "doc16.txt",
+          "bytes": 449000,
+          "sha256": "0dcb64443f1029fd61cdf26b5cf5d2cea7b9608965e828ed82836446a5496bf8"
+        },
+        {
+          "document_id": "doc17.txt",
+          "source_path": "doc17.txt",
+          "bytes": 449000,
+          "sha256": "79106cfbd08d923882ec2d4d6443e5403d2e2283618250ba5c16e6a0fd220f07"
+        },
+        {
+          "document_id": "doc18.txt",
+          "source_path": "doc18.txt",
+          "bytes": 449000,
+          "sha256": "fb493718154d71ef60f37435d5f3691f90d28cad5ea9b0b83914629fb061e143"
+        },
+        {
+          "document_id": "doc19.txt",
+          "source_path": "doc19.txt",
+          "bytes": 449000,
+          "sha256": "4a9452cba035e351b4b5187bdcd8371067fdba820615616508b7f81cdfd54ded"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "frequent",
+          "text": "Fehler",
+          "query_type": "word",
+          "expected_ids": [
+            "doc00.txt",
+            "doc01.txt",
+            "doc02.txt",
+            "doc03.txt",
+            "doc04.txt",
+            "doc05.txt",
+            "doc06.txt",
+            "doc07.txt",
+            "doc08.txt",
+            "doc09.txt",
+            "doc10.txt",
+            "doc11.txt",
+            "doc12.txt",
+            "doc13.txt",
+            "doc14.txt",
+            "doc15.txt",
+            "doc16.txt",
+            "doc17.txt",
+            "doc18.txt",
+            "doc19.txt"
+          ],
+          "normalized_token_expected": "fehler",
+          "expected_occurrences": 10000,
+          "observed_occurrences": 10000,
+          "observed_document_hits": 20,
+          "query_frequency": "frequent"
+        },
+        {
+          "query_id": "rare",
+          "text": "Verbindung",
+          "query_type": "word",
+          "expected_ids": [
+            "doc00.txt"
+          ],
+          "normalized_token_expected": "verbindung",
+          "expected_occurrences": 1,
+          "observed_occurrences": 1,
+          "observed_document_hits": 1,
+          "query_frequency": "rare"
+        },
+        {
+          "query_id": "missing",
+          "text": "Unauffindbar",
+          "query_type": "word",
+          "expected_ids": [],
+          "normalized_token_expected": "unauffindbar",
+          "expected_occurrences": 0,
+          "observed_occurrences": 0,
+          "observed_document_hits": 0,
+          "query_frequency": "missing"
+        }
+      ],
+      "corpus_sha256": "78522b0babaeb1aeeb3cd1d3e0c98d038520c65523c078c8a9282db8f7d04f60",
+      "source_fixture": null
+    },
+    {
+      "dataset_id": "real_kafka_anfang",
+      "kind": "real",
+      "document_count": 1,
+      "text_bytes": 8495,
+      "token_count": 1271,
+      "files": [
+        {
+          "document_id": "01_anfang.txt",
+          "source_path": "01_anfang.txt",
+          "bytes": 8495,
+          "sha256": "2af880c67c82af640ba7d1e0f1050e4b0b94bbabfc49e47ece2a8f0b4f25e858"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "frequent",
+          "text": "Gregor",
+          "query_type": "word",
+          "expected_ids": [
+            "01_anfang.txt"
+          ],
+          "normalized_token_expected": "gregor",
+          "expected_occurrences": 15,
+          "observed_occurrences": 15,
+          "observed_document_hits": 1,
+          "query_frequency": "frequent"
+        },
+        {
+          "query_id": "rare",
+          "text": "Fenster",
+          "query_type": "word",
+          "expected_ids": [
+            "01_anfang.txt"
+          ],
+          "normalized_token_expected": "fenster",
+          "expected_occurrences": 1,
+          "observed_occurrences": 1,
+          "observed_document_hits": 1,
+          "query_frequency": "rare"
+        },
+        {
+          "query_id": "missing",
+          "text": "Unauffindbar",
+          "query_type": "word",
+          "expected_ids": [],
+          "normalized_token_expected": "unauffindbar",
+          "expected_occurrences": 0,
+          "observed_occurrences": 0,
+          "observed_document_hits": 0,
+          "query_frequency": "missing"
+        }
+      ],
+      "corpus_sha256": "eca762ea8734cf0a330db7b9d2897ad5c937bac00104fdf077ce8ee1cdf0279e",
+      "source_fixture": {
+        "manifest_path": "daten/real/kafka_verwandlung/manifest.json",
+        "manifest_sha256": "497001a04dab97fb4ef3c23860e44bf1da9496cf6689d19bef82bac68f88153b",
+        "sha256": "2af880c67c82af640ba7d1e0f1050e4b0b94bbabfc49e47ece2a8f0b4f25e858",
+        "token_count": 1271,
+        "first_tokens": [
+          "als",
+          "gregor",
+          "samsa",
+          "eines",
+          "morgens",
+          "aus",
+          "unruhigen",
+          "träumen",
+          "erwachte",
+          "fand",
+          "er",
+          "sich",
+          "in",
+          "seinem",
+          "bett",
+          "zu",
+          "einem",
+          "ungeheueren",
+          "ungeziefer",
+          "verwandelt"
+        ],
+        "queries": {
+          "frequent": {
+            "text": "Gregor",
+            "query_type": "word",
+            "expected_ids": [
+              "01_anfang.txt"
+            ],
+            "occurrences": 15,
+            "positions": [
+              1,
+              785,
+              845,
+              901,
+              919,
+              976,
+              1039,
+              1060,
+              1061,
+              1078,
+              1079,
+              1089,
+              1102,
+              1141,
+              1147
+            ]
+          },
+          "rare": {
+            "text": "Fenster",
+            "query_type": "word",
+            "expected_ids": [
+              "01_anfang.txt"
+            ],
+            "occurrences": 1,
+            "positions": [
+              172
+            ]
+          },
+          "missing": {
+            "text": "Unauffindbar",
+            "query_type": "word",
+            "expected_ids": [],
+            "occurrences": 0,
+            "positions": []
+          }
+        }
+      }
+    }
+  ],
+  "completed_at_utc": "2026-10-06T14:05:48.650541+00:00",
+  "background_load": "ordinary desktop background load; temporary parallel LaTeX build may have overlapped; machine not isolated",
+  "recording_correction": {
+    "description": "query_type changed from frequency labels to word; query_frequency recorded separately; background load and unchanged root import adapter hash added",
+    "timing_values_and_results_unchanged": true,
+    "run_script_sha256_measured": "05e27e985af68cb66c01dd50c5fec1f3772a827a24ce8273de0f4565840229b6",
+    "run_script_sha256_after_recording_correction": "626f7e5ece2ed9d0e3b50e9f3809873654a011cd114c6d13a6b4c83c3e341cc1",
+    "measured_run_source_archive": "ergebnisse/messungen/01_direkte_suche/run_source_measured.py",
+    "root_adapter_unchanged_since_before_final_run": "confirmed by root agent"
+  }
+}

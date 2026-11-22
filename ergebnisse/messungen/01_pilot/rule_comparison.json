@@ -1,0 +1,100 @@
+{
+  "changed_rule_only": "casefold() versus lower(), applied identically to documents and queries",
+  "unchanged": "NFC before and after case conversion; token characters Unicode L* and Nd; remaining combining marks separate tokens",
+  "texts": {
+    "r0.txt": "Straße STRASSE",
+    "r1.txt": "Straße",
+    "r2.txt": "STRASSE",
+    "r3.txt": "Café Übermaß 2026 x́y"
+  },
+  "variants": {
+    "casefold": {
+      "tokens": {
+        "r0.txt": [
+          "strasse",
+          "strasse"
+        ],
+        "r1.txt": [
+          "strasse"
+        ],
+        "r2.txt": [
+          "strasse"
+        ],
+        "r3.txt": [
+          "café",
+          "übermass",
+          "2026",
+          "x",
+          "y"
+        ]
+      },
+      "hits": {
+        "Straße": [
+          "r0.txt",
+          "r1.txt",
+          "r2.txt"
+        ],
+        "STRASSE": [
+          "r0.txt",
+          "r1.txt",
+          "r2.txt"
+        ]
+      },
+      "expected_hits": {
+        "Straße": [
+          "r0.txt",
+          "r1.txt",
+          "r2.txt"
+        ],
+        "STRASSE": [
+          "r0.txt",
+          "r1.txt",
+          "r2.txt"
+        ]
+      }
+    },
+    "lower": {
+      "tokens": {
+        "r0.txt": [
+          "straße",
+          "strasse"
+        ],
+        "r1.txt": [
+          "straße"
+        ],
+        "r2.txt": [
+          "strasse"
+        ],
+        "r3.txt": [
+          "café",
+          "übermaß",
+          "2026",
+          "x",
+          "y"
+        ]
+      },
+      "hits": {
+        "Straße": [
+          "r0.txt",
+          "r1.txt"
+        ],
+        "STRASSE": [
+          "r0.txt",
+          "r2.txt"
+        ]
+      },
+      "expected_hits": {
+        "Straße": [
+          "r0.txt",
+          "r1.txt"
+        ],
+        "STRASSE": [
+          "r0.txt",
+          "r2.txt"
+        ]
+      }
+    }
+  },
+  "correct": true,
+  "runtime_claim": "none; only token sequences and document hits compared"
+}

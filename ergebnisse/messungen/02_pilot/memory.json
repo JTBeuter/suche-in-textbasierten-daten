@@ -1,0 +1,278 @@
+{
+  "schema": [
+    "run_id",
+    "dataset_id",
+    "document_count",
+    "token_count",
+    "vocabulary_size",
+    "posting_count",
+    "repeat",
+    "retained_traced_bytes",
+    "peak_traced_bytes",
+    "exclusive_index_bytes"
+  ],
+  "measurement": {
+    "separate_process": true,
+    "repeats": 3,
+    "retained_traced_bytes": "tracemalloc current_after_build-current_before_build; tracer starts after preparation",
+    "peak_traced_bytes": "peak_since_reset-current_before_build; includes transient build allocations",
+    "exclusive_index_bytes": "sys.getsizeof unique index/proxy/backing dict/tuple/str objects, excluding corpus token and ID string identities",
+    "limitations": "Python traced allocations and object graph estimates, not RSS; corpus and query result memory excluded; no traced times used"
+  },
+  "rows": [
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "n10000",
+      "document_count": 10,
+      "token_count": 10000,
+      "vocabulary_size": 1002,
+      "posting_count": 6287,
+      "repeat": 0,
+      "retained_traced_bytes": 121320,
+      "peak_traced_bytes": 296560,
+      "exclusive_index_bytes": 116488
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "n10000",
+      "document_count": 10,
+      "token_count": 10000,
+      "vocabulary_size": 1002,
+      "posting_count": 6287,
+      "repeat": 1,
+      "retained_traced_bytes": 121320,
+      "peak_traced_bytes": 296560,
+      "exclusive_index_bytes": 116488
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "n10000",
+      "document_count": 10,
+      "token_count": 10000,
+      "vocabulary_size": 1002,
+      "posting_count": 6287,
+      "repeat": 2,
+      "retained_traced_bytes": 121320,
+      "peak_traced_bytes": 296560,
+      "exclusive_index_bytes": 116488
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "n100000",
+      "document_count": 100,
+      "token_count": 100000,
+      "vocabulary_size": 1002,
+      "posting_count": 62925,
+      "repeat": 0,
+      "retained_traced_bytes": 574424,
+      "peak_traced_bytes": 1240928,
+      "exclusive_index_bytes": 569592
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "n100000",
+      "document_count": 100,
+      "token_count": 100000,
+      "vocabulary_size": 1002,
+      "posting_count": 62925,
+      "repeat": 1,
+      "retained_traced_bytes": 574424,
+      "peak_traced_bytes": 1240928,
+      "exclusive_index_bytes": 569592
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "n100000",
+      "document_count": 100,
+      "token_count": 100000,
+      "vocabulary_size": 1002,
+      "posting_count": 62925,
+      "repeat": 2,
+      "retained_traced_bytes": 574424,
+      "peak_traced_bytes": 1240928,
+      "exclusive_index_bytes": 569592
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "n1000000",
+      "document_count": 1000,
+      "token_count": 1000000,
+      "vocabulary_size": 1002,
+      "posting_count": 629837,
+      "repeat": 0,
+      "retained_traced_bytes": 5109720,
+      "peak_traced_bytes": 10637616,
+      "exclusive_index_bytes": 5104888
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "n1000000",
+      "document_count": 1000,
+      "token_count": 1000000,
+      "vocabulary_size": 1002,
+      "posting_count": 629837,
+      "repeat": 1,
+      "retained_traced_bytes": 5109720,
+      "peak_traced_bytes": 10637616,
+      "exclusive_index_bytes": 5104888
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "n1000000",
+      "document_count": 1000,
+      "token_count": 1000000,
+      "vocabulary_size": 1002,
+      "posting_count": 629837,
+      "repeat": 2,
+      "retained_traced_bytes": 5109720,
+      "peak_traced_bytes": 10637616,
+      "exclusive_index_bytes": 5104888
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "v100",
+      "document_count": 100,
+      "token_count": 100000,
+      "vocabulary_size": 102,
+      "posting_count": 10101,
+      "repeat": 0,
+      "retained_traced_bytes": 93128,
+      "peak_traced_bytes": 202720,
+      "exclusive_index_bytes": 88296
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "v100",
+      "document_count": 100,
+      "token_count": 100000,
+      "vocabulary_size": 102,
+      "posting_count": 10101,
+      "repeat": 1,
+      "retained_traced_bytes": 93128,
+      "peak_traced_bytes": 202720,
+      "exclusive_index_bytes": 88296
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "v100",
+      "document_count": 100,
+      "token_count": 100000,
+      "vocabulary_size": 102,
+      "posting_count": 10101,
+      "repeat": 2,
+      "retained_traced_bytes": 93128,
+      "peak_traced_bytes": 202720,
+      "exclusive_index_bytes": 88296
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "v10000",
+      "document_count": 100,
+      "token_count": 100000,
+      "vocabulary_size": 10002,
+      "posting_count": 94535,
+      "repeat": 0,
+      "retained_traced_bytes": 1368888,
+      "peak_traced_bytes": 3697528,
+      "exclusive_index_bytes": 1364056
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "v10000",
+      "document_count": 100,
+      "token_count": 100000,
+      "vocabulary_size": 10002,
+      "posting_count": 94535,
+      "repeat": 1,
+      "retained_traced_bytes": 1368888,
+      "peak_traced_bytes": 3697528,
+      "exclusive_index_bytes": 1364056
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "v10000",
+      "document_count": 100,
+      "token_count": 100000,
+      "vocabulary_size": 10002,
+      "posting_count": 94535,
+      "repeat": 2,
+      "retained_traced_bytes": 1368888,
+      "peak_traced_bytes": 3697528,
+      "exclusive_index_bytes": 1364056
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "real_kafka_anfang",
+      "document_count": 1,
+      "token_count": 1271,
+      "vocabulary_size": 608,
+      "posting_count": 608,
+      "repeat": 0,
+      "retained_traced_bytes": 47152,
+      "peak_traced_bytes": 142544,
+      "exclusive_index_bytes": 42320
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "real_kafka_anfang",
+      "document_count": 1,
+      "token_count": 1271,
+      "vocabulary_size": 608,
+      "posting_count": 608,
+      "repeat": 1,
+      "retained_traced_bytes": 47152,
+      "peak_traced_bytes": 142544,
+      "exclusive_index_bytes": 42320
+    },
+    {
+      "run_id": "02_pilot",
+      "dataset_id": "real_kafka_anfang",
+      "document_count": 1,
+      "token_count": 1271,
+      "vocabulary_size": 608,
+      "posting_count": 608,
+      "repeat": 2,
+      "retained_traced_bytes": 47152,
+      "peak_traced_bytes": 142544,
+      "exclusive_index_bytes": 42320
+    }
+  ],
+  "summary": [
+    {
+      "dataset_id": "n10000",
+      "median_retained_traced_bytes": 121320,
+      "median_peak_traced_bytes": 296560,
+      "median_exclusive_index_bytes": 116488
+    },
+    {
+      "dataset_id": "n100000",
+      "median_retained_traced_bytes": 574424,
+      "median_peak_traced_bytes": 1240928,
+      "median_exclusive_index_bytes": 569592
+    },
+    {
+      "dataset_id": "n1000000",
+      "median_retained_traced_bytes": 5109720,
+      "median_peak_traced_bytes": 10637616,
+      "median_exclusive_index_bytes": 5104888
+    },
+    {
+      "dataset_id": "v100",
+      "median_retained_traced_bytes": 93128,
+      "median_peak_traced_bytes": 202720,
+      "median_exclusive_index_bytes": 88296
+    },
+    {
+      "dataset_id": "v10000",
+      "median_retained_traced_bytes": 1368888,
+      "median_peak_traced_bytes": 3697528,
+      "median_exclusive_index_bytes": 1364056
+    },
+    {
+      "dataset_id": "real_kafka_anfang",
+      "median_retained_traced_bytes": 47152,
+      "median_peak_traced_bytes": 142544,
+      "median_exclusive_index_bytes": 42320
+    }
+  ]
+}

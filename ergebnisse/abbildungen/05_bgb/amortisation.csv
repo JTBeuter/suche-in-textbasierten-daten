@@ -1,0 +1,7 @@
+daten,profil,anfrage,t_aufbau_ms,t_direkt_ms,t_index_ms,q_stern,q_stern_aufgerundet,amortisation,erste_stufe_alle_paare_positiv,median_ersparnis_ms_dort,paare_positiv_dort,paare_dort,ab_stufe_alle_hoeheren_alle_paare_positiv
+bgb,word_missing,Server,98.870771,7.209599,0.003893,13.721,14,14,20,41.599942,5,5,20
+bgb,word_frequent,der,98.870771,2.802408,0.010719,35.416,36,36,50,68.763154,5,5,50
+bgb,word_rare,Verbindung,98.870771,6.974905,0.004622,14.185,15,15,30,136.356271,5,5,30
+bgb,and_present3,Gläubiger Schuldner Frist,98.870771,11.179698,0.087503,8.914,9,9,10,32.945695,5,5,10
+bgb,or_present3,Mieter Vermieter Miete,98.870771,10.527272,0.057311,9.443,10,10,20,154.837025,5,5,20
+bgb,phrase_present3,im Sinne des,210.979161,45.269203,0.757839,4.740,5,5,10,264.563463,5,5,10

@@ -1,0 +1,100 @@
+{
+  "pilot_correct": true,
+  "locked_parameters": {
+    "dataset": "bgb-gesetze-im-internet-v1",
+    "corpus_root": "daten/real/bgb/dokumente",
+    "manifest": "daten/real/bgb/manifest.json",
+    "proposals": "daten/real/bgb/anfragevorschlaege.json",
+    "corpus_sha256": "dc1641fd49dfa45270a1865f454abd64cf7cf94d79b37af9657ff97d7602eadf",
+    "subset_sizes": [
+      250,
+      500,
+      1000,
+      1500,
+      2000,
+      2486
+    ],
+    "subset_selection": "first k documents in document-ID byte order, which is the order of the law",
+    "queries": [
+      {
+        "query_id": "beginn",
+        "text": "Beginn",
+        "role": "early hit, series 01b"
+      },
+      {
+        "query_id": "der",
+        "text": "der",
+        "role": "most frequent word, series 01b"
+      },
+      {
+        "query_id": "erbschaftskauf",
+        "text": "Erbschaftskauf",
+        "role": "only in last document, series 01b"
+      },
+      {
+        "query_id": "server",
+        "text": "Server",
+        "role": "missing, series 01b"
+      },
+      {
+        "query_id": "fehler",
+        "text": "Fehler",
+        "role": "series 02 query word, rare in BGB"
+      },
+      {
+        "query_id": "verbindung",
+        "text": "Verbindung",
+        "role": "series 02 query word, rare in BGB"
+      },
+      {
+        "query_id": "unauffindbar",
+        "text": "Unauffindbar",
+        "role": "series 02 query word, missing"
+      }
+    ],
+    "final_plan": {
+      "warmups": 5,
+      "repeats": 20,
+      "query_block_size": 10,
+      "seed": 20261006
+    },
+    "pilot_plan": {
+      "warmups": 1,
+      "repeats": 3,
+      "query_block_size": 10,
+      "seed": 20261006
+    },
+    "memory_repeats": 3,
+    "schedule": "subset builds ascending with measure_phase; then all (algorithm, query) blocks on the full corpus shuffled once per warmup/repetition with fixed seed (measure_comparison of series 02)"
+  },
+  "method_code_sha256": {
+    "gemeinsam/__init__.py": "0292f8e7c801f5d7ed8740100fa187db428828d51c4fd33451f725f68c245cc1",
+    "gemeinsam/src/gemeinsam/__init__.py": "7ade195f2e6dfbdb43bc1554d1040385631926ad8b2067828697464d173395af",
+    "gemeinsam/src/gemeinsam/corpus.py": "e0ca8de1c116329058d5ae580a28efbd7a6605c0b09e7272959bec3a5caa9731",
+    "gemeinsam/src/gemeinsam/datengenerator.py": "9b3e3d2c46a05694849bc3eac0bef4ec1ac7cab716ab30f8721d4acbe13f8d7b",
+    "gemeinsam/src/gemeinsam/messung.py": "ef4ce81f389196a55ceb2a8ca45e65b199e0966c6ddf4c07b840d59a5b739331",
+    "gemeinsam/src/gemeinsam/models.py": "edf5011d790ebdc3a99fb21bad33e6b1c26fc8c118ec936265a8381883635b92",
+    "gemeinsam/src/gemeinsam/text.py": "583f6952986c785bb1ce5c2d9fb7158cf816a182a40ef5fbe493da711631e956",
+    "pyproject.toml": "8625bcaac24420a84476e14e10b7bea1331ffbce43e172ddb91d0df292a2c714",
+    "requirements-dev.txt": "a4fbb25989ad950adf673f3bcbdce81269e59d1b532a087e601ade3c61ff2116",
+    "themen/01_textaufbereitung_direkte_suche/src/direkte_suche/__init__.py": "4ccd2e15b50655c88f1a8b3faf685470f8c8f8d04a101ca0f6f8f9533ef5848c",
+    "themen/01_textaufbereitung_direkte_suche/src/direkte_suche/__main__.py": "4886c631e18cb65e8f11e16dd450f6a3c9293a635297c540493d32c401a1bd83",
+    "themen/01_textaufbereitung_direkte_suche/src/direkte_suche/search.py": "23a944b491fc0ce6622960369967bca38efb3ce339c330502008dc05af486c83",
+    "themen/02_invertierter_index_einzelwortsuche/experimente/bgb_lauf.py": "e1da3f9f54f530b16cd3fa3528f3d969e2929849f8b450ca3930e00353f9a328",
+    "themen/02_invertierter_index_einzelwortsuche/experimente/generator.py": "8a45e1272ca18fc58feb3285fa358dac68c2f0b837e66a494902fe4fbbe6fb64",
+    "themen/02_invertierter_index_einzelwortsuche/experimente/memory.py": "144b343440d192811245b2de04d59378efcd824054c235793e138e0655619b9a",
+    "themen/02_invertierter_index_einzelwortsuche/experimente/run.py": "084fe843574a64d119846b0ef87c723c813eabd9c76c3e9275721707cb1136ab",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__init__.py": "073e9bc6d184a6a87bf916c53fe4bdf0dd927ad6fc708c0255dbc0192d418dea",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__main__.py": "156d2306b39e652beb2aab2c51f42978afb18b14c5f31da189954cb928dfa349",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/index.py": "cc21a1fa820fad0b4da0a9bc961b8e6e50f69851b9037bb3d18ec5481d7a0c57"
+  },
+  "python_hash_seed": "0",
+  "pilot_plan": {
+    "warmups": 1,
+    "repeats": 3,
+    "query_block_size": 10,
+    "seed": 20261006
+  },
+  "decision": "BGB-Dateien, Teilmengen, Treffer und getrennter Speicherprozess ausführbar; Parameter gesperrt",
+  "pilot_is_not_final_measurement": true
+}

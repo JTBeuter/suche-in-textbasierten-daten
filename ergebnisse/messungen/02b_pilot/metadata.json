@@ -1,0 +1,199 @@
+{
+  "run_id": "02b_pilot",
+  "run_kind": "pilot",
+  "output_directory": "ergebnisse/messungen/02b_pilot",
+  "started_at_utc": "2026-10-14T15:52:53.214986+00:00",
+  "git_commit": "7bc4f9a3a110afa9f259131add5849719eba8b50",
+  "git_dirty": true,
+  "git_status_at_start": "M doku/entscheidungen.md\n M latex/README.md\n M latex/appendix/index.tex\n M latex/audit_pdf.py\n M latex/chapter/10_einleitung.tex\n M latex/chapter/20_grundlagen.tex\nD  latex/chapter/20_textaufbereitung_direkte_suche.tex\nD  latex/chapter/30_invertierter_index_einzelwortsuche.tex\n M latex/chapter/30_methodik.tex\nD  latex/chapter/40_boolesche_mehrwortsuche.tex\n M latex/chapter/40_konzeption_implementierung.tex\n M latex/chapter/50_evaluation_diskussion.tex\nD  latex/chapter/50_positionsindex_phrasensuche.tex\nD  latex/chapter/60_experimentelle_analyse.tex\nD  latex/chapter/61_gesamtbefunde.tex\n M latex/chapter/80_fazit.tex\nD  latex/chapter/81_amortisationsfazit.tex\n M latex/chapter/kiVerzeichnis.tex\nD  latex/chapter_preservation.json\n M latex/config/gliederung.tex\n M latex/literatur.bib\n M latex/main.pdf\n M latex/quellen/quellen.md\n M latex/render_eval_figures.py\n M themen/01_textaufbereitung_direkte_suche/experimente/README.md\n M themen/01_textaufbereitung_direkte_suche/experimente/run.py\n M themen/01_textaufbereitung_direkte_suche/experimente/tests/test_experiments.py\n M themen/01_textaufbereitung_direkte_suche/experimente/verify_results.py\n M themen/02_invertierter_index_einzelwortsuche/experimente/README.md\n M themen/03_boolesche_mehrwortsuche/README.md\n M themen/03_boolesche_mehrwortsuche/experimente/README.md\n M themen/03_boolesche_mehrwortsuche/experimente/boolean_diagnostics.py\n M themen/03_boolesche_mehrwortsuche/experimente/tests/test_boolean_experiments.py\n M themen/03_boolesche_mehrwortsuche/src/boolesche_suche/__init__.py\n M themen/03_boolesche_mehrwortsuche/src/boolesche_suche/__main__.py\n M themen/03_boolesche_mehrwortsuche/src/boolesche_suche/lists.py\n M themen/03_boolesche_mehrwortsuche/src/boolesche_suche/query.py\n M themen/03_boolesche_mehrwortsuche/src/boolesche_suche/search.py\n M themen/04_positionsindex_phrasensuche/experimente/README.md\n M themen/04_positionsindex_phrasensuche/experimente/memory.py\n M themen/04_positionsindex_phrasensuche/experimente/run.py\n M themen/04_positionsindex_phrasensuche/experimente/tests/test_phrase_experiments.py\n M themen/04_positionsindex_phrasensuche/experimente/verify_results.py\n M themen/04_positionsindex_phrasensuche/tests/test_historical_integration04.py\n M themen/05_experimentelle_analyse/README.md\n M themen/05_experimentelle_analyse/experimente/README.md\n M themen/05_experimentelle_analyse/experimente/render.py\n M themen/05_experimentelle_analyse/experimente/report_results.py\n M themen/05_experimentelle_analyse/src/experimentelle_analyse/analysis.py\n M themen/05_experimentelle_analyse/src/experimentelle_analyse/cli.py\n M themen/05_experimentelle_analyse/src/experimentelle_analyse/costs.py\n M themen/05_experimentelle_analyse/src/experimentelle_analyse/datasets.py\n M themen/05_experimentelle_analyse/src/experimentelle_analyse/pipeline.py\n M themen/05_experimentelle_analyse/src/experimentelle_analyse/provenance.py\n M themen/05_experimentelle_analyse/src/experimentelle_analyse/schema.py\n M themen/05_experimentelle_analyse/src/experimentelle_analyse/verify.py\n M themen/05_experimentelle_analyse/tests/test_report_results05.py\n M \"\\303\\244nderungen/zusammenfassung.md\"\n?? daten/real/bgb/\n?? ergebnisse/messungen/01b_direkte_suche/\n?? ergebnisse/messungen/01b_pilot/\n?? ergebnisse/messungen/02b_pilot/\n?? latex/images/02_indexaufbau_ueberarbeitet.pdf\n?? latex/images/02_indexaufbau_ueberarbeitet.png\n?? latex/images/02_indexaufbau_ueberarbeitet.svg\n?? latex/images/05_amortisation_beschriftet.pdf\n?? latex/images/05_amortisation_beschriftet.png\n?? latex/images/05_amortisation_beschriftet.svg\n?? latex/images/05_gesamtkosten_baender.pdf\n?? latex/images/05_gesamtkosten_baender.png\n?? latex/images/05_gesamtkosten_baender.svg\n?? latex/images/42_woerterbuch_postings.pdf\n?? latex/images/42_woerterbuch_postings.png\n?? latex/images/42_woerterbuch_postings.py\n?? latex/images/kapitel5_plot_manifest.json\n?? latex/quellen/originale/pythonCasefold311.html\n?? latex/quellen/originale/pythonDict311.html\n?? latex/quellen/pdfs/bgbGii2026.pdf\n?? latex/quellen/pdfs/he2021logsurvey.pdf\n?? latex/quellen/pdfs/lehman2018mcs.pdf\n?? latex/quellen/pdfs/pythonCasefold311.pdf\n?? latex/quellen/pdfs/pythonReference311.pdf\n?? themen/01_textaufbereitung_direkte_suche/tests/test_real_bgb.py\n?? themen/02_invertierter_index_einzelwortsuche/experimente/bgb_lauf.py\n?? themen/02_invertierter_index_einzelwortsuche/experimente/tests/test_bgb_lauf.py\n?? themen/02_invertierter_index_einzelwortsuche/experimente/tests/test_tokenpruefung.py\n?? themen/02_invertierter_index_einzelwortsuche/experimente/tokenpruefung.py\n?? themen/03_boolesche_mehrwortsuche/experimente/bgb/\n?? themen/03_boolesche_mehrwortsuche/experimente/galloping/\n?? themen/03_boolesche_mehrwortsuche/experimente/messlauf03.py\n?? themen/03_boolesche_mehrwortsuche/experimente/tests/test_bgb_03.py\n?? themen/03_boolesche_mehrwortsuche/experimente/tests/test_galloping_03b.py\n?? themen/03_boolesche_mehrwortsuche/tests/test_boolean_cli_galloping_not.py\n?? themen/03_boolesche_mehrwortsuche/tests/test_boolean_galloping_not.py\n?? themen/04_positionsindex_phrasensuche/experimente/run_bgb.py\n?? themen/04_positionsindex_phrasensuche/experimente/tests/test_bgb_experiments.py\n?? themen/04_positionsindex_phrasensuche/experimente/verify_bgb.py\n?? themen/05_experimentelle_analyse/experimente/bgb_main.json\n?? themen/05_experimentelle_analyse/experimente/bgb_pilot.json\n?? themen/05_experimentelle_analyse/experimente/render_bgb.py\n?? themen/05_experimentelle_analyse/experimente/verify_results.py\n?? themen/05_experimentelle_analyse/tests/test_bgb05.py\n?? themen/05_experimentelle_analyse/tests/test_cli05_boolean_extension.py\n?? themen/05_experimentelle_analyse/tests/test_provenance05.py",
+  "code_sha256": {
+    "gemeinsam/__init__.py": "0292f8e7c801f5d7ed8740100fa187db428828d51c4fd33451f725f68c245cc1",
+    "gemeinsam/src/gemeinsam/__init__.py": "7ade195f2e6dfbdb43bc1554d1040385631926ad8b2067828697464d173395af",
+    "gemeinsam/src/gemeinsam/corpus.py": "e0ca8de1c116329058d5ae580a28efbd7a6605c0b09e7272959bec3a5caa9731",
+    "gemeinsam/src/gemeinsam/datengenerator.py": "9b3e3d2c46a05694849bc3eac0bef4ec1ac7cab716ab30f8721d4acbe13f8d7b",
+    "gemeinsam/src/gemeinsam/messung.py": "ef4ce81f389196a55ceb2a8ca45e65b199e0966c6ddf4c07b840d59a5b739331",
+    "gemeinsam/src/gemeinsam/models.py": "edf5011d790ebdc3a99fb21bad33e6b1c26fc8c118ec936265a8381883635b92",
+    "gemeinsam/src/gemeinsam/text.py": "583f6952986c785bb1ce5c2d9fb7158cf816a182a40ef5fbe493da711631e956",
+    "pyproject.toml": "8625bcaac24420a84476e14e10b7bea1331ffbce43e172ddb91d0df292a2c714",
+    "requirements-dev.txt": "a4fbb25989ad950adf673f3bcbdce81269e59d1b532a087e601ade3c61ff2116",
+    "themen/02_invertierter_index_einzelwortsuche/experimente/generator.py": "8a45e1272ca18fc58feb3285fa358dac68c2f0b837e66a494902fe4fbbe6fb64",
+    "themen/02_invertierter_index_einzelwortsuche/experimente/tokenpruefung.py": "a8fcffcc57ff37900e05a640e9a536ff0f9be1e87698fdd80c6eb6ccb4362ab2",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__init__.py": "073e9bc6d184a6a87bf916c53fe4bdf0dd927ad6fc708c0255dbc0192d418dea",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__main__.py": "156d2306b39e652beb2aab2c51f42978afb18b14c5f31da189954cb928dfa349",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/index.py": "cc21a1fa820fad0b4da0a9bc961b8e6e50f69851b9037bb3d18ec5481d7a0c57"
+  },
+  "source_archive": "code_source/",
+  "parameters": {
+    "seed": 20261006,
+    "datasets": [
+      {
+        "dataset_id": "v100",
+        "total_tokens": 100000,
+        "document_count": 100,
+        "base_vocabulary": 100
+      },
+      {
+        "dataset_id": "n100000",
+        "total_tokens": 100000,
+        "document_count": 100,
+        "base_vocabulary": 1000
+      },
+      {
+        "dataset_id": "v10000",
+        "total_tokens": 100000,
+        "document_count": 100,
+        "base_vocabulary": 10000
+      }
+    ],
+    "reference_run": "ergebnisse/messungen/02_invertierter_index",
+    "variants": {
+      "inverted_index": "public build_inverted_index, unchanged production code",
+      "inverted_index_ohne_tokenpruefung": "measurement-internal copy without checked_tokens set and tokenize(token) contract check; AST otherwise identical to production function"
+    },
+    "variant_order": {
+      "v100": [
+        "inverted_index",
+        "inverted_index_ohne_tokenpruefung"
+      ],
+      "n100000": [
+        "inverted_index_ohne_tokenpruefung",
+        "inverted_index"
+      ],
+      "v10000": [
+        "inverted_index",
+        "inverted_index_ohne_tokenpruefung"
+      ]
+    },
+    "final_plan": {
+      "warmups": 5,
+      "repeats": 20,
+      "query_block_size": 10,
+      "seed": 20261006
+    },
+    "pilot_plan": {
+      "warmups": 1,
+      "repeats": 3,
+      "query_block_size": 10,
+      "seed": 20261006
+    },
+    "share": "(median_a - median_b) / median_a per dataset; a=public build, b=copy without token check"
+  },
+  "measurement_plan": {
+    "warmups": 1,
+    "repeats": 3,
+    "query_block_size": 10,
+    "seed": 20261006
+  },
+  "reference": {
+    "run": "ergebnisse/messungen/02_invertierter_index",
+    "metadata_sha256": "3f22e7dba19ebdb2665b4f58b7dd12b8a2c7c95f6f340504901c2f97d0043bec",
+    "summary_sha256": "f12be151c69754fc4e41418a66af267659ca28fe570e9616ffd073d9e2023047"
+  },
+  "environment": {
+    "python": "3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0]",
+    "implementation": "CPython",
+    "platform": "Linux-6.1.0-45-amd64-x86_64-with-glibc2.36",
+    "machine": "x86_64",
+    "cpu_model": "Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz",
+    "logical_cpus": 4,
+    "python_hash_seed": "0",
+    "python_hash_seed_set": true,
+    "unicode_database": "14.0.0",
+    "pytest": "8.3.5"
+  },
+  "timer": "time.perf_counter_ns via gemeinsam.messung.measure_phase; integer elapsed_ns per complete build",
+  "clock": {
+    "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-09
+  },
+  "background_load": "Keine parallelen Messungen, Agenten oder Builds; Videopipeline pausiert; Lastmittel vor Start 1.27 2.61 4.54",
+  "cache": "same prepared corpus reused for every build; no cold-cache claim",
+  "timing_boundaries": {
+    "inverted_index": "complete public build_inverted_index on already prepared corpus, as build phase of series 02",
+    "inverted_index_ohne_tokenpruefung": "identical except checked_tokens bookkeeping and tokenize(token) contract check",
+    "excluded": "generation, loading, preparation, AST check, index equality checks, result validation, output"
+  },
+  "statistics": "median, inclusive Q1/Q3, IQR=Q3-Q1; share=(median_a-median_b)/median_a; variants measured in separate measure_phase blocks, so repeats are not paired; quartiles are not confidence intervals",
+  "interpretation_limits": [
+    "Difference a-b contains tokenize calls per distinct token and the checked_tokens set bookkeeping per posting.",
+    "Copy and production code are separate functions; equal AST does not exclude small interpreter-level differences.",
+    "Only the V series of series 02 (N=100000, D=100); no statement about other corpora."
+  ],
+  "datasets": [
+    {
+      "dataset_id": "v100",
+      "generator_parameters": {
+        "total_tokens": 100000,
+        "document_count": 100,
+        "base_vocabulary": 100
+      },
+      "document_count": 100,
+      "token_count": 100000,
+      "text_bytes": 997001,
+      "vocabulary_size": 102,
+      "posting_count": 10101,
+      "corpus_sha256": "b4b295ed1c2dadbb036909d8972ea2031661cd7036b73a0f4f1020612f6b73be",
+      "reference_corpus_sha256": "b4b295ed1c2dadbb036909d8972ea2031661cd7036b73a0f4f1020612f6b73be",
+      "token_checks": {
+        "tokenize_calls": 102,
+        "checked_tokens_lookups": 10101
+      },
+      "variants_identical_before_timing": true,
+      "variant_order": [
+        "inverted_index",
+        "inverted_index_ohne_tokenpruefung"
+      ]
+    },
+    {
+      "dataset_id": "n100000",
+      "generator_parameters": {
+        "total_tokens": 100000,
+        "document_count": 100,
+        "base_vocabulary": 1000
+      },
+      "document_count": 100,
+      "token_count": 100000,
+      "text_bytes": 997001,
+      "vocabulary_size": 1002,
+      "posting_count": 62925,
+      "corpus_sha256": "1a210f7f6383dfd3e022504780e9f0a8d9e0e807ee2b4ec98ea46148b5330870",
+      "reference_corpus_sha256": "1a210f7f6383dfd3e022504780e9f0a8d9e0e807ee2b4ec98ea46148b5330870",
+      "token_checks": {
+        "tokenize_calls": 1002,
+        "checked_tokens_lookups": 62925
+      },
+      "variants_identical_before_timing": true,
+      "variant_order": [
+        "inverted_index_ohne_tokenpruefung",
+        "inverted_index"
+      ]
+    },
+    {
+      "dataset_id": "v10000",
+      "generator_parameters": {
+        "total_tokens": 100000,
+        "document_count": 100,
+        "base_vocabulary": 10000
+      },
+      "document_count": 100,
+      "token_count": 100000,
+      "text_bytes": 997001,
+      "vocabulary_size": 10002,
+      "posting_count": 94535,
+      "corpus_sha256": "9e20c9e1804874ae334f4aeef65de2e35beb77ac345eba9218148970a468c444",
+      "reference_corpus_sha256": "9e20c9e1804874ae334f4aeef65de2e35beb77ac345eba9218148970a468c444",
+      "token_checks": {
+        "tokenize_calls": 10002,
+        "checked_tokens_lookups": 94535
+      },
+      "variants_identical_before_timing": true,
+      "variant_order": [
+        "inverted_index",
+        "inverted_index_ohne_tokenpruefung"
+      ]
+    }
+  ],
+  "completed_at_utc": "2026-10-14T15:52:56.249606+00:00"
+}

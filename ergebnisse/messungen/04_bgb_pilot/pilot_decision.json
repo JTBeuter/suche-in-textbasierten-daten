@@ -1,0 +1,181 @@
+{
+  "pilot_correct": true,
+  "locked_parameters": {
+    "series": "04_bgb",
+    "scope": "real BGB part of phrase series 04 only; synthetic 04 corpora are not remeasured",
+    "real": {
+      "dataset_id": "real_bgb",
+      "dataset": "bgb-gesetze-im-internet-v1",
+      "corpus_root": "daten/real/bgb/dokumente",
+      "manifest": "daten/real/bgb/manifest.json",
+      "proposals": "daten/real/bgb/anfragevorschlaege.json",
+      "corpus_sha256": "dc1641fd49dfa45270a1865f454abd64cf7cf94d79b37af9657ff97d7602eadf",
+      "document_count": 2486,
+      "token_count": 213718,
+      "vocabulary_size": 11398,
+      "posting_count": 133909
+    },
+    "queries": [
+      {
+        "query_id": "bgb_frequent_k2",
+        "text": "nach Maßgabe",
+        "group": "bgb_frequent",
+        "phrase_length": 2,
+        "document_count": 57,
+        "match_count": 64
+      },
+      {
+        "query_id": "bgb_frequent_k3",
+        "text": "im Sinne des",
+        "group": "bgb_frequent",
+        "phrase_length": 3,
+        "document_count": 62,
+        "match_count": 85
+      },
+      {
+        "query_id": "bgb_frequent_k4",
+        "text": "es sei denn, dass",
+        "group": "bgb_frequent",
+        "phrase_length": 4,
+        "document_count": 82,
+        "match_count": 85
+      },
+      {
+        "query_id": "bgb_frequent_k5",
+        "text": "nach den Vorschriften über die",
+        "group": "bgb_frequent",
+        "phrase_length": 5,
+        "document_count": 35,
+        "match_count": 35
+      },
+      {
+        "query_id": "bgb_rare_k2",
+        "text": "Bürgerlichen Gesetzbuchs",
+        "group": "bgb_rare",
+        "phrase_length": 2,
+        "document_count": 1,
+        "match_count": 1
+      },
+      {
+        "query_id": "bgb_rare_k3",
+        "text": "Beginn der Rechtsfähigkeit",
+        "group": "bgb_rare",
+        "phrase_length": 3,
+        "document_count": 1,
+        "match_count": 1
+      },
+      {
+        "query_id": "bgb_rare_k4",
+        "text": "nach Treu und Glauben",
+        "group": "bgb_rare",
+        "phrase_length": 4,
+        "document_count": 1,
+        "match_count": 1
+      },
+      {
+        "query_id": "bgb_rare_k5",
+        "text": "mit Rücksicht auf die Verkehrssitte",
+        "group": "bgb_rare",
+        "phrase_length": 5,
+        "document_count": 2,
+        "match_count": 2
+      },
+      {
+        "query_id": "bgb_common_words_k2",
+        "text": "der die",
+        "group": "bgb_common_words",
+        "phrase_length": 2,
+        "document_count": 32,
+        "match_count": 34
+      },
+      {
+        "query_id": "bgb_wrong_order_k2",
+        "text": "Maßgabe nach",
+        "group": "bgb_wrong_order",
+        "phrase_length": 2,
+        "document_count": 0,
+        "match_count": 0
+      },
+      {
+        "query_id": "bgb_wrong_order_k3",
+        "text": "des Sinne im",
+        "group": "bgb_wrong_order",
+        "phrase_length": 3,
+        "document_count": 0,
+        "match_count": 0
+      },
+      {
+        "query_id": "bgb_missing_k3",
+        "text": "Verbindung zum Server",
+        "group": "bgb_missing",
+        "phrase_length": 3,
+        "document_count": 0,
+        "match_count": 0
+      }
+    ],
+    "selection": "frequent and rare phrase for each length 2..5; two very frequent words with rare phrase; present words in wrong order (k2, k3); one missing word (k3); all from reihe_04_phrasensuche",
+    "memory_repeats": 3,
+    "pilot_plan": {
+      "warmups": 1,
+      "repeats": 3,
+      "query_block_size": 5,
+      "seed": 20261006
+    },
+    "final_plan": {
+      "warmups": 5,
+      "repeats": 20,
+      "query_block_size": 5,
+      "seed": 20261006
+    },
+    "schedule": "shuffle every (algorithm,query) block per repetition with fixed seed"
+  },
+  "method_code_sha256": {
+    "gemeinsam/__init__.py": "0292f8e7c801f5d7ed8740100fa187db428828d51c4fd33451f725f68c245cc1",
+    "gemeinsam/src/gemeinsam/__init__.py": "7ade195f2e6dfbdb43bc1554d1040385631926ad8b2067828697464d173395af",
+    "gemeinsam/src/gemeinsam/corpus.py": "e0ca8de1c116329058d5ae580a28efbd7a6605c0b09e7272959bec3a5caa9731",
+    "gemeinsam/src/gemeinsam/datengenerator.py": "9b3e3d2c46a05694849bc3eac0bef4ec1ac7cab716ab30f8721d4acbe13f8d7b",
+    "gemeinsam/src/gemeinsam/messung.py": "ef4ce81f389196a55ceb2a8ca45e65b199e0966c6ddf4c07b840d59a5b739331",
+    "gemeinsam/src/gemeinsam/models.py": "edf5011d790ebdc3a99fb21bad33e6b1c26fc8c118ec936265a8381883635b92",
+    "gemeinsam/src/gemeinsam/text.py": "583f6952986c785bb1ce5c2d9fb7158cf816a182a40ef5fbe493da711631e956",
+    "pyproject.toml": "8625bcaac24420a84476e14e10b7bea1331ffbce43e172ddb91d0df292a2c714",
+    "requirements-dev.txt": "a4fbb25989ad950adf673f3bcbdce81269e59d1b532a087e601ade3c61ff2116",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__init__.py": "073e9bc6d184a6a87bf916c53fe4bdf0dd927ad6fc708c0255dbc0192d418dea",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/__main__.py": "156d2306b39e652beb2aab2c51f42978afb18b14c5f31da189954cb928dfa349",
+    "themen/02_invertierter_index_einzelwortsuche/src/invertierter_index/index.py": "cc21a1fa820fad0b4da0a9bc961b8e6e50f69851b9037bb3d18ec5481d7a0c57",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/__init__.py": "161dd8c157741cced99d0c4324a923ff8cdbfd545c78cece07e9625508caa8e7",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/__main__.py": "b598dd62bd44d823b5f8976a070c37bdb57ebf8b38bc59f4b15b30062d72107b",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/lists.py": "46baf4364cb7ab186f7a6739a7c0d11264ea794f485ee6358086576bf34ab4c7",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/query.py": "84afd268e2a2c00b29721d6a9c30aa739a62c9f79c53502430390c678be8a223",
+    "themen/03_boolesche_mehrwortsuche/src/boolesche_suche/search.py": "cef4522c491f89654a66eba3743476f4ef86e182058807f71d517680d465e3a4",
+    "themen/04_positionsindex_phrasensuche/experimente/generator.py": "474d9ea0b9e564c94975389aa4893c805df90e5856da7e9adc4580a8165738da",
+    "themen/04_positionsindex_phrasensuche/experimente/memory.py": "3ec93ce2cc2ee2292777989ea70cf604b71ef1c6a7ef0fed492db28017023c48",
+    "themen/04_positionsindex_phrasensuche/experimente/run.py": "d805dcd3ccc7dcf4051e2a2a7c41abd9f2760b7095a052786ff3169541be88ba",
+    "themen/04_positionsindex_phrasensuche/experimente/run_bgb.py": "bd04e8a8cea6356a50baf28e25d5030b76ece534243e7f9d0ce9839b32bf37d8",
+    "themen/04_positionsindex_phrasensuche/experimente/verify_bgb.py": "c79615b5895c2bf21c6ce3490b1411d2c4a91f0056263545349cc56c9a5e8c3b",
+    "themen/04_positionsindex_phrasensuche/experimente/verify_results.py": "a27bac89a0e50f75671fe8a40c2e44721661accb9f2d99f058cea19fe5c4b53e",
+    "themen/04_positionsindex_phrasensuche/src/positionsindex/__init__.py": "39a4b0c62bf71ea399422fc13708b82f9dce7844c6c95191fbf9e5fcdadf0289",
+    "themen/04_positionsindex_phrasensuche/src/positionsindex/__main__.py": "57ea74c4eaeb9e3c58171084e8035d2a8b085b06226c57f73a4efd3359c7fe6e",
+    "themen/04_positionsindex_phrasensuche/src/positionsindex/index.py": "4e9cdfd2f8b766631b16aab62965129a5dd38d5335c62923998143884dbce56d",
+    "themen/04_positionsindex_phrasensuche/src/positionsindex/query.py": "5fa34d5a528f98b9b675e0d77c1c644be9b3084431674d551899b51a92126bd5",
+    "themen/04_positionsindex_phrasensuche/src/positionsindex/search.py": "972e977b34942c3e644120463bc9e092ab8fc709ce86a9ae1405cddc854084a2"
+  },
+  "data_sha256": {
+    "manifest_documents_expectations_sha256": "5e43df3adf66b3e6c2c12efc9c71f8b6ed74d2232e23b3b285be70b1da56415a",
+    "proposals_reihe_04_sha256": "52d015b1c948955f5122c5e04f5b320d0e1710a5a027749c88c3f905ca6263ae"
+  },
+  "python_hash_seed": "0",
+  "pilot_plan": {
+    "warmups": 1,
+    "repeats": 3,
+    "query_block_size": 5,
+    "seed": 20261006
+  },
+  "decision": "BGB manifest, independent token and phrase expectations, full start positions, timing and separate memory run verified; parameters, code and data locked for final",
+  "verified_counts": {
+    "raw_rows": 78,
+    "summary_groups": 26,
+    "files": 2486,
+    "memory_rows": 6
+  },
+  "pilot_is_not_final_measurement": true
+}

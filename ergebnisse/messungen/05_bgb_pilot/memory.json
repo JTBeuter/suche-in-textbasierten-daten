@@ -1,0 +1,68 @@
+[
+  {
+    "run_id": "05_20261014T160042827645",
+    "dataset_id": "bgb",
+    "algorithm": "inverted_index",
+    "repeat": 0,
+    "worker_pid": 3519767,
+    "retained_traced_bytes": 1947256,
+    "peak_traced_bytes": 5178104,
+    "transient_peak_bytes": 3230848,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261014T160042827645",
+    "dataset_id": "bgb",
+    "algorithm": "inverted_index",
+    "repeat": 1,
+    "worker_pid": 3519767,
+    "retained_traced_bytes": 1947256,
+    "peak_traced_bytes": 5178104,
+    "transient_peak_bytes": 3230848,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261014T160042827645",
+    "dataset_id": "bgb",
+    "algorithm": "inverted_index",
+    "repeat": 2,
+    "worker_pid": 3519767,
+    "retained_traced_bytes": 1947256,
+    "peak_traced_bytes": 5178104,
+    "transient_peak_bytes": 3230848,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261014T160042827645",
+    "dataset_id": "bgb",
+    "algorithm": "positional_index",
+    "repeat": 0,
+    "worker_pid": 3519800,
+    "retained_traced_bytes": 13341924,
+    "peak_traced_bytes": 31506044,
+    "transient_peak_bytes": 18164120,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261014T160042827645",
+    "dataset_id": "bgb",
+    "algorithm": "positional_index",
+    "repeat": 1,
+    "worker_pid": 3519800,
+    "retained_traced_bytes": 13341924,
+    "peak_traced_bytes": 31506044,
+    "transient_peak_bytes": 18164120,
+    "unit": "bytes"
+  },
+  {
+    "run_id": "05_20261014T160042827645",
+    "dataset_id": "bgb",
+    "algorithm": "positional_index",
+    "repeat": 2,
+    "worker_pid": 3519800,
+    "retained_traced_bytes": 13341924,
+    "peak_traced_bytes": 31506044,
+    "transient_peak_bytes": 18164120,
+    "unit": "bytes"
+  }
+]
